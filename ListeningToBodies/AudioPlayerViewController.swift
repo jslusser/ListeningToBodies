@@ -185,7 +185,7 @@ extension AudioPlayerViewController {
         audioFileURL = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")
         
         engine.attach(player)
-        //       engine.connect(player, to: rateEffect, format: audioFormat)
+//      engine.connect(player, to: rateEffect, format: audioFormat)
         engine.connect(player, to: engine.mainMixerNode, format: audioFormat)
         if let title = URL(string: audioFileURL!.lastPathComponent) {
             audioTrackTitle.text = "\(title.lastPathComponent)"

@@ -331,9 +331,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="cjL-hq-KvX">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tgr-gH-Y4n">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.75393300513698636" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.
@@ -420,7 +423,9 @@ Cg
                         <constraints>
                             <constraint firstItem="Tgr-gH-Y4n" firstAttribute="leading" secondItem="C4m-US-9G5" secondAttribute="leading" constant="8" id="M43-q1-zRN"/>
                             <constraint firstItem="Tgr-gH-Y4n" firstAttribute="top" secondItem="C4m-US-9G5" secondAttribute="top" id="Ott-TU-eF2"/>
+                            <constraint firstItem="cjL-hq-KvX" firstAttribute="centerX" secondItem="sv3-aM-vJh" secondAttribute="centerX" id="Z0I-UV-Il6"/>
                             <constraint firstItem="Tgr-gH-Y4n" firstAttribute="trailing" secondItem="C4m-US-9G5" secondAttribute="trailing" id="ZVc-ef-ztK"/>
+                            <constraint firstItem="cjL-hq-KvX" firstAttribute="centerY" secondItem="sv3-aM-vJh" secondAttribute="centerY" id="gMQ-Hx-OsN"/>
                             <constraint firstItem="Tgr-gH-Y4n" firstAttribute="bottom" secondItem="C4m-US-9G5" secondAttribute="bottom" id="y0j-t8-Vyp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="C4m-US-9G5"/>
@@ -428,7 +433,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNj-GO-3lP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="732" y="1621"/>
+            <point key="canvasLocation" x="732" y="1620.5397301349326"/>
         </scene>
         <!--Book Cover Title Page-->
         <scene sceneID="Kcb-sC-ubx">
@@ -506,14 +511,17 @@ Cg
         <!--Preface: About Somatic Business Coaching-->
         <scene sceneID="IBD-ac-Hym">
             <objects>
-                <viewController title="Preface: About Somatic Business Coaching" id="Bo2-h4-mGM" customClass="PrefaceViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Preface: About Somatic Business Coaching" id="Bo2-h4-mGM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQn-82-Plf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="lvF-Dk-nmP">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DD8-Hk-Fu5">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Traditional business coaching has long been recognized as a powerful catalyst for developing the skills of successful leadership. Somatic business coaching unites the power of traditional business coaching with the wisdom of somatics, or the wisdom of the entire body, mind and spirit.
@@ -581,42 +589,18 @@ In our learning together, I will provide the basic principles that will help you
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XC-bj-xSe">
-                                <rect key="frame" x="169" y="212" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.04660398483" blue="0.066616532879999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="TEST">
-                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="testClicked:" destination="Bo2-h4-mGM" eventType="touchUpInside" id="3g3-dj-ZpR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oP7-pc-m8c">
-                                <rect key="frame" x="261" y="212" width="52" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="AV Test">
-                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0dv-dB-g5g" kind="show" id="oS9-vi-FLS"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DD8-Hk-Fu5" firstAttribute="top" secondItem="NHU-AG-KAR" secondAttribute="top" id="0Pp-iu-Dsl"/>
+                            <constraint firstItem="lvF-Dk-nmP" firstAttribute="centerX" secondItem="IQn-82-Plf" secondAttribute="centerX" id="7G9-VM-7ED"/>
                             <constraint firstItem="DD8-Hk-Fu5" firstAttribute="bottom" secondItem="NHU-AG-KAR" secondAttribute="bottom" id="DVS-ed-bLh"/>
                             <constraint firstItem="DD8-Hk-Fu5" firstAttribute="trailing" secondItem="NHU-AG-KAR" secondAttribute="trailing" id="aWR-sj-mNr"/>
+                            <constraint firstItem="lvF-Dk-nmP" firstAttribute="centerY" secondItem="IQn-82-Plf" secondAttribute="centerY" id="dZo-Mb-FmB"/>
                             <constraint firstItem="DD8-Hk-Fu5" firstAttribute="leading" secondItem="NHU-AG-KAR" secondAttribute="leading" constant="8" id="tW2-GF-AHe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NHU-AG-KAR"/>
                     </view>
-                    <connections>
-                        <outlet property="avTest" destination="DD8-Hk-Fu5" id="jzf-B1-gOh"/>
-                        <outlet property="prefaceTextView" destination="DD8-Hk-Fu5" id="MmD-0B-qa1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nc9-o8-rEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -631,20 +615,20 @@ In our learning together, I will provide the basic principles that will help you
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="opk-Cv-5lk">
-                                <rect key="frame" x="16" y="64" width="343" height="343"/>
+                                <rect key="frame" x="16" y="20" width="343" height="343"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="opk-Cv-5lk" secondAttribute="height" multiplier="1:1" id="QhB-YC-sAZ"/>
                                 </constraints>
                             </imageView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Jh-cc-tAI">
-                                <rect key="frame" x="16" y="415" width="343" height="2"/>
+                                <rect key="frame" x="16" y="371" width="343" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="pW9-c8-O8f"/>
                                 </constraints>
                                 <color key="progressTintColor" red="0.067173667249999999" green="0.19737473129999999" blue="0.1137064025" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOI-zO-I3C">
-                                <rect key="frame" x="165.5" y="437" width="44" height="44"/>
+                                <rect key="frame" x="165.5" y="393" width="44" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="mqd-fH-NjW"/>
@@ -659,7 +643,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZ7-pz-2RH">
-                                <rect key="frame" x="245.5" y="437" width="44" height="44"/>
+                                <rect key="frame" x="245.5" y="393" width="44" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WZ7-pz-2RH" secondAttribute="height" multiplier="1:1" id="z1H-t6-J3Q"/>
                                 </constraints>
@@ -670,7 +654,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNS-aY-ra8">
-                                <rect key="frame" x="85.5" y="437" width="44" height="44"/>
+                                <rect key="frame" x="85.5" y="393" width="44" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WNS-aY-ra8" secondAttribute="height" multiplier="1:1" id="QdA-5X-EJK"/>
                                 </constraints>
@@ -681,7 +665,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P66-89-odA">
-                                <rect key="frame" x="16" y="425" width="28.5" height="21"/>
+                                <rect key="frame" x="16" y="381" width="28.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="cB8-xA-jkp"/>
                                 </constraints>
@@ -690,7 +674,7 @@ In our learning together, I will provide the basic principles that will help you
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEX-pM-VuG">
-                                <rect key="frame" x="330.5" y="425" width="28.5" height="21"/>
+                                <rect key="frame" x="330.5" y="381" width="28.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="WXy-sr-qMw"/>
                                 </constraints>
@@ -699,7 +683,7 @@ In our learning together, I will provide the basic principles that will help you
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio Track Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3E-fs-yxs">
-                                <rect key="frame" x="123.5" y="489" width="128" height="21"/>
+                                <rect key="frame" x="123.5" y="445" width="128" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1212,7 +1196,23 @@ Bring your awareness to the top of your head. Notice any sensations that are the
 • Lower back, belly, pelvic muscles, hips and hip joints
 
 • Buttocks, thighs, knees, calves, ankles, feet and toes
- &lt;&lt;inert new audio recording - body scan #1&gt;&gt; 
+ &lt;&lt;inert new audio recording - body scan #1&gt;&gt; </string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Play &quot;Body Scan 1&quot; in the Audio Recordings section now - see Table of Contents">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.03597526847453858" blue="0.057078312044066104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> 
 If you feel tension, but cannot bring about a release with just your breath, you might want to try exaggerating the tension and then releasing. For example, if your upper back and shoulders feel tight, pull your shoulders up to your ears as tightly as you can, hold, hold, hold, and then with a big exhale, release completely.   </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -3506,7 +3506,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="0dv-dB-g5g" kind="show" id="NA3-zG-p8X"/>
+                                            <segue destination="0dv-dB-g5g" kind="show" identifier="BS1" id="28z-yx-6nb"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="P0F-ap-SKR">
@@ -3515,7 +3515,19 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P0F-ap-SKR" id="irn-0M-AEP">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Body Scan 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ca-8u-FQA">
+                                                    <rect key="frame" x="16" y="11" width="343" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0dv-dB-g5g" kind="showDetail" identifier="BS2" id="Rkb-d7-TmR"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="exN-iw-u1h">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
@@ -3640,8 +3652,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
         <image name="pause" width="24" height="24"/>
         <image name="play" width="24" height="24"/>
         <image name="plus-10" width="24" height="24"/>
+        <image name="shell" width="612" height="792"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NA3-zG-p8X"/>
+        <segue reference="Rkb-d7-TmR"/>
     </inferredMetricsTieBreakers>
 </document>
