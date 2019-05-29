@@ -738,9 +738,12 @@ In our learning together, I will provide the basic principles that will help you
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="zdD-GY-eoH">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rpL-LO-qcN">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.74852846746575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">“...too many executives think they are wonderful with people because they talk well. They don’t realize that being wonderful with people means ‘listening’ well.” </string>
@@ -1005,6 +1008,8 @@ Take a few moments to write down what you experienced during this exercise. The 
                             <constraint firstItem="lb7-ax-zVd" firstAttribute="trailing" secondItem="rpL-LO-qcN" secondAttribute="trailing" id="3Yk-n3-ubB"/>
                             <constraint firstItem="rpL-LO-qcN" firstAttribute="bottom" secondItem="lb7-ax-zVd" secondAttribute="bottom" id="SIZ-sz-5y7"/>
                             <constraint firstItem="rpL-LO-qcN" firstAttribute="leading" secondItem="lb7-ax-zVd" secondAttribute="leading" constant="8" id="VRL-og-bdN"/>
+                            <constraint firstItem="zdD-GY-eoH" firstAttribute="centerX" secondItem="siR-lk-PLu" secondAttribute="centerX" id="onT-29-UOo"/>
+                            <constraint firstItem="zdD-GY-eoH" firstAttribute="centerY" secondItem="siR-lk-PLu" secondAttribute="centerY" id="vjc-aJ-vSW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lb7-ax-zVd"/>
                     </view>
@@ -1021,9 +1026,12 @@ Take a few moments to write down what you experienced during this exercise. The 
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="8pv-T7-zQi">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T0r-FT-Axb">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.75486943493150682" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment content="&quot;There is no way in which to understand the world without first detecting it through the radar-net of our senses.&quot;">
                                         <attributes>
@@ -1459,6 +1467,8 @@ Working with the body is where we as somatic coaches have the most leverage in h
                             <constraint firstItem="T0r-FT-Axb" firstAttribute="leading" secondItem="W5P-rc-Ol4" secondAttribute="leading" constant="8" id="Isr-Gs-KnF"/>
                             <constraint firstItem="W5P-rc-Ol4" firstAttribute="trailing" secondItem="T0r-FT-Axb" secondAttribute="trailing" id="JMe-iU-Zze"/>
                             <constraint firstItem="T0r-FT-Axb" firstAttribute="top" secondItem="W5P-rc-Ol4" secondAttribute="top" id="Mao-N9-gkE"/>
+                            <constraint firstItem="8pv-T7-zQi" firstAttribute="centerX" secondItem="2z6-zM-bCf" secondAttribute="centerX" id="Qb9-q4-pQK"/>
+                            <constraint firstItem="8pv-T7-zQi" firstAttribute="centerY" secondItem="2z6-zM-bCf" secondAttribute="centerY" id="aOV-VK-CxX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="W5P-rc-Ol4"/>
                     </view>
@@ -1475,9 +1485,12 @@ Working with the body is where we as somatic coaches have the most leverage in h
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="ft3-YH-FDc">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hM6-Jp-PA6">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.75056185787671237" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">“Controlled deep breathing helps the body to transform the air we breathe into energy. The stream of energized air produced by...controlled deep breathing produces a current of inner energy which radiates throughout the entire body and can be channeled to the body areas that need it the most, on demand...you can use this current of inner energy to relieve muscular tension throughout the body, revitalize a tired mind, or soothe localized aches and pains.”</string>
@@ -1917,9 +1930,11 @@ When our somatic and energetic structures are open and extended, we are fully av
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="ft3-YH-FDc" firstAttribute="centerY" secondItem="H2P-xB-fGK" secondAttribute="centerY" id="4al-qU-TfU"/>
                             <constraint firstItem="hM6-Jp-PA6" firstAttribute="top" secondItem="inr-02-KiC" secondAttribute="top" id="8nC-I5-Mwu"/>
                             <constraint firstItem="inr-02-KiC" firstAttribute="trailing" secondItem="hM6-Jp-PA6" secondAttribute="trailing" id="NIK-vn-Tob"/>
                             <constraint firstItem="hM6-Jp-PA6" firstAttribute="bottom" secondItem="inr-02-KiC" secondAttribute="bottom" id="mZS-hS-qVK"/>
+                            <constraint firstItem="ft3-YH-FDc" firstAttribute="centerX" secondItem="H2P-xB-fGK" secondAttribute="centerX" id="md8-QJ-k6e"/>
                             <constraint firstItem="hM6-Jp-PA6" firstAttribute="leading" secondItem="inr-02-KiC" secondAttribute="leading" constant="8" id="nSU-uY-Hjn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="inr-02-KiC"/>
@@ -1937,9 +1952,12 @@ When our somatic and energetic structures are open and extended, we are fully av
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="czB-Yk-uLV">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45i-Sw-7qO">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.75093642979452058" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">"Although interpreting the human voice is one of our most important daily social activities, the way we speak and hear remains almost entirely hidden, and unexplored. Those who develop a richer understanding of the voice are less likely to mishear their friends, lovers, rivals, and more able to intuit when people are being authentic or dishonest."</string>
@@ -2224,8 +2242,10 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="FG8-i6-Upe" firstAttribute="trailing" secondItem="45i-Sw-7qO" secondAttribute="trailing" id="Kcx-Eb-B0T"/>
+                            <constraint firstItem="czB-Yk-uLV" firstAttribute="centerX" secondItem="XNa-ba-mZI" secondAttribute="centerX" id="UDr-4J-oIw"/>
                             <constraint firstItem="45i-Sw-7qO" firstAttribute="bottom" secondItem="FG8-i6-Upe" secondAttribute="bottom" id="ZjO-Jb-zz5"/>
                             <constraint firstItem="45i-Sw-7qO" firstAttribute="top" secondItem="FG8-i6-Upe" secondAttribute="top" id="aMh-iH-Laz"/>
+                            <constraint firstItem="czB-Yk-uLV" firstAttribute="centerY" secondItem="XNa-ba-mZI" secondAttribute="centerY" id="aNz-4n-7Dh"/>
                             <constraint firstItem="45i-Sw-7qO" firstAttribute="leading" secondItem="FG8-i6-Upe" secondAttribute="leading" constant="8" id="sqh-Wj-Cq7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FG8-i6-Upe"/>
@@ -2243,9 +2263,12 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="ptO-sj-69J">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" maximumZoomScale="0.0" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZG-xO-5yX">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.7461472602739726" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="2jW-SA-uds"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -2708,10 +2731,12 @@ Adapted from the writings and teachings of Dr. Fernando Flores and Dr. Rafael Ec
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="ptO-sj-69J" firstAttribute="centerY" secondItem="fgw-S2-vfO" secondAttribute="centerY" id="15L-by-CM8"/>
                             <constraint firstItem="UZG-xO-5yX" firstAttribute="leading" secondItem="uSe-5D-qy0" secondAttribute="leading" constant="8" id="5Zk-Zh-bQt"/>
                             <constraint firstItem="UZG-xO-5yX" firstAttribute="top" secondItem="uSe-5D-qy0" secondAttribute="top" id="Rxj-mX-VGP"/>
                             <constraint firstItem="UZG-xO-5yX" firstAttribute="bottom" secondItem="uSe-5D-qy0" secondAttribute="bottom" id="ZHh-jW-xtM"/>
                             <constraint firstItem="uSe-5D-qy0" firstAttribute="trailing" secondItem="UZG-xO-5yX" secondAttribute="trailing" id="ZdA-0x-2AR"/>
+                            <constraint firstItem="ptO-sj-69J" firstAttribute="centerX" secondItem="fgw-S2-vfO" secondAttribute="centerX" id="foo-we-Oy5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uSe-5D-qy0"/>
                     </view>
@@ -2907,9 +2932,12 @@ practices.</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="DsY-Eo-56y">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D2v-8L-XQp">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.75256849315068497" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="wtm-Qn-qla"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -3216,6 +3244,8 @@ tree and feel the life force in the tree through your back. Extend into that lif
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="D2v-8L-XQp" firstAttribute="leading" secondItem="nED-qU-Ltw" secondAttribute="leading" constant="8" id="9tp-2o-pom"/>
+                            <constraint firstItem="DsY-Eo-56y" firstAttribute="centerX" secondItem="ngB-D2-duU" secondAttribute="centerX" id="P0E-kd-sZF"/>
+                            <constraint firstItem="DsY-Eo-56y" firstAttribute="centerY" secondItem="ngB-D2-duU" secondAttribute="centerY" id="Zlc-KP-IEE"/>
                             <constraint firstItem="D2v-8L-XQp" firstAttribute="top" secondItem="nED-qU-Ltw" secondAttribute="top" id="kv3-ed-uw5"/>
                             <constraint firstItem="nED-qU-Ltw" firstAttribute="trailing" secondItem="D2v-8L-XQp" secondAttribute="trailing" id="rcq-n9-7WZ"/>
                             <constraint firstItem="nED-qU-Ltw" firstAttribute="bottom" secondItem="D2v-8L-XQp" secondAttribute="bottom" id="yD6-wl-hzE"/>
@@ -3235,9 +3265,12 @@ tree and feel the life force in the tree through your back. Extend into that lif
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="Bg9-Io-E4w">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FjR-bR-VZ2">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.74874250856164382" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="Uwc-LF-Pgm"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -3469,6 +3502,8 @@ tree and feel the life force in the tree through your back. Extend into that lif
                             <constraint firstItem="epj-Qw-64i" firstAttribute="trailing" secondItem="FjR-bR-VZ2" secondAttribute="trailing" id="AZb-6J-P6B"/>
                             <constraint firstItem="FjR-bR-VZ2" firstAttribute="top" secondItem="epj-Qw-64i" secondAttribute="top" id="SnV-1y-fIo"/>
                             <constraint firstItem="FjR-bR-VZ2" firstAttribute="leading" secondItem="epj-Qw-64i" secondAttribute="leading" constant="8" id="XqC-z2-0ah"/>
+                            <constraint firstItem="Bg9-Io-E4w" firstAttribute="centerY" secondItem="fhv-28-Rhn" secondAttribute="centerY" id="aiG-t6-IHg"/>
+                            <constraint firstItem="Bg9-Io-E4w" firstAttribute="centerX" secondItem="fhv-28-Rhn" secondAttribute="centerX" id="krz-jn-jZV"/>
                             <constraint firstItem="epj-Qw-64i" firstAttribute="bottom" secondItem="FjR-bR-VZ2" secondAttribute="bottom" id="upm-u4-8a1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="epj-Qw-64i"/>
@@ -3558,9 +3593,12 @@ tree and feel the life force in the tree through your back. Extend into that lif
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="9Vg-3Z-WaD">
+                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xg7-G6-UDD">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.75441459760273977" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="MNG-7e-JJm"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -3615,9 +3653,11 @@ tree and feel the life force in the tree through your back. Extend into that lif
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="9Vg-3Z-WaD" firstAttribute="centerX" secondItem="aTC-d3-qlC" secondAttribute="centerX" id="8QC-lt-bWL"/>
                             <constraint firstItem="Xg7-G6-UDD" firstAttribute="leading" secondItem="9N4-zf-T9c" secondAttribute="leading" constant="8" id="CyX-fs-fo3"/>
                             <constraint firstItem="Xg7-G6-UDD" firstAttribute="top" secondItem="9N4-zf-T9c" secondAttribute="top" id="KvQ-oT-DYM"/>
                             <constraint firstItem="Xg7-G6-UDD" firstAttribute="trailing" secondItem="9N4-zf-T9c" secondAttribute="trailing" id="lqP-4h-dEa"/>
+                            <constraint firstItem="9Vg-3Z-WaD" firstAttribute="centerY" secondItem="aTC-d3-qlC" secondAttribute="centerY" id="nHd-f4-y9g"/>
                             <constraint firstItem="Xg7-G6-UDD" firstAttribute="bottom" secondItem="9N4-zf-T9c" secondAttribute="bottom" id="wFN-tM-HxP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9N4-zf-T9c"/>
