@@ -93,7 +93,12 @@ class AudioRecordingsTableViewController: UITableViewController {
             let detailViewController = segue.destination as! AudioPlayerViewController
             detailViewController.audioFileURL = Bundle.main.url(forResource: "Body_Scan_2", withExtension: "mp3")
         }
+        
+        
+//        if segue.identifier == "BS3" {
+//            let detailViewController = segue.destination as! AudioPlayerViewController
+//            detailViewController.audioFileURL = Bundle.main.url(forResource: "Body_Scan_2", withExtension: "mp3")
+//        }
     }
-
-
+    
 }
