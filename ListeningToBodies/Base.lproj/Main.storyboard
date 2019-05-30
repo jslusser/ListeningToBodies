@@ -615,20 +615,20 @@ In our learning together, I will provide the basic principles that will help you
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="opk-Cv-5lk">
-                                <rect key="frame" x="16" y="20" width="343" height="343"/>
+                                <rect key="frame" x="16" y="64" width="343" height="343"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="opk-Cv-5lk" secondAttribute="height" multiplier="1:1" id="QhB-YC-sAZ"/>
                                 </constraints>
                             </imageView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Jh-cc-tAI">
-                                <rect key="frame" x="16" y="371" width="343" height="2"/>
+                                <rect key="frame" x="16" y="415" width="343" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="pW9-c8-O8f"/>
                                 </constraints>
                                 <color key="progressTintColor" red="0.067173667249999999" green="0.19737473129999999" blue="0.1137064025" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOI-zO-I3C">
-                                <rect key="frame" x="165.5" y="393" width="44" height="44"/>
+                                <rect key="frame" x="165.5" y="437" width="44" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="mqd-fH-NjW"/>
@@ -643,7 +643,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZ7-pz-2RH">
-                                <rect key="frame" x="245.5" y="393" width="44" height="44"/>
+                                <rect key="frame" x="245.5" y="437" width="44" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WZ7-pz-2RH" secondAttribute="height" multiplier="1:1" id="z1H-t6-J3Q"/>
                                 </constraints>
@@ -654,7 +654,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNS-aY-ra8">
-                                <rect key="frame" x="85.5" y="393" width="44" height="44"/>
+                                <rect key="frame" x="85.5" y="437" width="44" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WNS-aY-ra8" secondAttribute="height" multiplier="1:1" id="QdA-5X-EJK"/>
                                 </constraints>
@@ -665,7 +665,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P66-89-odA">
-                                <rect key="frame" x="16" y="381" width="28.5" height="21"/>
+                                <rect key="frame" x="16" y="425" width="28.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="cB8-xA-jkp"/>
                                 </constraints>
@@ -674,7 +674,7 @@ In our learning together, I will provide the basic principles that will help you
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEX-pM-VuG">
-                                <rect key="frame" x="330.5" y="381" width="28.5" height="21"/>
+                                <rect key="frame" x="330.5" y="425" width="28.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="WXy-sr-qMw"/>
                                 </constraints>
@@ -683,7 +683,7 @@ In our learning together, I will provide the basic principles that will help you
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio Track Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3E-fs-yxs">
-                                <rect key="frame" x="123.5" y="445" width="128" height="21"/>
+                                <rect key="frame" x="123.5" y="489" width="128" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1073,12 +1073,12 @@ Cgo
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 The hope of our technological evolution has been to increase productivity, efficiency, and the probability of achieving more. But more of what? And to what end? Advancements in technology reduce the amount of time needed to assess, process, and deliver results at work. At the same time, workloads have increased as technological advances have helped organizations function with leaner staffing. Multi-tasking has become second nature. Global markets are easily accessible. Communicating with large audiences is not only possible; it is more affordable than ever before. This forward movement maximizes time and consequently produces higher professional expectations for future endeavors. Yet in the face of such achievements we have to ask ourselves: Are we getting the results we expected? And what is the personal cost for such progress?
  Today more than ever before, people are relying on external sources rather than on their own internal wisdom. While creating an enormous technological skill set, a social shift has also taken place as a result of humankind’s progression. The expression of political, economic, spiritual, religious, and sexual ideologies transcends geographic borders. The Internet, television, best sellers, and magazines provide guidelines on what to eat, how to dress, who to love, how to live, what to drive, where to work, when to procreate, who is right, and who is wrong. This shift has changed the way information about the outside world is gathered and evaluated - affecting the mental constructs, physiology, emotional reactions, and spiritual states of many individuals. In my work as a somatic coach, I find that many people have forgotten how to access their feelings, or how to interpret sensations and information received through the body. This lack of personal awareness is a high price to pay for technological evolution.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1093,13 +1093,13 @@ The hope of our technological evolution has been to increase productivity, effic
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Sensing and feeling are even more important when we are working with others. Most of us are working directly with people in our organizations, families, or through social interaction. In traditional organizations we relied heavily on visual interpretations to determine what was happening with our colleagues, managers, employees, or clients sitting face to face. However, when we're working over the telephone, the visual sense is eliminated, making it critical to develop other senses and awareness. With practice, we can increase our listening and feeling skills to notice sensations and changes in our physical, emotional, and energetic structures in response to what we hear and sense from others. Not only do we learn more about our own reactions, and ourselves, we also become more sensitive to what is happening with people and how we affect them as we work, play, love, and move around in daily life.
  If you're a coach, being aware of your client's limiting behaviors and helping them act differently can be transforming for them. A coach who listens well can help a client release constraints that prevent them from acting the way they want, rather than the way they automatically react. This can be done over the telephone. It requires an ability to distinguish where constraints are located, bringing a client's attention to the specific location of the constraint or contraction, and then guiding the client's awareness to shift and release the contraction. Your ability to work through the body during telephone conversations can greatly enhance your effectiveness to help your clients increase awareness, breakthrough constraints, and become self-generating themselves.
  For example, if you're leading a virtual team and speaking with a group that's located in different time zones, some may be just starting their workday while others may be ready to go home. The difference in timing alone could affect team members' ability to stay with the conversation and pay attention to important project planning. As the team leader, you'd want to be aware of people's moods, level of attention, ability to come up with solutions, recommended actions, or offers of help so you can maximize the effectiveness of your conference call.
  Whether over the phone or in person, our intent as coaches is to guide clients through deep releasing and healing of patterns that are no longer useful to them. They can then be free to act in ways that will create their desired results easily, without the effort and suffering of their old behaviors. Working through the body provides information that allows us to heal, regenerate, and move more effectively in the world, relaxed and ready to respond to opportunities.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1114,13 +1114,13 @@ The hope of our technological evolution has been to increase productivity, effic
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Managers, executives, supervisors, team leaders, consultants and coaches work directly with teams, groups, staffs, and individuals. If you are in one of these roles, can you differentiate between what you're sensing from your own internal reactions to conversations and external stimuli versus what you may be picking up from other people? Have you ever noticed that when one person in a meeting gets excited, others follow? When one begins to laugh, the humor is "catching?” Or when someone gets angry, other parties also get angry and the emotion escalates?
  If you are a coach, as you begin working with a new client, it is important to determine how attuned they are to their own somatic structure and physiology. An assessment of their level of awareness will help you determine how to proceed in your work together. Additionally, it is also very important for you as a coach to be aware of your own somatic state. You need to be able to differentiate between what is happening with you and what you are picking up from your client’s somatic structure and responses so you can be an objective observer and witness of the client's process.
  So how do we go about learning to sense what is "ours" and what we may be picking up from someone else? Learning to increase awareness of what our senses tell us about our own personal reactions is the first step on this learning path. The Body Scan is a highly effective technique to enhance this personal awareness.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1135,12 +1135,12 @@ Managers, executives, supervisors, team leaders, consultants and coaches work di
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Body scanning is an awareness technique, focusing and bringing your attention to places where you may notice sensations, tension, or contraction. Awareness alone may bring about some change or release, promoting more energy flow, greater peace, and relaxation. The phenomenon can be explained by one of the fundamental principles of somatics: energy follows attention, i.e. where we place our attention, energy will follow.(9)
  Before beginning to work with a client, listening to a colleague, or facilitating a team conversation, a body scan will tell you what your current baseline of sensation is.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1155,7 +1155,7 @@ Body scanning is an awareness technique, focusing and bringing your attention to
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  This practice may be done in a standing position, sitting, or lying down. The optimal position, especially when beginning, is standing. Here are some tips for maximizing an open posture:
 
 • Stand with your feet about as far apart as your shoulders or slightly wider
@@ -1171,7 +1171,7 @@ Body scanning is an awareness technique, focusing and bringing your attention to
 In this basic stance, your knees are unlocked, hip joints are open, spine
 is straight, and you are in a comfortable, balanced posture.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1186,7 +1186,7 @@ is straight, and you are in a comfortable, balanced posture.
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> 
+                                        <mutableString key="content"> 
 Bring your awareness to the top of your head. Notice any sensations that are there. Do this slowly at first, giving yourself enough time to feel any sensations in your scalp and around the top of your head. Then move your awareness to your forehead and around to the back of your head. Notice any sensations that are there. Continue moving your awareness while noticing the sensations through your entire upper body, torso, legs and feet. If you find any places where you are contracted, or the muscles are tense, stay with the tension, breathe, and allow the contracted muscles to relax, even if the release is slight. Pay particular attention to the following areas:
 
 • The muscles around your eyes
@@ -1204,7 +1204,7 @@ Bring your awareness to the top of your head. Notice any sensations that are the
 • Lower back, belly, pelvic muscles, hips and hip joints
 
 • Buttocks, thighs, knees, calves, ankles, feet and toes
- &lt;&lt;inert new audio recording - body scan #1&gt;&gt; </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1220,23 +1220,32 @@ Bring your awareness to the top of your head. Notice any sensations that are the
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> 
-If you feel tension, but cannot bring about a release with just your breath, you might want to try exaggerating the tension and then releasing. For example, if your upper back and shoulders feel tight, pull your shoulders up to your ears as tightly as you can, hold, hold, hold, and then with a big exhale, release completely.   </string>
+                                        <mutableString key="content"> 
+If you feel tension, but cannot bring about a release with just your breath, you might want to try exaggerating the tension and then releasing. For example, if your upper back and shoulders feel tight, pull your shoulders up to your ears as tightly as you can, hold, hold, hold, and then with a big exhale, release completely.   </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="&lt;&lt;inert new audio recording - body scan #2&gt;&gt;">
+                                    <fragment content="Play &quot;Body Scan 2&quot; in the Audio Recordings section now - see Table of Contents">
                                         <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <font key="NSFont" size="17" name=".SFNSText"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">  When you have finished listening and practicing the Body Scan, take a few minutes to write your responses to the following questions:
+                                        <string key="content"> When you have finished listening and practicing the Body Scan, take a few minutes to write your responses to the following questions:
 
 • What sensations did you notice?
 
@@ -1259,11 +1268,11 @@ If you feel tension, but cannot bring about a release with just your breath, you
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Bringing regularity to the practice of Body Scanning will help you increase your skill level and sensitivity. Just like any new skill, it takes recurrence for the body to remember this practice. The more you practice, the easier it will be to notice sensory input, helping you interpret your environment and what's happening in your structure in response to or reaction to others. From the martial arts and adult learning studies, we know that it takes 300 repetitions for a new practice to become comfortable. It takes 3000 repetitions for a new practice to become embodied. Once a practice or skill is embodied, it can easily be called on as a chosen response in situations or circumstances that provoked an undesired reaction before the new skill was learned.
  Embodying the practice of Body Scanning can also increase your receptivity, especially if you do the practice with this intent. Over time and recurrence, you can become sensitive to energy shifts in others and can produce a resonance in your own somatic structure that matches the state of the person you are working with. For coaches, you can develop your skill level to the extent that you can observe in your own structure what you want to bring your client's awareness to. This phenomenon is similar to the phenomenon of resonance that occurs when a vibrating tuning fork comes close to another tuning fork with identical frequency. The second tuning fork will vibrate sympathetically when in the proximity of the first vibrating tuning fork. Similarly, you can sense in your structure what another person is experiencing with their energy flow, or contraction of that flow by "tuning" to that person's somatic state. Upon reaching this state of resonance, you will find that you can coach a client to relax contractions, open areas that are constrained, and release what is ready to move, allowing them to act in ways that were not available in the contracted state. As your clients become competent observers and "scanners,” they will expand their range of possibilities for generating the actions that will bring about their desired future.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1309,13 +1318,13 @@ If you feel tension, but cannot bring about a release with just your breath, you
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  A fundamental principle in the ability to listen to bodies long distance is that energy follows awareness. Listening to the senses and learning to differentiate the sensations experienced while working with a client enables you to focus your awareness and the client's awareness to a particular area. Energy will follow this awareness and allow appropriate shifts to take place within your client’s somatic structure. Let's consider why this is an important principle.
  There are genetic, environmental, and historical influences that affect our somatic state on a day-to-day basis. In somatic work we work with those influences, helping our clients make shifts on a very fundamental
 level. Many times this will mean helping them make physical shifts in places where the muscles have contracted repeatedly in response to situations that are similar to past triggering situations, where behavior may have been learned at an early age. For example, in the last century, one of the fundamentals of parenting in some cultures included a rule that "children should be seen and not heard." Children growing up in such an environment learned to avoid being punished by not speaking around adults, not expressing their opinions, and containing themselves to win the approval of their elders. After many years of this learned behavior, the shape of the child's musculature and emotions reduces the response to speak up, thus shaping the body to contain expression. Now the child is an adult, wanting to speak up, but when the moment comes to speak, the behavior of containment is still present. By bringing the client's awareness to places where that containment occurs, they can relax the constriction, bring vitality to the musculature and learn to speak freely. First, awareness, then energy, then freedom toward new action.
  The contraction or constriction of muscles in a particular part of the body will sometimes affect someone’s breathing, their voice and their overall mood. So we begin with sensation to build awareness. In the next chapters, we will explore what happens when we can listen for breath, voice, mood, and the implications for effective action. By simply learning to breath you can find increased energy and a more positive emotional state. Stress decreases and contractions release. New behaviors can be learned with practice - a result of listening and paying attention to sensation.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1330,10 +1339,10 @@ level. Many times this will mean helping them make physical shifts in places whe
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  One of the most powerful somatic coaching practices is simply to notice what is happening in the body at any given moment. “When I pay attention to body reactions,” says one executive, “it’s relatively easy to shift an automatic (often unconscious) reaction to an intended one. This has helped me be much more effective at work and in dialogue with my daughter – two areas I care about.”   Increased personal awareness leads to increased interpersonal awareness. “Because I am more aware of my own energy and mood,” says another executive, “I am also aware of the energy and mood in staff meetings and other business contexts. It’s so much easier to be connected and effective with other people at work, even people I used to consider difficult".
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1348,11 +1357,11 @@ level. Many times this will mean helping them make physical shifts in places whe
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 At times there are very basic shifts we can make to increase the flow of energy within the somatic structure. For example, when we are sitting down the hip joints are bent. Energy flow becomes constricted by the bend. When we stand up, those channels open. I ask my clients to stand with their shoes off, keeping the outsides of their feet parallel when performing the Body Scan. This positioning of the body opens the hips, helps unlock the knees, and allows for the free flow of energy throughout the vertical channel. One client of mine, skeptical of somatic work to say the least, came to the phone with a headache, pain in her neck, and pain in her upper back. When we started the call she wasn’t even aware of these pains. Within five minutes of guiding her through the Body Scan she was able to relax the muscles behind the eyes, relax her neck and eliminate all of the pain that she came to the call with. For her it was a miracle and she is no longer a skeptic. She is now practicing the Body Scan every day.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1367,10 +1376,10 @@ At times there are very basic shifts we can make to increase the flow of energy 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  When we start developing awareness of our own sensations and discover what and to whom we react in our environment, we begin to get more control over our own reactions. We are then able to move differently. For example, two clients of mine shared a similar roadblock at work. Each client felt challenged by people in authority. Rather than speak up or voice their concerns, they got scared and didn't say anything. By practicing the Body Scan they were able to sense where their reactions began within their bodies when confronted by someone they gave authority to. Ultimately, each client was able to shift the interpretation that had them closing their mouth and not speaking their opinions or concerns. In both cases, after speaking up, they now have a much more effective working relationship with their boss. In one case, the boss thanked my client for voicing her concerns and instituted new departmental standards based on the issue she spoke up about. In the second case, my executive client felt very harshly judged, when in fact the person he reported to had a positive assessment of the executive’s performance. This was only discovered when my client was able to express his opinions, ask questions, and have a more comfortable conversational exchange, which wasn’t possible before increasing the executive's awareness of his constraints.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1385,7 +1394,7 @@ At times there are very basic shifts we can make to increase the flow of energy 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Do the Body Scan again. When you have finished practicing the Body Scan a second time, take a few minutes to write your responses to the following questions:
 
@@ -1397,7 +1406,7 @@ Do the Body Scan again. When you have finished practicing the Body Scan a second
 
 • What did you learn?
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1412,10 +1421,10 @@ Do the Body Scan again. When you have finished practicing the Body Scan a second
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Working with the body is where we as somatic coaches have the most leverage in helping our clients expand their repertoire of actions: actions that will help them achieve what they want more effectively and efficiently. Expanding this repertoire is contingent upon increasing somatic awareness. However, physiological, emotional, and spiritual awareness is only possible by connecting or in many cases reconnecting with our senses.
- The Body Scan is a practice that will increase your sensitivity and awareness of your own state and your sensitivity towards the people around you. For coaches, managers and executives, this awareness will enable you to address somatic obstacles that interfere with your ability, and your clients’ and employees’ ability to move in ways that will bring about the fulfillment of your goals.  </string>
+ The Body Scan is a practice that will increase your sensitivity and awareness of your own state and your sensitivity towards the people around you. For coaches, managers and executives, this awareness will enable you to address somatic obstacles that interfere with your ability, and your clients’ and employees’ ability to move in ways that will bring about the fulfillment of your goals.  </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3516,7 +3525,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
         <!--Audio Recordings-->
         <scene sceneID="OoA-Kx-mlD">
             <objects>
-                <tableViewController title="Audio Recordings" id="BZ3-z6-H3Y" sceneMemberID="viewController">
+                <tableViewController title="Audio Recordings" id="BZ3-z6-H3Y" customClass="AudioRecordingsTableViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gYo-Xe-DAl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3561,7 +3570,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="0dv-dB-g5g" kind="showDetail" identifier="BS2" id="Rkb-d7-TmR"/>
+                                            <segue destination="0dv-dB-g5g" kind="show" identifier="BS2" id="Rkb-d7-TmR"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="exN-iw-u1h">

@@ -75,12 +75,11 @@ class AudioPlayerViewController: UIViewController {
         super.viewDidLoad()
 
         countUpLabel.text = formatted(time: 0)
-        print(countDownLabel.text)
         countDownLabel.text = formatted(time: audioLengthSeconds)
         setupAudio()
         
         updater = CADisplayLink(target: self, selector: #selector(updateUI))
-//        updater?.add(to: .current, forMode: .RunLoop.Mode.default)
+        updater?.add(to: .current, forMode: RunLoop.Mode.default)
         updater?.isPaused = true
     }
     
@@ -182,7 +181,7 @@ extension AudioPlayerViewController {
 //
 extension AudioPlayerViewController {
     func setupAudio() {
-        audioFileURL = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")
+//        audioFileURL = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")
         
         engine.attach(player)
 //      engine.connect(player, to: rateEffect, format: audioFormat)
@@ -192,8 +191,9 @@ extension AudioPlayerViewController {
         } else {
             print("error - not a valid url!")
         }
-        engine.prepare()
         
+        engine.prepare()
+
         do {
             try engine.start()
         } catch let error {

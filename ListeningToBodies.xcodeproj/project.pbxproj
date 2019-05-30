@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */; };
 		941773A222944CB60038C69E /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941773A122944CB60038C69E /* AudioPlayerViewController.swift */; };
+		94517671229FD7BE00B4EC30 /* Body_Scan_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94517670229FD7BE00B4EC30 /* Body_Scan_2.mp3 */; };
 		945950CD21F2910400DF128C /* breathing_practices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 945950CC21F2910400DF128C /* breathing_practices.mp3 */; };
 		94A0DBC621ECF6E000434710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBC521ECF6E000434710 /* AppDelegate.swift */; };
 		94A0DBC821ECF6E000434710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBC721ECF6E000434710 /* ViewController.swift */; };
@@ -16,11 +17,13 @@
 		94A0DBCD21ECF6E200434710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A0DBCC21ECF6E200434710 /* Assets.xcassets */; };
 		94A0DBD021ECF6E200434710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A0DBCE21ECF6E200434710 /* LaunchScreen.storyboard */; };
 		94A0DBD821ECFA7F00434710 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBD721ECFA7F00434710 /* MainTableViewController.swift */; };
+		94AD829A229ECA2D009E8E73 /* AudioRecordingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AD8299229ECA2D009E8E73 /* AudioRecordingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = body_scan_1.mp3; sourceTree = "<group>"; };
 		941773A122944CB60038C69E /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
+		94517670229FD7BE00B4EC30 /* Body_Scan_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Body_Scan_2.mp3; sourceTree = "<group>"; };
 		945950CC21F2910400DF128C /* breathing_practices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breathing_practices.mp3; sourceTree = "<group>"; };
 		94A0DBC221ECF6E000434710 /* ListeningToBodies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListeningToBodies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A0DBC521ECF6E000434710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		94A0DBCF21ECF6E200434710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A0DBD121ECF6E200434710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94A0DBD721ECFA7F00434710 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		94AD8299229ECA2D009E8E73 /* AudioRecordingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 			children = (
 				945950CC21F2910400DF128C /* breathing_practices.mp3 */,
 				940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */,
+				94517670229FD7BE00B4EC30 /* Body_Scan_2.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 				94A0DBC721ECF6E000434710 /* ViewController.swift */,
 				94A0DBC921ECF6E000434710 /* Main.storyboard */,
 				94A0DBD721ECFA7F00434710 /* MainTableViewController.swift */,
+				94AD8299229ECA2D009E8E73 /* AudioRecordingsTableViewController.swift */,
 				941773A122944CB60038C69E /* AudioPlayerViewController.swift */,
 				94A0DBCC21ECF6E200434710 /* Assets.xcassets */,
 				94A0DBCE21ECF6E200434710 /* LaunchScreen.storyboard */,
@@ -143,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94517671229FD7BE00B4EC30 /* Body_Scan_2.mp3 in Resources */,
 				940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */,
 				94A0DBD021ECF6E200434710 /* LaunchScreen.storyboard in Resources */,
 				94A0DBCD21ECF6E200434710 /* Assets.xcassets in Resources */,
@@ -158,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AD829A229ECA2D009E8E73 /* AudioRecordingsTableViewController.swift in Sources */,
 				94A0DBC821ECF6E000434710 /* ViewController.swift in Sources */,
 				94A0DBD821ECFA7F00434710 /* MainTableViewController.swift in Sources */,
 				941773A222944CB60038C69E /* AudioPlayerViewController.swift in Sources */,
