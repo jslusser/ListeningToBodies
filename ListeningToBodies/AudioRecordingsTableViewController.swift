@@ -29,7 +29,7 @@ class AudioRecordingsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        return 4
     }
 
     /*
@@ -95,10 +95,15 @@ class AudioRecordingsTableViewController: UITableViewController {
         }
         
         
-//        if segue.identifier == "BS3" {
-//            let detailViewController = segue.destination as! AudioPlayerViewController
-//            detailViewController.audioFileURL = Bundle.main.url(forResource: "Body_Scan_2", withExtension: "mp3")
-//        }
+        if segue.identifier == "BS3" {
+            let detailViewController = segue.destination as! AudioPlayerViewController
+            detailViewController.audioFileURL = Bundle.main.url(forResource: "Levels_of_Breathing_and_How_They_Feel", withExtension: "mp3")
+        }
+        
+        if segue.identifier == "BS4" {
+            let detailViewController = segue.destination as! AudioPlayerViewController
+            detailViewController.audioFileURL = Bundle.main.url(forResource: "Breathing_to_Stimulate_the_Vagus_Nerve", withExtension: "mp3")
+        }
     }
     
 }
