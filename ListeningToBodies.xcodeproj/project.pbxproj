@@ -13,6 +13,8 @@
 		94336FDD22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94336FDC22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 */; };
 		94517671229FD7BE00B4EC30 /* Body_Scan_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94517670229FD7BE00B4EC30 /* Body_Scan_2.mp3 */; };
 		945950CD21F2910400DF128C /* breathing_practices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 945950CC21F2910400DF128C /* breathing_practices.mp3 */; };
+		9469199722B8C18D00E0FAC7 /* Connection_between_breathing_and_voice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9469199622B8C18D00E0FAC7 /* Connection_between_breathing_and_voice.mp3 */; };
+		9469199922B8C19400E0FAC7 /* Moods_and_the_shape_of_bodies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9469199822B8C19400E0FAC7 /* Moods_and_the_shape_of_bodies.mp3 */; };
 		94A0DBC621ECF6E000434710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBC521ECF6E000434710 /* AppDelegate.swift */; };
 		94A0DBC821ECF6E000434710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBC721ECF6E000434710 /* ViewController.swift */; };
 		94A0DBCB21ECF6E000434710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A0DBC921ECF6E000434710 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		94336FDC22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Breathing_to_Stimulate_the_Vagus_Nerve.mp3; sourceTree = "<group>"; };
 		94517670229FD7BE00B4EC30 /* Body_Scan_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Body_Scan_2.mp3; sourceTree = "<group>"; };
 		945950CC21F2910400DF128C /* breathing_practices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breathing_practices.mp3; sourceTree = "<group>"; };
+		9469199622B8C18D00E0FAC7 /* Connection_between_breathing_and_voice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Connection_between_breathing_and_voice.mp3; sourceTree = "<group>"; };
+		9469199822B8C19400E0FAC7 /* Moods_and_the_shape_of_bodies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Moods_and_the_shape_of_bodies.mp3; sourceTree = "<group>"; };
 		94A0DBC221ECF6E000434710 /* ListeningToBodies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListeningToBodies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A0DBC521ECF6E000434710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A0DBC721ECF6E000434710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				94517670229FD7BE00B4EC30 /* Body_Scan_2.mp3 */,
 				94336FDA22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 */,
 				94336FDC22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 */,
+				9469199622B8C18D00E0FAC7 /* Connection_between_breathing_and_voice.mp3 */,
+				9469199822B8C19400E0FAC7 /* Moods_and_the_shape_of_bodies.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 				94336FDD22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 in Resources */,
 				940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */,
 				94336FDB22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 in Resources */,
+				9469199722B8C18D00E0FAC7 /* Connection_between_breathing_and_voice.mp3 in Resources */,
 				94A0DBD021ECF6E200434710 /* LaunchScreen.storyboard in Resources */,
+				9469199922B8C19400E0FAC7 /* Moods_and_the_shape_of_bodies.mp3 in Resources */,
 				94A0DBCD21ECF6E200434710 /* Assets.xcassets in Resources */,
 				945950CD21F2910400DF128C /* breathing_practices.mp3 in Resources */,
 				94A0DBCB21ECF6E000434710 /* Main.storyboard in Resources */,
