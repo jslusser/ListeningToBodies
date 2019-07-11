@@ -387,18 +387,18 @@
                                 <color key="backgroundColor" white="1" alpha="0.49521083047945208" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">When we hold a conch shell up to our ear, we hear the ocean and a whole new world opens for us. I use the symbol of the shell to remind us that when we use all our senses for listening deeply to each other, new possibilities and new worlds may open for us as well. 
+                                        <string key="content">When we hold a conch shell up to our ear, we hear the ocean and a whole new world opens for us. I use the symbol of the shell to remind us that when we use all our senses for listening deeply to each other, new possibilities and new worlds may open for us as well. 
 Hold a conch shell to your ear: hear a different world. 
-</mutableString>
+</string>
                                         <attributes>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">Listen with all your senses: hear the wisdom of the body.
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -440,22 +440,7 @@ Hold a conch shell to your ear: hear a different world. 
                                     <fragment>
                                         <string key="content">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.
 
-</string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Animals">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> rely on their senses to get information about what is dangerous, nurturing, safe, and tasty. Born with this capacity, we have intellectualized and analyzed so many aspects of our lives that we are losing the skill of paying attention to our senses. In short, we as human beings have ignored much of our animal nature, often to the detriment of our effectiveness in the world.
+Animals rely on their senses to get information about what is dangerous, nurturing, safe, and tasty. Born with this capacity, we have intellectualized and analyzed so many aspects of our lives that we are losing the skill of paying attention to our senses. In short, we as human beings have ignored much of our animal nature, often to the detriment of our effectiveness in the world.
 
 Learning to recover the skill of utilizing and trusting our senses provides direct access to the world around us. By increasing our awareness of sensory input, we become more effective, grounded, nurtured, and nurturing. By learning to become self-generating, we can learn to shift behaviors that we wish to change. We can improve our connection to people and find new opportunities. A rediscovery of life through our senses leads to greater satisfaction and a renewed joy in living.   Ultimately, regaining the skills of feeling and sensing brings us back into more coherence and unity with the flow of life that we have cut ourselves off from. When we begin feeling, we connect with what satisfies us, what we care about, and what we want to express. For many people this comes as an awakening. It becomes possible to live a full and satisfying life, paying closer attention to our loved ones and what they care about, and finding meaningful expression through work, art, and play. These are typical results for people who develop somatic awareness. It happened for me when I began to study somatic principles and practices.   My experience of living shifted so dramatically, I decided to  incorporate somatic work into the coaching I had been doing for several  years with executives and entrepreneurs. Although I began studying somatics for my own healing and development, I soon recognized the  power of including the body in my understanding of how people act.  Working through the body along with the emotional, spiritual, and psychological aspects of a person’s background provided a more complete profile for the client and for me to understand their current challenges and strengths. The results that people could achieve by increasing somatic awareness and somatic practices were dramatic. 
 
@@ -486,7 +471,7 @@ Examples are provided in the preface: </string>
                                         <string key="content">¹ Ontology is the study of being. Ontological philosophy is an inquiry into the nature of human existence. In the latter part of the twentieth century, the integration of developments in the fields of philosophy and biology produced a discipline called Ontological Design by Dr. Fernando Flores. Julio Olalla and Rafael Echeverria developed the resultant coaching methodology and coaching practice, called Ontological Coaching. This discipline works with existential issues of meaning, fulfillment, happiness and worthiness in client’s personal and professional lives.  For an in-depth discussion of Ontological Coaching, see </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -500,7 +485,7 @@ Examples are provided in the preface: </string>
                                     <fragment content=" by Alan Seiler (Publishing Solutions Pty Ltd, 2007). ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -997,7 +982,7 @@ Take a few moments to write down what you experienced during this exercise. The 
                                     <fragment content="² Drucker, Peter. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1013,7 +998,7 @@ Take a few moments to write down what you experienced during this exercise. The 
 ³ Wolvin, Andrew D. </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1029,7 +1014,7 @@ Take a few moments to write down what you experienced during this exercise. The 
 ⁴ Lobdell, Christine L., Sonoda, Devin T., and Arnold, William E., “The Influence of Perceived Supervisor Listening Behavior on Employee Commitment”, </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1043,7 +1028,7 @@ Take a few moments to write down what you experienced during this exercise. The 
                                     <fragment content=", Volume 7, 1993. ⁵ Shafir, Rebecca Z. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1057,7 +1042,7 @@ Take a few moments to write down what you experienced during this exercise. The 
                                     <fragment content=". Quest Books, 2006. Nichols, Michael P. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1071,7 +1056,7 @@ Take a few moments to write down what you experienced during this exercise. The 
                                     <fragment content=". The Guilford Press, 1995. ⁶ Putnoi, Johanna. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1085,7 +1070,7 @@ Take a few moments to write down what you experienced during this exercise. The 
                                     <fragment content=". Ulysses Press, 2000. ⁷ Maturana, Humberto R., and Varela, Francisco, J. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1099,7 +1084,7 @@ Take a few moments to write down what you experienced during this exercise. The 
                                     <fragment content=". Shambala, New Science Library, 1987.">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1327,7 +1312,7 @@ Bring your awareness to the top of your head. Notice any sensations that are the
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.03597526847453858" blue="0.057078312044066104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1344,7 +1329,7 @@ If you feel tension, but cannot bring about a release with just your breath, you
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2061,7 +2046,7 @@ When our somatic and energetic structures are open and extended, we are fully av
                                     <fragment content=" Zi, Nancy. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2077,7 +2062,7 @@ When our somatic and energetic structures are open and extended, we are fully av
 </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2091,7 +2076,7 @@ When our somatic and energetic structures are open and extended, we are fully av
                                     <fragment content=" David, Marc. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2105,7 +2090,7 @@ When our somatic and energetic structures are open and extended, we are fully av
                                     <fragment content=". Healing Arts Press, 2005.">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2145,7 +2130,7 @@ When our somatic and energetic structures are open and extended, we are fully av
                                 <color key="backgroundColor" white="1" alpha="0.75093642979452058" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">"Although interpreting the human voice is one of our most important daily social activities, the way we speak and hear remains almost entirely hidden, and unexplored. Those who develop a richer understanding of the voice are less likely to mishear their friends, lovers, rivals, and more able to intuit when people are being authentic or dishonest."</mutableString>
+                                        <string key="content">"Although interpreting the human voice is one of our most important daily social activities, the way we speak and hear remains almost entirely hidden, and unexplored. Those who develop a richer understanding of the voice are less likely to mishear their friends, lovers, rivals, and more able to intuit when people are being authentic or dishonest."</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="Arial-ItalicMT"/>
@@ -2186,13 +2171,13 @@ When our somatic and energetic structures are open and extended, we are fully av
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 Identity can mean how we see ourselves as individuals and how we  define ourselves, or it can mean the phenomenon of how we are known  or seen by others, often different from the way we see ourselves. For  the sake of coherence, the gap between how we know ourselves and  how others see us becomes important. The smaller the gap, the stronger  the coherence. Voice then becomes an important factor in how we  appear to others, either in person or on the telephone. 
  The physical voice, the sound produced by the vocal cords (or folds) and resonated by the cavities of the head, throat and torso, conveys qualities that a listener interprets.  For example, if someone's voice sounds sharp or piercing, the speaker may be seen as curt, unapproachable, angry, or mean. Conversely, someone who has a melodic, pleasant voice may be seen as friendly, approachable, or nice to be around. Think about what your voice says about you, and how others are impacted when they hear your voice.
  Voice can also have a broader, metaphorical meaning. Clients have  come to me asking for help to “find my voice”. What does this mean?  Usually, it means that a person wants to be able to speak what is real  and authentic for them. So not only would we be working on the words  they’re saying, the meaning they’re conveying, and the melody of the  sounds, but also looking deeper into the person they are becoming and  how they want to express what they are discovering that has value for  them. Voice is the carrier of that expression. 
  When you want to speak about what is meaningful and important to you, you'll want your voice to be able to express that meaning in a way that your listeners can hear the depth and importance of your message.  The quality of your voice can convey what you want, or the quality can convey an entirely different characteristic. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2237,11 +2222,11 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  How we are breathing directly affects the quality of our voice.  Experiment with this yourself. Bring your voice all the way up into your upper chest, breathing so that your throat is slightly constricted,  and then say your name out loud. You might also try reading a few  sentences out loud to have more words to speak and feel. 
  Now drop your breath to the level of your ribs (mid level breathing),  relax your throat, and as you speak, feel the vibration of your voice in  the upper part of your torso. What does this voice feel like? What does  it convey? 
  And drop your breath all the way to your belly, relaxing your torso and  diaphragm so your voice resonates all the way into your torso. As you  say your name now, how does it sound to you? Ask a friend or  colleague what happens when they hear your voice in these different  ways. What does it produce for them? And which voice is most  coherent with the identity you want to produce in different situations?  As a professional? With your friends? With your family? In front of an audience? 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2256,10 +2241,10 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  I can remember one day when I was high school age answering the  phone. It was my father’s boss. After the call, Dad said his boss asked  the age of his little daughter. I was offended, but realized at that point  that my high pitched voice was not sounding like the grown up woman  I wanted to be seen as. In addition, when I went to college, my  councilor recommended that I take a speech class to rid myself of the  New Jersey accent that betrayed my origins. That was the last straw. I  committed to retraining my voice. I listened to tapes, practiced  breathing techniques, and even took some singing lessons. After a year,  the quality of my normal speaking voice changed. I no longer had a  regional accent, and did not sound like a child. 
  In addition, the practices I did had other benefits that surprised me. My friends started asking me to help them think about challenging  situations, I was sought out for advice, and generally being taken more seriously. I could still laugh out loud and giggle like a kid when having  fun, so that didn’t change. However, my range of expression was expanding. I was learning how to use my voice as an instrument of deeper expression. 
- In his book, </mutableString>
+ In his book, </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2283,7 +2268,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">“The voice, after all, is entering the body of the listener and radically affecting his inner world. A word...is focused by the outer funnel of the ear, gathered on the membrane of the eardrum, and passed through a watchmaker's arrangement of three tiny bones to the salty fluid of the inner ear. This minuscule inner sea responds to sound the way the real sea responds to the moon, shifting with tidal currents hundreds of tiny hairs rooted in the auditory nerve cells. The emotional and imaginal world radiates out from those ear follicles through the whole length of the body on a tide of electrical impulses, warming the heart, sickening the stomach, or stimulating the adrenals in an instant to fight or flight.”</mutableString>
+                                        <string key="content">“The voice, after all, is entering the body of the listener and radically affecting his inner world. A word...is focused by the outer funnel of the ear, gathered on the membrane of the eardrum, and passed through a watchmaker's arrangement of three tiny bones to the salty fluid of the inner ear. This minuscule inner sea responds to sound the way the real sea responds to the moon, shifting with tidal currents hundreds of tiny hairs rooted in the auditory nerve cells. The emotional and imaginal world radiates out from those ear follicles through the whole length of the body on a tide of electrical impulses, warming the heart, sickening the stomach, or stimulating the adrenals in an instant to fight or flight.”</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="Arial-ItalicMT"/>
@@ -2300,7 +2285,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                     <fragment content="¹⁴">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="14" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2321,10 +2306,10 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  How is your voice impacting the bodies that it touches? Does it warm  the heart or sicken the stomach? How would you even know? 
  Try recording your voice and listen to how you sound. How do you  describe the voice you’ve recorded? Is this your “normal” voice? Were  you nervous during the recording? What effect did your anxiety produce? 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2339,12 +2324,12 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Experiment with breathing. Drop your breath, relax your throat and the upper part of your torso, and record your voice again. Listen, reflect, and write down your observations. What do you notice this time? 
  Describe how your voice sounds when you’re angry. Or tense. Or rushed. Or sad. Or happy! 
  If you’re not sure, imagine yourself in a situation where you were angry, and record your voice. Do the same for other moments where you were tense, hurrying, sad, happy, etc. Take a few notes after reflecting and describe your observations. 
  Which voice is how you want to be heard? Which voice is friendliest? Most melodic? Inviting? What practices will help you have the voice that produces the identity you want to be known for? 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2355,7 +2340,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2374,12 +2359,12 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  All of the practices I’ve described are tools for coaching. Whether in person or on the telephone, your client’s voice reveals their current emotional state, and can also indicate the prevalent mood that is the background for their world view. As you listen to their description of their circumstances, what melody comes to the forefront? Is it lilting and happy? Monotone and strained? 
  Listen to the voices you hear, not only from your clients, but also on the radio and television. Identify what you can distinguish from each person’s voice. What can you tell about their breathing from their voice? Is what you’re hearing consistent with the person they are, or the character they are conveying? 
  What practices can you ask your clients to do that will help them have a full and expressive voice? What practices will help them soften their voice, not decreasing the volume, but making it easier to be listened to? What practices will produce a deeper, more grounded, and stronger voice? 
  In the next two chapters we will be working with mood and centering. As you learn more about these topics, remember to bring your observations and what you’re learning about voice to understand how they can impact your work and expand your repertoire of tools and practices. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2389,7 +2374,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                     <fragment content="¹² Karpf, Anne. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2403,7 +2388,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                     <fragment content=". Bloomsbury Publishing, 2006.  ¹³ Zi, Nancy. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2417,7 +2402,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                     <fragment content=". Frog, Ltd., 2002.  ¹⁴ Whyte, David. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2431,7 +2416,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                     <fragment content=". Doubleday, 1994 ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2501,13 +2486,13 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Moods are fundamental to human beings. We live in moods. Certain actions are available or not available to us when we're in particular moods. Our bodies both determine what moods we are in and what moods are available to us, and our moods can also determine how our bodies are shaped. In that way, moods are a physical presentation of our assessments and opinions. 
  When I say, “I feel great today!” I will most likely be standing tall, in an open posture, seeing a broad vista, and ready to act on opportunities that come my way. On the other hand, when I say to myself or to a colleague, "This company stinks, it's never going to change, and I'm not appreciated for all the hard work I've put in," my body will most likely be slumped over, collapsed, I’m looking down, and not much is possible. Imagine being slumped over, sitting at your desk and saying "I feel great today!!" The shape of a bent over, collapsed body doesn't match a mood of feeling great. Similarly, imagine standing tall with arms outstretched to the sky saying, "This company stinks, it's never going to change, and I'm not appreciated for all the hard work I've put in." The shape and the speaking are not coherent. So moods and the shapes of bodies in those moods predispose us to certain ways of thinking, speaking, and acting. 
  In addition, our opinions often become habitual thoughts that lead to automatic interpretations, coloring how we view the world. So our moods directly affect our capacity to take action and coordinate effectively with others. And our moods directly affect the quality of our relationships since people respond to our moods. This is an important principle in somatic work, because the mood we are in can determine how well or how poorly we connect with and listen to others, their concerns, their feedback, and their motivations. 
  As we become more competent in seeing and listening to somatic shapes with the distinctions of sensation, breathing, and voice, we can hear what mood people are in. We do this by listening to the stories and interpretations they express, sensing their somatic shape from the way our own body responds, whether in person or via telephone. A person’s somatic shape tells us where they are contracted or constricted, and how open and available they are. 
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2522,14 +2507,14 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">  
+                                        <string key="content">  
 Why am I giving importance to the phenomenon of moods, and listening for a person’s mood? I’m interpreting mood as the background thinking and view of life that predisposes what actions are possible or not possible for someone. Another way to say this is that moods reflect a person’s orientation to the future. This is different from emotions, which are triggered by some event and are short-lived (such as sadness over a loss or happiness over some good fortune). Moods, on the other hand, last for long periods of time, even a lifetime, or over generations (as in families, societies, or cultures). 
  For example, if someone is deeply resigned, the conversation that they are living in that’s in the background, defining how they see the world, is something like, “Nothing I can do will change anything.” That conversation affects what they see possible, or not. If they are resigned, they see nothing possible, and any attempt to show something new will fall into the old interpretation. For coaches, if coaching is going to be successful, the person’s mood must be addressed. Working with the background conversations and interpretations can change moods; however, working through the body is often deeper and more effective. Moods are embodied, so even when working with the conversations the person is living in, the body will eventually shift as well. With effective practices, moods can be permanently altered. 
  Each mood has a body shaped to be an expression of that mood. Following our example, then, what is the body of someone who is resigned? Imagine yourself thinking, “Nothing I do will change anything around here. It’s all hopeless anyway. I don’t know why I even try.”  
 What happens to your body? Most people who live in the story of resignation have their head down, they sit and stand slumped over, and their walk is slow and shuffling. 
  What’s the body of someone who is resentful? Try saying over and over, “Those people (or that person) have determined my fate and are to blame for my miserable condition.” Or, “S(he) has done me wrong and it’s her/his fault that my life is the way it is.” With resentment, there is also a commitment not to talk to the person(s) that we are blaming, but to silently continue to blame them for whatever they did to make us miserable. There is an anger and hostility that is internalized – what is this shape? Imagine a body that has arms crossed, protecting and closing off any possibility of connection or intimacy, narrow or squinted eyes, slumped down with no commitment to take action to resolve their own misery.   On the positive side, there is a body of acceptance, which produces a mood of peace. The conversation may be, “Possibilities may or may not be closed to me here, and I am still grateful for what life brings.” Or, “I’m willing to accept the way things are at the moment and deal with what is.” This body is open, at peace, calm and centered. From here, new actions can be designed, or the person may settle into the current situation without complaint, open to what will unfold. 
  When we have an acceptance of current conditions, and motivation to change our circumstances, bring a new project or enterprise into existence, or invent a new strategy, we are in a mood of ambition. The background conversation may be, “Wow! There’s a future for me here, and I’m going to make it happen!” What’s the shape of the body that is coherent with this background? When we are in this mood, we are open, often even smiling, enjoying life and engaging with people, the voice has a lilt to it, we are breathing freely, energy is flowing and there’s an easy vitality that is attractive to people around us.  The following chart provides a quick overview of these 4 basic moods:
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2630,7 +2615,7 @@ What happens to your body? Most people who live in the story of resignation have
                                         <attributes>
                                             <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2659,9 +2644,9 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  The following expressions, whether spoken or not, can help you to recognize the background thinking of each mood. See what happens to your body as you “try on” each expression. Repeat the expression several times until your body takes on the mood. Then pay attention to the shape that you find yourself in. 
- &lt;&lt;insert audio recording&gt;&gt;  </mutableString>
+ &lt;&lt;insert audio recording&gt;&gt;  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2916,9 +2901,9 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> -I claim that I already know and my assessments are true. There is nothing else you can add here, and you should listen to me. 
+                                        <string key="content"> -I claim that I already know and my assessments are true. There is nothing else you can add here, and you should listen to me. 
  Enjoy practicing with these various moods and the conversations that provoke them. See what shape the bodies are that live in these moods. Not only does one’s mood predispose what actions may or may not be possible; a person’s mood greatly affects their identity and ability to provide leadership. Would you be more inclined to follow someone who is in a positive and accepting mood, or someone who is resigned or resentful? 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2929,7 +2914,7 @@ What happens to your body? Most people who live in the story of resignation have
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name=".SFNSText"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2948,13 +2933,13 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Most people look for coaches who can help them make some change or shift in their way of seeing the world, so they can achieve an outcome different from where they find themselves. From a coaching perspective, once you have recognized the mood someone is in, how can you help them change their mood? The key principles to work with are the shape of the body and the story the person is telling about their situation or their life. 
  When someone tells you their story, you can listen for not only the circumstances, but also the background that led to the conclusions and assessments a person is making, the history of actions that got them to where they are, and the melody of the telling. The melody comes from the body – so even if you are working over the phone, you’ll be able to listen for much of what determines a person’s mood. Once a mood is identified, what then? The more you can help a person become aware of the shape of their body in a particular mood, the easier it will be to provide practices to help them shift that shape. For example, you might ask, “Where are you breathing right now? How are you sitting, or standing? Describe your posture to me. What does that breathing or posture produce for you? What happens if you drop your breath (for example)? What do you notice? What happens if you stand taller and relax your shoulders (another example)? What do you notice then? 
  With this line of questioning, you are increasing the person’s ability to observe themselves. Once you’ve identified together the “old” body and the “new” body, you can design practices to help them remember the new body. With practice, the new body will become more authentic, and the story will also change. Shifting the story can also be accelerated with journaling, or ongoing practice of telling a new story about a situation in a way that’s authentic. 
  For example, I was in a mood of resentment for years about the work I was doing. No matter what I did, it was not enough for me to be satisfied. As a research chemist, I enjoyed working in the laboratory, but I wanted to be working with people. In business, I had other complaints, or dissatisfactions. After a string of starting different career paths, I started thinking about what happened at home while I was growing up. I remembered that we always waited for my Dad to come home, and then we sat down at the dinner table. Then Dad talked about his day. All we heard were complaints. My Dad supervised a warehouse crew, and we heard all the stories about how lazy this one was, how slow another one was, how the boss was pressuring him to get them to be more efficient, etc. etc. etc. He never spoke about himself, only about how wrong everyone else was, and how miserable it made him. It sounded like my liturgy when I came home! I began to see how the resentment about work became part of my heritage and embodiment. 
   To begin to change my view, I started journaling at the end of every workday, asking myself the questions, “What am I grateful for today? Who did something that I appreciated? Did I acknowledge the people working with me?” And similar questions to keep my thoughts focused in a positive direction. Prior to journaling, I did some deep breathing and centering practices. I did these practices for a year, focusing on my mood. At the end of that time, I was working joyfully, looking forward to my work every day. My stories at the end of the day were very different as well. And then I redesigned my work to be what I now see as the fulfillment of my purpose. It’s the work I’m still doing today, and loving every day of it. 
-  </mutableString>
+  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3490,7 +3475,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                     <fragment content="¹⁶ Strozzi Heckler, Richard. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -3504,7 +3489,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                     <fragment content=". Frog, Ltd., 1997. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -3752,7 +3737,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                     <fragment content="¹⁷ Zuckerman, Desda. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -3766,7 +3751,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                     <fragment content=", private publication, 2006. ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -3979,7 +3964,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                     <fragment content="¹⁸ “Listening to Bodies Long Distance: The Power and Possibility of Telephone Coaching&quot;, Chapter 9 of ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -3993,7 +3978,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                     <fragment content=", edited by Richard Strozzi-Heckler, North Atlantic Books, 2003">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -4025,38 +4010,37 @@ tree and feel the life force in the tree through your back. Extend into that lif
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="uj5-FA-gEf">
-                                <rect key="frame" x="45" y="325" width="285" height="285"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wHy-LI-RRj">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wHy-LI-RRj">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Suzanne Zeman, MSC">
                                         <attributes>
-                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="system" size="25"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content"> a coach for coaches, executives, and business teams  Somatic Business Coach www.somaticbusinesscoach.com  phone: (510) 524-7620 fax: (510) 524-6061 email: szeman@comcast.net</string>
                                         <attributes>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="szeman" translatesAutoresizingMaskIntoConstraints="NO" id="Sfe-7y-ARC">
+                                <rect key="frame" x="16" y="351" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="uj5-FA-gEf">
+                                <rect key="frame" x="200" y="351" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="wHy-LI-RRj" firstAttribute="top" secondItem="FeB-L3-BB1" secondAttribute="top" id="Zyd-24-IAe"/>
-                            <constraint firstItem="wHy-LI-RRj" firstAttribute="trailing" secondItem="FeB-L3-BB1" secondAttribute="trailing" id="dog-p4-Fz1"/>
-                            <constraint firstItem="wHy-LI-RRj" firstAttribute="bottom" secondItem="FeB-L3-BB1" secondAttribute="bottom" id="eng-RB-kJP"/>
-                            <constraint firstItem="wHy-LI-RRj" firstAttribute="leading" secondItem="FeB-L3-BB1" secondAttribute="leading" id="sGx-Ss-wXC"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FeB-L3-BB1"/>
                     </view>
                 </viewController>
@@ -4090,6 +4074,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
         <image name="play" width="24" height="24"/>
         <image name="plus-10" width="24" height="24"/>
         <image name="shell" width="612" height="792"/>
+        <image name="szeman" width="423" height="535"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="UgY-sE-MxG"/>
