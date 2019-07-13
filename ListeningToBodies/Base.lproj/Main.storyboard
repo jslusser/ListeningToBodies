@@ -331,8 +331,32 @@
                                             <segue destination="JxA-fA-OM1" kind="show" id="Xvn-Ey-WOV"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ays-R9-zyE">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="xEA-xg-pDW">
                                         <rect key="frame" x="0.0" y="600" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xEA-xg-pDW" id="zwI-O6-3Se">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Media Mentions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVX-u6-8zK">
+                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="aVX-u6-8zK" firstAttribute="leading" secondItem="zwI-O6-3Se" secondAttribute="leading" constant="8" id="336-ab-Are"/>
+                                                <constraint firstAttribute="trailing" secondItem="aVX-u6-8zK" secondAttribute="trailing" constant="8" id="E9N-vE-KgV"/>
+                                                <constraint firstItem="aVX-u6-8zK" firstAttribute="centerY" secondItem="zwI-O6-3Se" secondAttribute="centerY" id="P3R-0k-RtN"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="QNQ-NT-ZO6" kind="show" id="HHH-Ey-Uwz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ays-R9-zyE">
+                                        <rect key="frame" x="0.0" y="644" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ays-R9-zyE" id="xp5-D7-JMU">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -818,6 +842,37 @@ In our learning together, I will provide the basic principles that will help you
                 <exit id="6Iw-dw-6nQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="7572" y="2475"/>
+        </scene>
+        <!--Media Viewer-->
+        <scene sceneID="x6L-HS-CUP">
+            <objects>
+                <viewController title="Media Viewer" id="CeW-0p-ckB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ryR-wt-5bf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OA2-UN-GBc">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OA2-UN-GBc" firstAttribute="top" secondItem="dfP-Wt-4fN" secondAttribute="top" id="PN6-rX-q4e"/>
+                            <constraint firstItem="OA2-UN-GBc" firstAttribute="trailing" secondItem="dfP-Wt-4fN" secondAttribute="trailing" id="fd4-ac-OfI"/>
+                            <constraint firstItem="OA2-UN-GBc" firstAttribute="leading" secondItem="dfP-Wt-4fN" secondAttribute="leading" id="kBr-WR-Y5K"/>
+                            <constraint firstAttribute="bottom" secondItem="OA2-UN-GBc" secondAttribute="bottom" id="me9-gt-FxB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dfP-Wt-4fN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cTJ-ts-eHE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9111.5942028985519" y="2475"/>
         </scene>
         <!--LISTENING: How do we do it?-->
         <scene sceneID="vgc-Di-4ha">
@@ -2159,7 +2214,7 @@ When our somatic and energetic structures are open and extended, we are fully av
                                 <color key="backgroundColor" white="1" alpha="0.75093642979452058" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">"Although interpreting the human voice is one of our most important daily social activities, the way we speak and hear remains almost entirely hidden, and unexplored. Those who develop a richer understanding of the voice are less likely to mishear their friends, lovers, rivals, and more able to intuit when people are being authentic or dishonest."</mutableString>
+                                        <string key="content">"Although interpreting the human voice is one of our most important daily social activities, the way we speak and hear remains almost entirely hidden, and unexplored. Those who develop a richer understanding of the voice are less likely to mishear their friends, lovers, rivals, and more able to intuit when people are being authentic or dishonest."</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="Arial-ItalicMT"/>
@@ -2200,13 +2255,13 @@ When our somatic and energetic structures are open and extended, we are fully av
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 Identity can mean how we see ourselves as individuals and how we  define ourselves, or it can mean the phenomenon of how we are known  or seen by others, often different from the way we see ourselves. For  the sake of coherence, the gap between how we know ourselves and  how others see us becomes important. The smaller the gap, the stronger  the coherence. Voice then becomes an important factor in how we  appear to others, either in person or on the telephone. 
  The physical voice, the sound produced by the vocal cords (or folds) and resonated by the cavities of the head, throat and torso, conveys qualities that a listener interprets.  For example, if someone's voice sounds sharp or piercing, the speaker may be seen as curt, unapproachable, angry, or mean. Conversely, someone who has a melodic, pleasant voice may be seen as friendly, approachable, or nice to be around. Think about what your voice says about you, and how others are impacted when they hear your voice.
  Voice can also have a broader, metaphorical meaning. Clients have  come to me asking for help to “find my voice”. What does this mean?  Usually, it means that a person wants to be able to speak what is real  and authentic for them. So not only would we be working on the words  they’re saying, the meaning they’re conveying, and the melody of the  sounds, but also looking deeper into the person they are becoming and  how they want to express what they are discovering that has value for  them. Voice is the carrier of that expression. 
  When you want to speak about what is meaningful and important to you, you'll want your voice to be able to express that meaning in a way that your listeners can hear the depth and importance of your message.  The quality of your voice can convey what you want, or the quality can convey an entirely different characteristic. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2251,11 +2306,11 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  How we are breathing directly affects the quality of our voice.  Experiment with this yourself. Bring your voice all the way up into your upper chest, breathing so that your throat is slightly constricted,  and then say your name out loud. You might also try reading a few  sentences out loud to have more words to speak and feel. 
  Now drop your breath to the level of your ribs (mid level breathing),  relax your throat, and as you speak, feel the vibration of your voice in  the upper part of your torso. What does this voice feel like? What does  it convey? 
  And drop your breath all the way to your belly, relaxing your torso and  diaphragm so your voice resonates all the way into your torso. As you  say your name now, how does it sound to you? Ask a friend or  colleague what happens when they hear your voice in these different  ways. What does it produce for them? And which voice is most  coherent with the identity you want to produce in different situations?  As a professional? With your friends? With your family? In front of an audience? 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2270,10 +2325,10 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  I can remember one day when I was high school age answering the  phone. It was my father’s boss. After the call, Dad said his boss asked  the age of his little daughter. I was offended, but realized at that point  that my high pitched voice was not sounding like the grown up woman  I wanted to be seen as. In addition, when I went to college, my  councilor recommended that I take a speech class to rid myself of the  New Jersey accent that betrayed my origins. That was the last straw. I  committed to retraining my voice. I listened to tapes, practiced  breathing techniques, and even took some singing lessons. After a year,  the quality of my normal speaking voice changed. I no longer had a  regional accent, and did not sound like a child. 
  In addition, the practices I did had other benefits that surprised me. My friends started asking me to help them think about challenging  situations, I was sought out for advice, and generally being taken more seriously. I could still laugh out loud and giggle like a kid when having  fun, so that didn’t change. However, my range of expression was expanding. I was learning how to use my voice as an instrument of deeper expression. 
- In his book, </mutableString>
+ In his book, </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2297,7 +2352,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">“The voice, after all, is entering the body of the listener and radically affecting his inner world. A word...is focused by the outer funnel of the ear, gathered on the membrane of the eardrum, and passed through a watchmaker's arrangement of three tiny bones to the salty fluid of the inner ear. This minuscule inner sea responds to sound the way the real sea responds to the moon, shifting with tidal currents hundreds of tiny hairs rooted in the auditory nerve cells. The emotional and imaginal world radiates out from those ear follicles through the whole length of the body on a tide of electrical impulses, warming the heart, sickening the stomach, or stimulating the adrenals in an instant to fight or flight.”</mutableString>
+                                        <string key="content">“The voice, after all, is entering the body of the listener and radically affecting his inner world. A word...is focused by the outer funnel of the ear, gathered on the membrane of the eardrum, and passed through a watchmaker's arrangement of three tiny bones to the salty fluid of the inner ear. This minuscule inner sea responds to sound the way the real sea responds to the moon, shifting with tidal currents hundreds of tiny hairs rooted in the auditory nerve cells. The emotional and imaginal world radiates out from those ear follicles through the whole length of the body on a tide of electrical impulses, warming the heart, sickening the stomach, or stimulating the adrenals in an instant to fight or flight.”</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="Arial-ItalicMT"/>
@@ -2335,10 +2390,10 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  How is your voice impacting the bodies that it touches? Does it warm  the heart or sicken the stomach? How would you even know? 
  Try recording your voice and listen to how you sound. How do you  describe the voice you’ve recorded? Is this your “normal” voice? Were  you nervous during the recording? What effect did your anxiety produce? 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2353,12 +2408,12 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Experiment with breathing. Drop your breath, relax your throat and the upper part of your torso, and record your voice again. Listen, reflect, and write down your observations. What do you notice this time? 
  Describe how your voice sounds when you’re angry. Or tense. Or rushed. Or sad. Or happy! 
  If you’re not sure, imagine yourself in a situation where you were angry, and record your voice. Do the same for other moments where you were tense, hurrying, sad, happy, etc. Take a few notes after reflecting and describe your observations. 
  Which voice is how you want to be heard? Which voice is friendliest? Most melodic? Inviting? What practices will help you have the voice that produces the identity you want to be known for? 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2396,12 +2451,12 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  All of the practices I’ve described are tools for coaching. Whether in person or on the telephone, your client’s voice reveals their current emotional state, and can also indicate the prevalent mood that is the background for their world view. As you listen to their description of their circumstances, what melody comes to the forefront? Is it lilting and happy? Monotone and strained? 
  Listen to the voices you hear, not only from your clients, but also on the radio and television. Identify what you can distinguish from each person’s voice. What can you tell about their breathing from their voice? Is what you’re hearing consistent with the person they are, or the character they are conveying? 
  What practices can you ask your clients to do that will help them have a full and expressive voice? What practices will help them soften their voice, not decreasing the volume, but making it easier to be listened to? What practices will produce a deeper, more grounded, and stronger voice? 
  In the next two chapters we will be working with mood and centering. As you learn more about these topics, remember to bring your observations and what you’re learning about voice to understand how they can impact your work and expand your repertoire of tools and practices. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2523,13 +2578,13 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Moods are fundamental to human beings. We live in moods. Certain actions are available or not available to us when we're in particular moods. Our bodies both determine what moods we are in and what moods are available to us, and our moods can also determine how our bodies are shaped. In that way, moods are a physical presentation of our assessments and opinions. 
  When I say, “I feel great today!” I will most likely be standing tall, in an open posture, seeing a broad vista, and ready to act on opportunities that come my way. On the other hand, when I say to myself or to a colleague, "This company stinks, it's never going to change, and I'm not appreciated for all the hard work I've put in," my body will most likely be slumped over, collapsed, I’m looking down, and not much is possible. Imagine being slumped over, sitting at your desk and saying "I feel great today!!" The shape of a bent over, collapsed body doesn't match a mood of feeling great. Similarly, imagine standing tall with arms outstretched to the sky saying, "This company stinks, it's never going to change, and I'm not appreciated for all the hard work I've put in." The shape and the speaking are not coherent. So moods and the shapes of bodies in those moods predispose us to certain ways of thinking, speaking, and acting. 
  In addition, our opinions often become habitual thoughts that lead to automatic interpretations, coloring how we view the world. So our moods directly affect our capacity to take action and coordinate effectively with others. And our moods directly affect the quality of our relationships since people respond to our moods. This is an important principle in somatic work, because the mood we are in can determine how well or how poorly we connect with and listen to others, their concerns, their feedback, and their motivations. 
  As we become more competent in seeing and listening to somatic shapes with the distinctions of sensation, breathing, and voice, we can hear what mood people are in. We do this by listening to the stories and interpretations they express, sensing their somatic shape from the way our own body responds, whether in person or via telephone. A person’s somatic shape tells us where they are contracted or constricted, and how open and available they are. 
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2544,14 +2599,14 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">  
+                                        <string key="content">  
 Why am I giving importance to the phenomenon of moods, and listening for a person’s mood? I’m interpreting mood as the background thinking and view of life that predisposes what actions are possible or not possible for someone. Another way to say this is that moods reflect a person’s orientation to the future. This is different from emotions, which are triggered by some event and are short-lived (such as sadness over a loss or happiness over some good fortune). Moods, on the other hand, last for long periods of time, even a lifetime, or over generations (as in families, societies, or cultures). 
  For example, if someone is deeply resigned, the conversation that they are living in that’s in the background, defining how they see the world, is something like, “Nothing I can do will change anything.” That conversation affects what they see possible, or not. If they are resigned, they see nothing possible, and any attempt to show something new will fall into the old interpretation. For coaches, if coaching is going to be successful, the person’s mood must be addressed. Working with the background conversations and interpretations can change moods; however, working through the body is often deeper and more effective. Moods are embodied, so even when working with the conversations the person is living in, the body will eventually shift as well. With effective practices, moods can be permanently altered. 
  Each mood has a body shaped to be an expression of that mood. Following our example, then, what is the body of someone who is resigned? Imagine yourself thinking, “Nothing I do will change anything around here. It’s all hopeless anyway. I don’t know why I even try.”  
 What happens to your body? Most people who live in the story of resignation have their head down, they sit and stand slumped over, and their walk is slow and shuffling. 
  What’s the body of someone who is resentful? Try saying over and over, “Those people (or that person) have determined my fate and are to blame for my miserable condition.” Or, “S(he) has done me wrong and it’s her/his fault that my life is the way it is.” With resentment, there is also a commitment not to talk to the person(s) that we are blaming, but to silently continue to blame them for whatever they did to make us miserable. There is an anger and hostility that is internalized – what is this shape? Imagine a body that has arms crossed, protecting and closing off any possibility of connection or intimacy, narrow or squinted eyes, slumped down with no commitment to take action to resolve their own misery.   On the positive side, there is a body of acceptance, which produces a mood of peace. The conversation may be, “Possibilities may or may not be closed to me here, and I am still grateful for what life brings.” Or, “I’m willing to accept the way things are at the moment and deal with what is.” This body is open, at peace, calm and centered. From here, new actions can be designed, or the person may settle into the current situation without complaint, open to what will unfold. 
  When we have an acceptance of current conditions, and motivation to change our circumstances, bring a new project or enterprise into existence, or invent a new strategy, we are in a mood of ambition. The background conversation may be, “Wow! There’s a future for me here, and I’m going to make it happen!” What’s the shape of the body that is coherent with this background? When we are in this mood, we are open, often even smiling, enjoying life and engaging with people, the voice has a lilt to it, we are breathing freely, energy is flowing and there’s an easy vitality that is attractive to people around us.  The following chart provides a quick overview of these 4 basic moods:
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2681,9 +2736,9 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  The following expressions, whether spoken or not, can help you to recognize the background thinking of each mood. See what happens to your body as you “try on” each expression. Repeat the expression several times until your body takes on the mood. Then pay attention to the shape that you find yourself in. 
- &lt;&lt;insert audio recording&gt;&gt;  </mutableString>
+ &lt;&lt;insert audio recording&gt;&gt;  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2938,9 +2993,9 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> -I claim that I already know and my assessments are true. There is nothing else you can add here, and you should listen to me. 
+                                        <string key="content"> -I claim that I already know and my assessments are true. There is nothing else you can add here, and you should listen to me. 
  Enjoy practicing with these various moods and the conversations that provoke them. See what shape the bodies are that live in these moods. Not only does one’s mood predispose what actions may or may not be possible; a person’s mood greatly affects their identity and ability to provide leadership. Would you be more inclined to follow someone who is in a positive and accepting mood, or someone who is resigned or resentful? 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2978,13 +3033,13 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Most people look for coaches who can help them make some change or shift in their way of seeing the world, so they can achieve an outcome different from where they find themselves. From a coaching perspective, once you have recognized the mood someone is in, how can you help them change their mood? The key principles to work with are the shape of the body and the story the person is telling about their situation or their life. 
  When someone tells you their story, you can listen for not only the circumstances, but also the background that led to the conclusions and assessments a person is making, the history of actions that got them to where they are, and the melody of the telling. The melody comes from the body – so even if you are working over the phone, you’ll be able to listen for much of what determines a person’s mood. Once a mood is identified, what then? The more you can help a person become aware of the shape of their body in a particular mood, the easier it will be to provide practices to help them shift that shape. For example, you might ask, “Where are you breathing right now? How are you sitting, or standing? Describe your posture to me. What does that breathing or posture produce for you? What happens if you drop your breath (for example)? What do you notice? What happens if you stand taller and relax your shoulders (another example)? What do you notice then? 
  With this line of questioning, you are increasing the person’s ability to observe themselves. Once you’ve identified together the “old” body and the “new” body, you can design practices to help them remember the new body. With practice, the new body will become more authentic, and the story will also change. Shifting the story can also be accelerated with journaling, or ongoing practice of telling a new story about a situation in a way that’s authentic. 
  For example, I was in a mood of resentment for years about the work I was doing. No matter what I did, it was not enough for me to be satisfied. As a research chemist, I enjoyed working in the laboratory, but I wanted to be working with people. In business, I had other complaints, or dissatisfactions. After a string of starting different career paths, I started thinking about what happened at home while I was growing up. I remembered that we always waited for my Dad to come home, and then we sat down at the dinner table. Then Dad talked about his day. All we heard were complaints. My Dad supervised a warehouse crew, and we heard all the stories about how lazy this one was, how slow another one was, how the boss was pressuring him to get them to be more efficient, etc. etc. etc. He never spoke about himself, only about how wrong everyone else was, and how miserable it made him. It sounded like my liturgy when I came home! I began to see how the resentment about work became part of my heritage and embodiment. 
   To begin to change my view, I started journaling at the end of every workday, asking myself the questions, “What am I grateful for today? Who did something that I appreciated? Did I acknowledge the people working with me?” And similar questions to keep my thoughts focused in a positive direction. Prior to journaling, I did some deep breathing and centering practices. I did these practices for a year, focusing on my mood. At the end of that time, I was working joyfully, looking forward to my work every day. My stories at the end of the day were very different as well. And then I redesigned my work to be what I now see as the fulfillment of my purpose. It’s the work I’m still doing today, and loving every day of it. 
-  </mutableString>
+  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3235,7 +3290,7 @@ practices.</string>
                                 <viewLayoutGuide key="safeArea" id="wtm-Qn-qla"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">“Center is a living process of self-organization that increases our capacity to be self-generating, self-healing, and self-educating. To center ourselves is to shape ourselves in a particular way to life. It is a pattern of organization that expresses the self we are at any given moment. Center is a state of unity in which effective action, emotional balance, mental alertness, and spiritual vision are in harmonious balance. When we’re centered, our actions are coherent with what we care about.”</mutableString>
+                                        <string key="content">“Center is a living process of self-organization that increases our capacity to be self-generating, self-healing, and self-educating. To center ourselves is to shape ourselves in a particular way to life. It is a pattern of organization that expresses the self we are at any given moment. Center is a state of unity in which effective action, emotional balance, mental alertness, and spiritual vision are in harmonious balance. When we’re centered, our actions are coherent with what we care about.”</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="Arial-ItalicMT"/>
@@ -3271,11 +3326,11 @@ practices.</string>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Ideally, our practices are those activities that shape us to be able to perform at our best. When we're not fully aware of our bodies, or our mental and emotional states, the practices that we do are simply habits, either helping us be more effective, or producing greater states of unconsciousness. Even though we're always practicing something, we're usually not aware of what we're practicing, or what our habitual practices produce for us. The basic practices that are described here can produce more openness, awareness, and greatly increase our ability to take effective action. 
  How do these practices help? When our minds scan for problems and recall past problems in an effort to ensure that we don't repeat them, we often get caught in an endless loop: replaying, replaying, replaying, replaying. These loops could direct us to make the future look exactly like the past because the past is a known quantity and it's safe and predictable. Awareness of this automated process is the first step in getting free from its clutches. 
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3290,7 +3345,7 @@ practices.</string>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 To quickly move out of "auto mode" and put your thinking into "manual mode", use the following centering practice. Centering is a simple, powerful exercise that increases your ability to focus right now. Read this through and then stop for a moment: 
  • Take a deep breath starting in your belly, using the full torso breathing described in Chapter 3 “Breathing and Breathing Practices”. 
@@ -3298,7 +3353,7 @@ To quickly move out of "auto mode" and put your thinking into "manual mode", use
 • Keep breathing into the “center” of your body . . . three breaths, five. 
 • Bring your focus back to the task at hand and notice the subtle shift in your ability to direct your focus. 
  Take a few moments to reflect on what you experienced as you did this practice, and write down your observations. The more often you practice, the better able you will be to direct and focus your attention. By centering a few times a day, you build your ability to focus at will, for longer and longer periods of time. 
- Your physical </mutableString>
+ Your physical </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3313,10 +3368,10 @@ To quickly move out of "auto mode" and put your thinking into "manual mode", use
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> is a few fingers below your belly button – a place to drop your attention to when you feel anxious, or don't know how to move in a situation. You can tap your belly to help shift your attention quickly, bringing you to an openness and greater willingness to see what is happening without the distraction of your automatic ideas and opinions. Center is a bodily and energetic "base camp" that can be used as a way to focus, learn, and move through transitions. It helps you to feel bodily present to yourself and your situation. The state of center is a doorway to begin feeling your possibilities in the world, not as a rigid quality, but as a state to help you develop and access other parts of yourself. The power of center is in assisting you when you feel lost, anxious, or uncertain. 
+                                        <string key="content"> is a few fingers below your belly button – a place to drop your attention to when you feel anxious, or don't know how to move in a situation. You can tap your belly to help shift your attention quickly, bringing you to an openness and greater willingness to see what is happening without the distraction of your automatic ideas and opinions. Center is a bodily and energetic "base camp" that can be used as a way to focus, learn, and move through transitions. It helps you to feel bodily present to yourself and your situation. The state of center is a doorway to begin feeling your possibilities in the world, not as a rigid quality, but as a state to help you develop and access other parts of yourself. The power of center is in assisting you when you feel lost, anxious, or uncertain. 
  From center, you can then tune in to the flow of energy through you, and open those places where you are constricting your breathing and energy flow. 
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3331,9 +3386,9 @@ To quickly move out of "auto mode" and put your thinking into "manual mode", use
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Length is the energetic dimension to practice when you want to connect your actions to what you care about, build a strong ground or foundation, or any situation where a strong grounded presence is required. When you find yourself mindlessly repeating tasks, or overwhelmed by the details of everyday living, practice developing your length, and remember what you care about. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3362,7 +3417,7 @@ To quickly move out of "auto mode" and put your thinking into "manual mode", use
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">. By opening to the flow of energy through you, you can touch the earth, bringing yourself to a deeper connection with ground, while opening to spirit through the crown of your head. When connected through your vertical line, you are the channel for bringing spirit to earth, and earth to spirit. Take a few moments to reflect on your experience, and write your responses to these questions: 
+                                        <string key="content">. By opening to the flow of energy through you, you can touch the earth, bringing yourself to a deeper connection with ground, while opening to spirit through the crown of your head. When connected through your vertical line, you are the channel for bringing spirit to earth, and earth to spirit. Take a few moments to reflect on your experience, and write your responses to these questions: 
  • What did you feel when you connected to ground/the earth? 
  • What did you notice as you connected to spirit by “opening” your crown?
  • What happens when you are open to spirit and earth simultaneously? 
@@ -3370,7 +3425,7 @@ To quickly move out of "auto mode" and put your thinking into "manual mode", use
 
 Imagining your energetic roots reaching down into the earth from your feet, and dropping your energetic tail down from the end of your spine can develop length. These are the natural connecting points from our physical bodies to the ground. Establishing these connections provides a “grounded” presence. This is helpful when we want to establish authority, take a stand for something important to us, or simply feel our inherent strength. 
  Repeat the practice of extending your length, and remember to write down your observations and experiences as you practice to reveal and acknowledge what you are learning. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3417,14 +3472,14 @@ Imagining your energetic roots reaching down into the earth from your feet, and 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  To open your width, bring your breath to the mid-torso level, feeling your ribs expand and relax as you inhale and exhale. Then extend your energy in the horizontal direction, by expanding energetically through the sides of your structure. You may want to open and lift your arms, as though holding a giant ball – this can help you open your energetic width to become a more open container for all that you’re holding. Let yourself open to this dimension when you feel overwhelmed, alone and despondent, or when you want to securely hold all the commitments you have made to the people you care about. Continue practicing opening the dimension of width, and note your responses to the following: 
 
 • What do you experience as you “get wider”? 
  • How do other people appear when you open this dimension? 
  • How do you experience your capacity as you widen your structure? 
  This is a practice you will find helpful during transitions, when you are when you are starting a new project, when you are working in a new environment, or when you are joining a new community. In addition to helping us find a place of comfort within ourselves, opening width also can help us have compassion for our humanness and comfort with being a beginner in any new territory. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3469,14 +3524,14 @@ Imagining your energetic roots reaching down into the earth from your feet, and 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  To practice opening your depth, begin with full torso breathing, and bring your attention to your back. As you breathe, extend your energy behind you, and at the same time bring to mind all of your history: your life experience, all that you’ve learned, the people who have supported you, your teachers, colleagues, friends, family, mentors, ancestors, and spiritual guides. Continue opening and extending back until you feel comfortable with that expansion, you have a strong experience of your history, and feel the confidence of being supported by the past. Then take all that energy forward through your torso, and extend out in front of you, all the way forward, reaching to the horizon. Continuing to expand the energy you extended from your back and moving it forward can increase the dimension of depth. Continue practicing and write down what you observe in response to these questions: 
  • How far back can you extend your energy? If you don’t feel anything, or cannot extend beyond your skin, lean up against a 
 tree and feel the life force in the tree through your back. Extend into that life force. Then slowly move away, while maintaining the connection. With practice and increasing sensitivity, you will be able to extend your energy back without the tree or other living energetic body to connect to. You can also practice connecting through your back to another person by standing back to back, connecting, and very gradually moving apart, still feeling the connection energetically. 
  • What happens as you open to your history and all the life experience that supports you in moving forward to your future? 
  • How confident do you feel after doing this practice several times? 
  Go forward with confidence and competence, leading others toward the vision that you can hold by maintaining your vertical line and connection to what's important, while moving your energy out from your back, through your center to the horizon in front of you. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3506,9 +3561,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> 
+                                        <string key="content"> 
  Paying attention to the dimensions of length, width, and depth can help you locate how to help your clients with their learning challenges by connecting their somatic practices to what they are learning. Start by guiding them with a centering practice, then assess their ability to open to each dimension, noting especially where they are challenged and how their somatic challenges connect to what they are working on. By focusing on somatic practices, you can help them move and present themselves in ways more consistent with the future they are designing. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3523,9 +3578,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> 
+                                        <string key="content"> 
  These fundamental practices will help you feel life as a tangible experience, and your body awareness can then be used as a doorway to the realms of intuition, perception, and expression. These are not ends in themselves, but can help you move to a strong connection into yourself to carry into your dialogues with others, your work, and the deeper aspects of who you are as leaders in your families, businesses, communities and the world.   Remember, we are always practicing something. So choose your practices to help you be the person you want to be! 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3590,7 +3645,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                 <viewLayoutGuide key="safeArea" id="Uwc-LF-Pgm"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">"Any time merging with another occurs, or it is impossible to resist being pulled into the story or scenario of another person, it is safe to say your awareness is not at the Edge. Losing the ability to see, to feel, or to know yourself as separate and distinct from another person, is off base. In these situations: stop, assess, and begin again to reach the Edge. "</mutableString>
+                                        <string key="content">"Any time merging with another occurs, or it is impossible to resist being pulled into the story or scenario of another person, it is safe to say your awareness is not at the Edge. Losing the ability to see, to feel, or to know yourself as separate and distinct from another person, is off base. In these situations: stop, assess, and begin again to reach the Edge. "</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="Arial-ItalicMT"/>
@@ -3619,8 +3674,8 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> 
- Imagine a moment that happened recently, when you felt stressed, pressured, emotional, or otherwise impacted by circumstances outside your control. Remember how you felt? Wouldn’t it be great to have ways to help yourself in those moments? In my recent studies, I have found practices to accomplish just that. You can “get big”, expanding your energetic structure, so that you don’t feel pressured or stressed, can think clearly, and can take effective action by practicing the techniques I’ve described in the previous chapter, </mutableString>
+                                        <string key="content"> 
+ Imagine a moment that happened recently, when you felt stressed, pressured, emotional, or otherwise impacted by circumstances outside your control. Remember how you felt? Wouldn’t it be great to have ways to help yourself in those moments? In my recent studies, I have found practices to accomplish just that. You can “get big”, expanding your energetic structure, so that you don’t feel pressured or stressed, can think clearly, and can take effective action by practicing the techniques I’ve described in the previous chapter, </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3649,9 +3704,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">). This chapter takes those practices a step further, explaining how you can work with your extended energetic structure, based on the teachings and work of Sacred Anatomy Healing™ created by Desda Zuckerman. With awareness and intention, you can expand to the edge of your energetic structure: your own Edge. And when you are in a fully expanded state, circumstances, pressures and stresses that seemed overwhelming when your structure was collapsed or contracted, no longer have the same impact. You can think and move freely and have more choices available to you as a result. 
+                                        <string key="content">). This chapter takes those practices a step further, explaining how you can work with your extended energetic structure, based on the teachings and work of Sacred Anatomy Healing™ created by Desda Zuckerman. With awareness and intention, you can expand to the edge of your energetic structure: your own Edge. And when you are in a fully expanded state, circumstances, pressures and stresses that seemed overwhelming when your structure was collapsed or contracted, no longer have the same impact. You can think and move freely and have more choices available to you as a result. 
  The first step is to become aware of your breathing. Where is your breath located? Is it mostly high up in your chest? That’s pretty normal in our fast-paced world. Take a few minutes right now to work with your breathing. Bring it down to the level of your ribs. Then down to your belly. And now use your entire torso to breath, using the full capacity of your lungs. Once you can do that, we can start to work with expanding your energetic dimensions. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3682,8 +3737,8 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">. Let your breathing become narrow, moving along this vertical core. By opening to the flow of energy through your vertical core, you can touch the earth, connecting to a deep ground, while at the same time opening to spirit through the crown of your head. In many ancient teachings, we humans are seen as connectors, bringing spirit to earth and earth to spirit.  Practicing this dimension helps you stay connected to what you care about, moving in the world with inspiration while remaining “grounded” and stable. 
- Next, bring your breathing to your ribs. Feel your ribs moving out and expanding as you inhale, and dropping as you exhale. On the next breath, let your energy expand in the horizontal dimension, opening your </mutableString>
+                                        <string key="content">. Let your breathing become narrow, moving along this vertical core. By opening to the flow of energy through your vertical core, you can touch the earth, connecting to a deep ground, while at the same time opening to spirit through the crown of your head. In many ancient teachings, we humans are seen as connectors, bringing spirit to earth and earth to spirit.  Practicing this dimension helps you stay connected to what you care about, moving in the world with inspiration while remaining “grounded” and stable. 
+ Next, bring your breathing to your ribs. Feel your ribs moving out and expanding as you inhale, and dropping as you exhale. On the next breath, let your energy expand in the horizontal dimension, opening your </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3698,8 +3753,8 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">. This dimension is more social, and by opening yourself in the horizontal plane, you can be comfortable holding larger commitments, connect more easily with a community, feel your place in social environments, and facilitate group discussions while maintaining a connection with the individuals in the group. Let yourself open to this dimension when you feel overwhelmed, alone, despondent, or want to hold all the commitments you have made to the people you care about. 
- Accessing the third dimension is easier when you drop your breath to your belly. Keeping your breathing low in your torso, bring your awareness to your back, remembering all your learning, life experience, teachers, colleagues who support you, your family, friends, mentors, ancestors, and spiritual guides. Now, using focused intention, gather all that’s behind you and move the energy through your torso, out in front of you, moving into your future. This is the dimension of </mutableString>
+                                        <string key="content">. This dimension is more social, and by opening yourself in the horizontal plane, you can be comfortable holding larger commitments, connect more easily with a community, feel your place in social environments, and facilitate group discussions while maintaining a connection with the individuals in the group. Let yourself open to this dimension when you feel overwhelmed, alone, despondent, or want to hold all the commitments you have made to the people you care about. 
+ Accessing the third dimension is easier when you drop your breath to your belly. Keeping your breathing low in your torso, bring your awareness to your back, remembering all your learning, life experience, teachers, colleagues who support you, your family, friends, mentors, ancestors, and spiritual guides. Now, using focused intention, gather all that’s behind you and move the energy through your torso, out in front of you, moving into your future. This is the dimension of </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3714,9 +3769,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">. 
+                                        <string key="content">. 
  When you expand your depth, you can go forward with confidence and competence, leading others toward the vision that you can hold by maintaining your vertical line and connection to what’s important to you, while moving your energy forward to the horizon in front of you. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3731,7 +3786,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">  Now for the full expansion: start by practicing full torso breathing. Begin your breath as low in your torso as you can and as you continue inhaling, feel your ribs and chest expanding as you use the full capacity of your lungs. Breathe slowly, without forcing – feel your breath filling your entire torso as you inhale, and emptying your torso as you exhale. After a few full torso breaths, expand your energy in all directions from your center, going all the way out until you sense your own outermost boundary – the </mutableString>
+                                        <string key="content">  Now for the full expansion: start by practicing full torso breathing. Begin your breath as low in your torso as you can and as you continue inhaling, feel your ribs and chest expanding as you use the full capacity of your lungs. Breathe slowly, without forcing – feel your breath filling your entire torso as you inhale, and emptying your torso as you exhale. After a few full torso breaths, expand your energy in all directions from your center, going all the way out until you sense your own outermost boundary – the </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3746,14 +3801,14 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> of your unique energetic structure. You might feel this Edge anywhere from five to thirty feet or more beyond your physical body. Bring your awareness out just beyond your Edge. Now settle your awareness on the outside of this Edge. Continue building your skill to maintain your awareness at your Edge. As you practice, write down your responses to the following: 
+                                        <string key="content"> of your unique energetic structure. You might feel this Edge anywhere from five to thirty feet or more beyond your physical body. Bring your awareness out just beyond your Edge. Now settle your awareness on the outside of this Edge. Continue building your skill to maintain your awareness at your Edge. As you practice, write down your responses to the following: 
  • Notice how you feel in this expanded state. What can you observe now that was not available before you expanded your awareness to your Edge? 
  • What happens to your worries, concerns, and anxiety when you expand? 
  Now open your arms and send your energy out through your arms to your hands and out through your fingers. These energetic extensions from your fingers form “light fingers” that can extend all the way through your energetic structure to wrap around your Edge. 
  With your “light fingers” pull in a bit, bringing your Edge slightly closer to your physical body. Feel what happens as you do that. Then open your “light fingers” and let your Edge expand out further. Practice drawing your Edge in and let it out until you find a comfortable balance where you can feel your entire Structure around you, protecting you, with your awareness on your Edge. Here you are open and available, yet strong and protected. This is the optimal place for your awareness when you work. It is also optimal when you go into crowded places, or if you have a sense of being uncomfortable in any way. It really is the optimal place to be all the time. One of my clients used this practice to go through labor and delivery, saying it helped her have a focus bigger than the contractions and pain she felt when she focused only on her body. Her baby boy was able to come into the world naturally, with his mother using the practice of expanding her energetic structure with her awareness at her Edge. 
  • Continue practicing expanding your awareness and write down your observations and experiences as you practice. 
  • Note what emotional skills, communication skills, and sensory awareness become available as you continue to practice. 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3783,9 +3838,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> 
+                                        <string key="content"> 
  This is a more advanced practice, only for those students who have mastered the practices in the previous chapters. If you are confident with your own expansion, and are comfortable moving in the world while experiencing your own Edge, you may find this practice helpful for your more sensitive clients who have mastered the practices as described. As with any of the previous pieces, don’t hesitate to contact me if you have any questions! 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3800,9 +3855,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> 
+                                        <string key="content"> 
  Thank you for working with me and experimenting with this series of distinctions and practices. I hope you are enjoying your learning, as you become more sensitive to your own body and the bodies of the people you work with, learn with, play with, dance with, and live with! If you have any questions or comments, or just want to share what you’re learning by “Listening to Bodies”, please let me know. You can email me at szeman@somaticbusinesscoach.com. And most importantly, have fun listening! 
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -4137,6 +4192,70 @@ tree and feel the life force in the tree through your back. Extend into that lif
             </objects>
             <point key="canvasLocation" x="8372" y="1620.5397301349326"/>
         </scene>
+        <!--Media Mentions-->
+        <scene sceneID="BIl-OX-M8C">
+            <objects>
+                <tableViewController title="Media Mentions" id="QNQ-NT-ZO6" customClass="MediaMentionsTableViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="80B-DZ-u5C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="x7c-Iu-DsW">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fA4-yq-Bhi">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fA4-yq-Bhi" id="zdB-dk-cAP">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listening with All Our Senses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vo-Vx-R00">
+                                                    <rect key="frame" x="20" y="11" width="222" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="CeW-0p-ckB" kind="show" identifier="MM1" id="DWA-Tq-qA8"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MM2" id="0gk-iB-uyV">
+                                        <rect key="frame" x="0.0" y="72" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0gk-iB-uyV" id="flB-hd-dK0">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listening to Listening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1PV-Vx-J4f">
+                                                    <rect key="frame" x="20" y="11" width="163" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="CeW-0p-ckB" kind="show" identifier="MM2" id="HeG-1P-X1W"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="QNQ-NT-ZO6" id="4Ph-vc-rNB"/>
+                            <outlet property="delegate" destination="QNQ-NT-ZO6" id="LhP-MO-7iV"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFY-fZ-qjZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9113" y="1621"/>
+        </scene>
         <!--Contact Information-->
         <scene sceneID="GQx-AV-f3I">
             <objects>
@@ -4182,7 +4301,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DqA-OP-Sb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9229.6000000000004" y="1621.4392803598203"/>
+            <point key="canvasLocation" x="9836" y="1619"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kSh-Ns-3qE">
@@ -4216,6 +4335,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
         <image name="szeman" width="423" height="535"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="HeG-1P-X1W"/>
         <segue reference="3G4-xb-asf"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940B82AB22DA481700323048 /* Listening_With_All_Our_Senses.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 940B82AA22DA481700323048 /* Listening_With_All_Our_Senses.pdf */; };
+		940B82AD22DA481D00323048 /* Listening_to_Listening.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 940B82AC22DA481D00323048 /* Listening_to_Listening.pdf */; };
+		940B82AF22DA4B0200323048 /* MediaMentionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B82AE22DA4B0200323048 /* MediaMentionsTableViewController.swift */; };
 		940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */; };
 		941773A222944CB60038C69E /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941773A122944CB60038C69E /* AudioPlayerViewController.swift */; };
 		94336FDB22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94336FDA22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		940B82AA22DA481700323048 /* Listening_With_All_Our_Senses.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Listening_With_All_Our_Senses.pdf; sourceTree = "<group>"; };
+		940B82AC22DA481D00323048 /* Listening_to_Listening.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Listening_to_Listening.pdf; sourceTree = "<group>"; };
+		940B82AE22DA4B0200323048 /* MediaMentionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaMentionsTableViewController.swift; sourceTree = "<group>"; };
 		940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = body_scan_1.mp3; sourceTree = "<group>"; };
 		941773A122944CB60038C69E /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		94336FDA22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Levels_of_Breathing_and_How_They_Feel.mp3; sourceTree = "<group>"; };
@@ -71,6 +77,8 @@
 				9469199822B8C19400E0FAC7 /* Moods_and_the_shape_of_bodies.mp3 */,
 				944B7C8922D8D555008FA17F /* Basic_Practices.mp3 */,
 				944B7C8B22D8D55D008FA17F /* Expansion_Practice.mp3 */,
+				940B82AA22DA481700323048 /* Listening_With_All_Our_Senses.pdf */,
+				940B82AC22DA481D00323048 /* Listening_to_Listening.pdf */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 				94A0DBC921ECF6E000434710 /* Main.storyboard */,
 				94A0DBD721ECFA7F00434710 /* MainTableViewController.swift */,
 				94AD8299229ECA2D009E8E73 /* AudioRecordingsTableViewController.swift */,
+				940B82AE22DA4B0200323048 /* MediaMentionsTableViewController.swift */,
 				941773A122944CB60038C69E /* AudioPlayerViewController.swift */,
 				94A0DBCE21ECF6E200434710 /* LaunchScreen.storyboard */,
 				94A0DBD121ECF6E200434710 /* Info.plist */,
@@ -169,6 +178,7 @@
 			files = (
 				94517671229FD7BE00B4EC30 /* Body_Scan_2.mp3 in Resources */,
 				94336FDD22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 in Resources */,
+				940B82AB22DA481700323048 /* Listening_With_All_Our_Senses.pdf in Resources */,
 				940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */,
 				94336FDB22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 in Resources */,
 				9469199722B8C18D00E0FAC7 /* Connection_between_breathing_and_voice.mp3 in Resources */,
@@ -179,6 +189,7 @@
 				94A0DBCB21ECF6E000434710 /* Main.storyboard in Resources */,
 				944B7C8E22D90C29008FA17F /* Assets.xcassets in Resources */,
 				944B7C8C22D8D55D008FA17F /* Expansion_Practice.mp3 in Resources */,
+				940B82AD22DA481D00323048 /* Listening_to_Listening.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +205,7 @@
 				94A0DBD821ECFA7F00434710 /* MainTableViewController.swift in Sources */,
 				941773A222944CB60038C69E /* AudioPlayerViewController.swift in Sources */,
 				94A0DBC621ECF6E000434710 /* AppDelegate.swift in Sources */,
+				940B82AF22DA4B0200323048 /* MediaMentionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

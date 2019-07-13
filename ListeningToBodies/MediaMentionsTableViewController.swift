@@ -1,14 +1,15 @@
 //
-//  MainTableViewController.swift
+//  MediaMentionsTableViewController.swift
 //  ListeningToBodies
 //
-//  Created by James Slusser on 1/14/19.
+//  Created by James Slusser on 7/13/19.
 //  Copyright © 2019 James Slusser. All rights reserved.
 //
 
 import UIKit
+import WebKit
 
-class MainTableViewController: UITableViewController {
+class MediaMentionsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +30,7 @@ class MainTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 15
+        return 2
     }
 
     /*
@@ -52,7 +53,7 @@ class MainTableViewController: UITableViewController {
 
     /*
     // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
             tableView.deleteRows(at: [indexPath], with: .fade)
@@ -77,14 +78,28 @@ class MainTableViewController: UITableViewController {
     }
     */
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "MM1" {
+            let webView = WKWebView()
+            let targetURL = Bundle.main.url(forResource: "Listening_With_All_Our_Senses", withExtension: "pdf")! // This value is force-unwrapped for the sake of a compact example, do not do this in your code
+            //print(targetURL)
+            let request = NSURLRequest(url: targetURL)
+            webView.load(request as URLRequest)
+            view.addSubview(webView)
+        }
+        
+        if segue.identifier == "MM2" {
+            let webView = WKWebView()
+            let targetURL = Bundle.main.url(forResource: "Listening_to_Listening", withExtension: "pdf")! // This value is force-unwrapped for the sake of a compact example, do not do this in your code
+            let request = NSURLRequest(url: targetURL)
+            webView.load(request as URLRequest)
+            view.addSubview(webView)
+        }
     }
-    */
-
 }
