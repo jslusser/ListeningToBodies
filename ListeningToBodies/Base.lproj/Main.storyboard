@@ -1230,12 +1230,12 @@ Cgo
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 The hope of our technological evolution has been to increase productivity, efficiency, and the probability of achieving more. But more of what? And to what end? Advancements in technology reduce the amount of time needed to assess, process, and deliver results at work. At the same time, workloads have increased as technological advances have helped organizations function with leaner staffing. Multi-tasking has become second nature. Global markets are easily accessible. Communicating with large audiences is not only possible; it is more affordable than ever before. This forward movement maximizes time and consequently produces higher professional expectations for future endeavors. Yet in the face of such achievements we have to ask ourselves: Are we getting the results we expected? And what is the personal cost for such progress?
  Today more than ever before, people are relying on external sources rather than on their own internal wisdom. While creating an enormous technological skill set, a social shift has also taken place as a result of humankind’s progression. The expression of political, economic, spiritual, religious, and sexual ideologies transcends geographic borders. The Internet, television, best sellers, and magazines provide guidelines on what to eat, how to dress, who to love, how to live, what to drive, where to work, when to procreate, who is right, and who is wrong. This shift has changed the way information about the outside world is gathered and evaluated - affecting the mental constructs, physiology, emotional reactions, and spiritual states of many individuals. In my work as a somatic coach, I find that many people have forgotten how to access their feelings, or how to interpret sensations and information received through the body. This lack of personal awareness is a high price to pay for technological evolution.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1250,13 +1250,13 @@ The hope of our technological evolution has been to increase productivity, effic
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Sensing and feeling are even more important when we are working with others. Most of us are working directly with people in our organizations, families, or through social interaction. In traditional organizations we relied heavily on visual interpretations to determine what was happening with our colleagues, managers, employees, or clients sitting face to face. However, when we're working over the telephone, the visual sense is eliminated, making it critical to develop other senses and awareness. With practice, we can increase our listening and feeling skills to notice sensations and changes in our physical, emotional, and energetic structures in response to what we hear and sense from others. Not only do we learn more about our own reactions, and ourselves, we also become more sensitive to what is happening with people and how we affect them as we work, play, love, and move around in daily life.
  If you're a coach, being aware of your client's limiting behaviors and helping them act differently can be transforming for them. A coach who listens well can help a client release constraints that prevent them from acting the way they want, rather than the way they automatically react. This can be done over the telephone. It requires an ability to distinguish where constraints are located, bringing a client's attention to the specific location of the constraint or contraction, and then guiding the client's awareness to shift and release the contraction. Your ability to work through the body during telephone conversations can greatly enhance your effectiveness to help your clients increase awareness, breakthrough constraints, and become self-generating themselves.
  For example, if you're leading a virtual team and speaking with a group that's located in different time zones, some may be just starting their workday while others may be ready to go home. The difference in timing alone could affect team members' ability to stay with the conversation and pay attention to important project planning. As the team leader, you'd want to be aware of people's moods, level of attention, ability to come up with solutions, recommended actions, or offers of help so you can maximize the effectiveness of your conference call.
  Whether over the phone or in person, our intent as coaches is to guide clients through deep releasing and healing of patterns that are no longer useful to them. They can then be free to act in ways that will create their desired results easily, without the effort and suffering of their old behaviors. Working through the body provides information that allows us to heal, regenerate, and move more effectively in the world, relaxed and ready to respond to opportunities.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1271,13 +1271,13 @@ The hope of our technological evolution has been to increase productivity, effic
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Managers, executives, supervisors, team leaders, consultants and coaches work directly with teams, groups, staffs, and individuals. If you are in one of these roles, can you differentiate between what you're sensing from your own internal reactions to conversations and external stimuli versus what you may be picking up from other people? Have you ever noticed that when one person in a meeting gets excited, others follow? When one begins to laugh, the humor is "catching?” Or when someone gets angry, other parties also get angry and the emotion escalates?
  If you are a coach, as you begin working with a new client, it is important to determine how attuned they are to their own somatic structure and physiology. An assessment of their level of awareness will help you determine how to proceed in your work together. Additionally, it is also very important for you as a coach to be aware of your own somatic state. You need to be able to differentiate between what is happening with you and what you are picking up from your client’s somatic structure and responses so you can be an objective observer and witness of the client's process.
  So how do we go about learning to sense what is "ours" and what we may be picking up from someone else? Learning to increase awareness of what our senses tell us about our own personal reactions is the first step on this learning path. The Body Scan is a highly effective technique to enhance this personal awareness.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1292,12 +1292,12 @@ Managers, executives, supervisors, team leaders, consultants and coaches work di
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Body scanning is an awareness technique, focusing and bringing your attention to places where you may notice sensations, tension, or contraction. Awareness alone may bring about some change or release, promoting more energy flow, greater peace, and relaxation. The phenomenon can be explained by one of the fundamental principles of somatics: energy follows attention, i.e. where we place our attention, energy will follow.⁹
  Before beginning to work with a client, listening to a colleague, or facilitating a team conversation, a body scan will tell you what your current baseline of sensation is.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1312,7 +1312,7 @@ Body scanning is an awareness technique, focusing and bringing your attention to
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  This practice may be done in a standing position, sitting, or lying down. The optimal position, especially when beginning, is standing. Here are some tips for maximizing an open posture:
 
 • Stand with your feet about as far apart as your shoulders or slightly wider
@@ -1328,7 +1328,7 @@ Body scanning is an awareness technique, focusing and bringing your attention to
 In this basic stance, your knees are unlocked, hip joints are open, spine
 is straight, and you are in a comfortable, balanced posture.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1343,7 +1343,7 @@ is straight, and you are in a comfortable, balanced posture.
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> 
+                                        <mutableString key="content"> 
 Bring your awareness to the top of your head. Notice any sensations that are there. Do this slowly at first, giving yourself enough time to feel any sensations in your scalp and around the top of your head. Then move your awareness to your forehead and around to the back of your head. Notice any sensations that are there. Continue moving your awareness while noticing the sensations through your entire upper body, torso, legs and feet. If you find any places where you are contracted, or the muscles are tense, stay with the tension, breathe, and allow the contracted muscles to relax, even if the release is slight. Pay particular attention to the following areas:
 
 • The muscles around your eyes
@@ -1361,17 +1361,17 @@ Bring your awareness to the top of your head. Notice any sensations that are the
 • Lower back, belly, pelvic muscles, hips and hip joints
 
 • Buttocks, thighs, knees, calves, ankles, feet and toes
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Play &quot;Body Scan 1&quot; in the Audio Recordings section now - see Table of Contents">
+                                    <fragment content="Action: Play &quot;Body Scan 1&quot; in the Audio Recordings section now - see Table of Contents">
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.03597526847453858" blue="0.057078312044066104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -1379,24 +1379,24 @@ Bring your awareness to the top of your head. Notice any sensations that are the
                                     <fragment content="  ">
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
-If you feel tension, but cannot bring about a release with just your breath, you might want to try exaggerating the tension and then releasing. For example, if your upper back and shoulders feel tight, pull your shoulders up to your ears as tightly as you can, hold, hold, hold, and then with a big exhale, release completely.   </string>
+                                        <mutableString key="content">
+If you feel tension, but cannot bring about a release with just your breath, you might want to try exaggerating the tension and then releasing. For example, if your upper back and shoulders feel tight, pull your shoulders up to your ears as tightly as you can, hold, hold, hold, and then with a big exhale, release completely.   </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Play &quot;Body Scan 2&quot; in the Audio Recordings section now - see Table of Contents ">
+                                    <fragment content="Action: Play &quot;Body Scan 2&quot; in the Audio Recordings section now - see Table of Contents ">
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -1425,11 +1425,11 @@ If you feel tension, but cannot bring about a release with just your breath, you
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Bringing regularity to the practice of Body Scanning will help you increase your skill level and sensitivity. Just like any new skill, it takes recurrence for the body to remember this practice. The more you practice, the easier it will be to notice sensory input, helping you interpret your environment and what's happening in your structure in response to or reaction to others. From the martial arts and adult learning studies, we know that it takes 300 repetitions for a new practice to become comfortable. It takes 3000 repetitions for a new practice to become embodied. Once a practice or skill is embodied, it can easily be called on as a chosen response in situations or circumstances that provoked an undesired reaction before the new skill was learned.
  Embodying the practice of Body Scanning can also increase your receptivity, especially if you do the practice with this intent. Over time and recurrence, you can become sensitive to energy shifts in others and can produce a resonance in your own somatic structure that matches the state of the person you are working with. For coaches, you can develop your skill level to the extent that you can observe in your own structure what you want to bring your client's awareness to. This phenomenon is similar to the phenomenon of resonance that occurs when a vibrating tuning fork comes close to another tuning fork with identical frequency. The second tuning fork will vibrate sympathetically when in the proximity of the first vibrating tuning fork. Similarly, you can sense in your structure what another person is experiencing with their energy flow, or contraction of that flow by "tuning" to that person's somatic state. Upon reaching this state of resonance, you will find that you can coach a client to relax contractions, open areas that are constrained, and release what is ready to move, allowing them to act in ways that were not available in the contracted state. As your clients become competent observers and "scanners,” they will expand their range of possibilities for generating the actions that will bring about their desired future.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1475,13 +1475,13 @@ If you feel tension, but cannot bring about a release with just your breath, you
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  A fundamental principle in the ability to listen to bodies long distance is that energy follows awareness. Listening to the senses and learning to differentiate the sensations experienced while working with a client enables you to focus your awareness and the client's awareness to a particular area. Energy will follow this awareness and allow appropriate shifts to take place within your client’s somatic structure. Let's consider why this is an important principle.
  There are genetic, environmental, and historical influences that affect our somatic state on a day-to-day basis. In somatic work we work with those influences, helping our clients make shifts on a very fundamental
 level. Many times this will mean helping them make physical shifts in places where the muscles have contracted repeatedly in response to situations that are similar to past triggering situations, where behavior may have been learned at an early age. For example, in the last century, one of the fundamentals of parenting in some cultures included a rule that "children should be seen and not heard." Children growing up in such an environment learned to avoid being punished by not speaking around adults, not expressing their opinions, and containing themselves to win the approval of their elders. After many years of this learned behavior, the shape of the child's musculature and emotions reduces the response to speak up, thus shaping the body to contain expression. Now the child is an adult, wanting to speak up, but when the moment comes to speak, the behavior of containment is still present. By bringing the client's awareness to places where that containment occurs, they can relax the constriction, bring vitality to the musculature and learn to speak freely. First, awareness, then energy, then freedom toward new action.
  The contraction or constriction of muscles in a particular part of the body will sometimes affect someone’s breathing, their voice and their overall mood. So we begin with sensation to build awareness. In the next chapters, we will explore what happens when we can listen for breath, voice, mood, and the implications for effective action. By simply learning to breath you can find increased energy and a more positive emotional state. Stress decreases and contractions release. New behaviors can be learned with practice - a result of listening and paying attention to sensation.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1496,10 +1496,10 @@ level. Many times this will mean helping them make physical shifts in places whe
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  One of the most powerful somatic coaching practices is simply to notice what is happening in the body at any given moment. “When I pay attention to body reactions,” says one executive, “it’s relatively easy to shift an automatic (often unconscious) reaction to an intended one. This has helped me be much more effective at work and in dialogue with my daughter – two areas I care about.”   Increased personal awareness leads to increased interpersonal awareness. “Because I am more aware of my own energy and mood,” says another executive, “I am also aware of the energy and mood in staff meetings and other business contexts. It’s so much easier to be connected and effective with other people at work, even people I used to consider difficult".
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1514,11 +1514,11 @@ level. Many times this will mean helping them make physical shifts in places whe
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 At times there are very basic shifts we can make to increase the flow of energy within the somatic structure. For example, when we are sitting down the hip joints are bent. Energy flow becomes constricted by the bend. When we stand up, those channels open. I ask my clients to stand with their shoes off, keeping the outsides of their feet parallel when performing the Body Scan. This positioning of the body opens the hips, helps unlock the knees, and allows for the free flow of energy throughout the vertical channel. One client of mine, skeptical of somatic work to say the least, came to the phone with a headache, pain in her neck, and pain in her upper back. When we started the call she wasn’t even aware of these pains. Within five minutes of guiding her through the Body Scan she was able to relax the muscles behind the eyes, relax her neck and eliminate all of the pain that she came to the call with. For her it was a miracle and she is no longer a skeptic. She is now practicing the Body Scan every day.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1533,10 +1533,10 @@ At times there are very basic shifts we can make to increase the flow of energy 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  When we start developing awareness of our own sensations and discover what and to whom we react in our environment, we begin to get more control over our own reactions. We are then able to move differently. For example, two clients of mine shared a similar roadblock at work. Each client felt challenged by people in authority. Rather than speak up or voice their concerns, they got scared and didn't say anything. By practicing the Body Scan they were able to sense where their reactions began within their bodies when confronted by someone they gave authority to. Ultimately, each client was able to shift the interpretation that had them closing their mouth and not speaking their opinions or concerns. In both cases, after speaking up, they now have a much more effective working relationship with their boss. In one case, the boss thanked my client for voicing her concerns and instituted new departmental standards based on the issue she spoke up about. In the second case, my executive client felt very harshly judged, when in fact the person he reported to had a positive assessment of the executive’s performance. This was only discovered when my client was able to express his opinions, ask questions, and have a more comfortable conversational exchange, which wasn’t possible before increasing the executive's awareness of his constraints.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1551,7 +1551,7 @@ At times there are very basic shifts we can make to increase the flow of energy 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Do the Body Scan again. When you have finished practicing the Body Scan a second time, take a few minutes to write your responses to the following questions:
 
@@ -1563,7 +1563,7 @@ Do the Body Scan again. When you have finished practicing the Body Scan a second
 
 • What did you learn?
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1578,10 +1578,10 @@ Do the Body Scan again. When you have finished practicing the Body Scan a second
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Working with the body is where we as somatic coaches have the most leverage in helping our clients expand their repertoire of actions: actions that will help them achieve what they want more effectively and efficiently. Expanding this repertoire is contingent upon increasing somatic awareness. However, physiological, emotional, and spiritual awareness is only possible by connecting or in many cases reconnecting with our senses.
- The Body Scan is a practice that will increase your sensitivity and awareness of your own state and your sensitivity towards the people around you. For coaches, managers and executives, this awareness will enable you to address somatic obstacles that interfere with your ability, and your clients’ and employees’ ability to move in ways that will bring about the fulfillment of your goals.  </string>
+ The Body Scan is a practice that will increase your sensitivity and awareness of your own state and your sensitivity towards the people around you. For coaches, managers and executives, this awareness will enable you to address somatic obstacles that interfere with your ability, and your clients’ and employees’ ability to move in ways that will bring about the fulfillment of your goals.  </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1680,7 +1680,7 @@ Working with the body is where we as somatic coaches have the most leverage in h
                                 <color key="backgroundColor" white="1" alpha="0.75056185787671237" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Controlled deep breathing helps the body to transform the air we breathe into energy. The stream of energized air produced by...controlled deep breathing produces a current of inner energy which radiates throughout the entire body and can be channeled to the body areas that need it the most, on demand...you can use this current of inner energy to relieve muscular tension throughout the body, revitalize a tired mind, or soothe localized aches and pains.”</string>
+                                        <mutableString key="content">“Controlled deep breathing helps the body to transform the air we breathe into energy. The stream of energized air produced by...controlled deep breathing produces a current of inner energy which radiates throughout the entire body and can be channeled to the body areas that need it the most, on demand...you can use this current of inner energy to relieve muscular tension throughout the body, revitalize a tired mind, or soothe localized aches and pains.”</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="Arial-ItalicMT"/>
@@ -1735,9 +1735,9 @@ Working with the body is where we as somatic coaches have the most leverage in h
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Levels of atmospheric oxygen have steadily declined at the rate of .002 percent per year, due to pollution and climate shifts. Although this is not a great loss from one year to the next, the decrease has a dramatic impact on us humans over centuries. Why is the amount of oxygen we take in important?
- When oxygen is in short supply (as it is for almost 90 percent of us, due to shallow breathing), the ability of intestinal villi to absorb nutrients plunges by as much as 72 percent, according to research at the University of Edinburgh in the United Kingdom. “When oxygen intake improves, nutrient absorption is enhanced within minutes, boosting metabolic rate by as much as 30 percent,” says nutritionist Marc David</string>
+ When oxygen is in short supply (as it is for almost 90 percent of us, due to shallow breathing), the ability of intestinal villi to absorb nutrients plunges by as much as 72 percent, according to research at the University of Edinburgh in the United Kingdom. “When oxygen intake improves, nutrient absorption is enhanced within minutes, boosting metabolic rate by as much as 30 percent,” says nutritionist Marc David</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1752,13 +1752,13 @@ Working with the body is where we as somatic coaches have the most leverage in h
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">. In addition, deep breathing keeps cells oxygenated, helping the body to maintain optimal ATP (adenosine triphosphate) production, the defining factor for the conversion of food into usable energy.
+                                        <mutableString key="content">. In addition, deep breathing keeps cells oxygenated, helping the body to maintain optimal ATP (adenosine triphosphate) production, the defining factor for the conversion of food into usable energy.
 
 There are even more benefits to breathing deeply. Up to 70 percent of toxins (preservatives, pesticides, etc.) can be converted into gases that are expelled through deep breaths, so deep breathing can remove toxicity from the body. According to studies at the Sansum-Santa Barbara Medical Foundation Clinic, simply breathing slowly and deeply to maximize the oxygen inhaled and the carbon dioxide and wastes exhaled, increases the release of fat-packing toxins by as much as fifteen fold. Research at the International Breath Institute in Boulder, Colorado shows that most people use less than 25 percent of their lungs’ two-gallon capacity. When people improve their breathing and maximize their oxygen intake, they can more than double the amount of body fat they oxidize and burn each week.
 
 Keeping the bloodstream oxygenated calms the entire central nervous system, lowering production of the stress hormone cortisol by as much as 50 percent in 10 minutes. When oxygen levels are high and the nervous system is calm, the pancreas responds by reducing its production of fat-storing insulin. So breathing deeply can help with weight loss and increasing available energy!
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1773,11 +1773,11 @@ Keeping the bloodstream oxygenated calms the entire central nervous system, lowe
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Just about everyone is conscious of, or easily recognizes the inhalation and exhalation of breath. This includes people who haven’t developed any awareness of their own body or feelings. They know that they’re breathing and most can identify where in their body they feel their breath. Once they can feel their inhalation and exhalation, I ask them, “Where is your breath actually located right now?”
  For the purposes of practicing, I make a distinction between four distinct ways of breathing. There are many breathing practices in yogic and eastern traditions, however, being able to distinguish and practice these four, will provide you with foundational practices for yourself and the people you are working with. I call these distinct ways of breathing: high, middle, dropped and full torso breathing.
- When I refer to </string>
+ When I refer to </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1792,9 +1792,9 @@ Just about everyone is conscious of, or easily recognizes the inhalation and exh
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> breath, I am highlighting the breathing that happens mostly in the upper chest - also known as shallow breathing. When breathing in the upper chest we are not using the expansion of the torso to fill our lungs. Rather, to get the oxygen we need to function, we breathe faster.
+                                        <mutableString key="content"> breath, I am highlighting the breathing that happens mostly in the upper chest - also known as shallow breathing. When breathing in the upper chest we are not using the expansion of the torso to fill our lungs. Rather, to get the oxygen we need to function, we breathe faster.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1809,8 +1809,8 @@ Just about everyone is conscious of, or easily recognizes the inhalation and exh
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> breathing or mid-torso breathing, on the other hand, takes in more air with each inhale, due to the expansion of the ribcage while inhaling. You can feel the expansion of the ribs by placing your hands on the sides of your rib cage and allowing your hands to move outward as you inhale - allowing them to move in as you exhale.
- The third breath I refer to is a </string>
+                                        <mutableString key="content"> breathing or mid-torso breathing, on the other hand, takes in more air with each inhale, due to the expansion of the ribcage while inhaling. You can feel the expansion of the ribs by placing your hands on the sides of your rib cage and allowing your hands to move outward as you inhale - allowing them to move in as you exhale.
+ The third breath I refer to is a </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1825,19 +1825,19 @@ Just about everyone is conscious of, or easily recognizes the inhalation and exh
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> breath. Dropped breath uses more of the volume of the lungs. In this case, it’s the belly that is expanding while inhaling and contracting while exhaling, filling the lungs from the bottom, where the largest capacity is. In dropped breathing, the ribs are moving but the upper chest remains relatively still. Most of the movement is low in the torso. Breathing from the belly uses more lung capacity and also increases blood oxygenation - building greater stamina and immediately increasing available energy.
+                                        <mutableString key="content"> breath. Dropped breath uses more of the volume of the lungs. In this case, it’s the belly that is expanding while inhaling and contracting while exhaling, filling the lungs from the bottom, where the largest capacity is. In dropped breathing, the ribs are moving but the upper chest remains relatively still. Most of the movement is low in the torso. Breathing from the belly uses more lung capacity and also increases blood oxygenation - building greater stamina and immediately increasing available energy.
  By optimizing the use of our lungs, which thereby optimizes oxygenation and energy availability, we can bring the three distinct ways of breathing together - using the entire torso in full torso breathing. Full torso breathing starts in your belly, expanding your ribs as you inhale and continues as you bring your breath softly into your upper chest, followed by a complete exhalation before breathing in again.
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Play &quot;Breathing to Stimulate the Vagus Nerve&quot; in the Audio Recordings section now - see Table of Contents  ">
+                                    <fragment content="Action: Play &quot;Breathing to Stimulate the Vagus Nerve&quot; in the Audio Recordings section now - see Table of Contents  ">
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -1859,14 +1859,14 @@ Just about everyone is conscious of, or easily recognizes the inhalation and exh
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 Remember when you are working with a client to check in with them by asking where they are breathing. This will help you determine their awareness, and will also validate what you are sensing in your own structure as you listen.
 
 For example, at times I will start to feel anxious while listening to a client talk about their work situation, difficult conversations they are worried about, or some other challenge they are facing. Sometimes I can feel their anxiety in their greeting. My own sensations are a sign for me to ask where they are breathing. Most likely, their breath is located up high in their chest, increasing their tension, causing the pace of their breath to be faster than when it’s dropped.
  Once they can feel their breath, we can go on to determine whether breathing this way is helping them take the actions they are wanting to take, or hindering them to be the way they want to be and be perceived by others. So the breath alone can optimize their readiness for certain actions, and minimize options for other actions.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1881,10 +1881,10 @@ For example, at times I will start to feel anxious while listening to a client t
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  It’s important to realize that each type of breathing opens and closes possibilities. We are often told that the best way to breath is in your belly. I agree with that for the most part, however in many corporate environments, where people are “in their heads,” moving at a very fast pace, using their mental facilities without feeling the senses – high breathing can be helpful to “fit in”, connect, and then choose whether we want to remain breathing that way.
  To connect with colleagues who are breathing fast and high, be perceived as credible by them, and fit into the culture, it can help to bring your breath up higher in your chest. This kind of breathing is useful for analytical thinking, data analysis, and other tasks that require a narrow focus. You can do this and remain grounded and centered, if you are somatically aware and present in your body. In most corporate environments today, we see people walking around, lost in thought, breathing high. Their whole structure is kind of narrow and contracted. You will also notice that when they move, they are leaning forward, leading with their head. Another way to help someone counteract this automatic way of moving is with a practice I call “heel down walking”.
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1899,7 +1899,7 @@ For example, at times I will start to feel anxious while listening to a client t
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Imagine that your lungs are only functioning in the upper part of your chest. Draw your breath up, inhaling by expanding the very top of your chest, and exhale as best you can by releasing the chest muscles. If you can isolate your breathing into the upper chest completely, you may also notice the pace of your breathing increasing. This is because you will have to breathe faster to get more oxygen into your lungs and bloodstream. Reflect for a moment, and write down your responses to the following questions.
 
 • What does this level of breathing produce for you?
@@ -1916,7 +1916,7 @@ For example, at times I will start to feel anxious while listening to a client t
 
 • What’s not possible?
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1931,11 +1931,11 @@ For example, at times I will start to feel anxious while listening to a client t
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  This practice is an antidote for people who are walking fast, breathing fast, leaning forward, leading with their head. This way of moving around makes it difficult to be aware of others, and often leads to an assessment that the person is distracted and unavailable.
  The practice of walking by placing the heel of the foot down on the ground first and rolling onto the whole foot will help the person’s body shift back to a more vertical line, instead of leading with the head. This automatically helps slow the pace of the walk, and allows an easier dropped breath. Many of my clients have found this practice beneficial; especially if they are working on making stronger connections with their colleagues and people they are managing. Slowing the pace of their breathing and walking allows their vision to include others, opening their peripheral vision to take in a broader expanse of the environment. This produces an assessment that the person is open, ready to engage, and is seeing the bigger picture.
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1950,8 +1950,8 @@ For example, at times I will start to feel anxious while listening to a client t
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
- Mid-level breathing facilitates opening awareness to include others, as when working with a team, facilitating a group process, or when you want to connect with a community. You can stay active and focused, for example, on the purpose and agenda of a meeting, drop your breath and connect with the entire group of people you are facilitating by breathing in the middle of your torso. Breathe by expanding your ribs - extending your energy out through your sides (in the horizontal direction), and then connect to and hold the group with your awareness. This may seem complicated at first, but with practice breathing in this way will ease the extension of energy in the horizontal direction (opening your energetic </string>
+                                        <mutableString key="content">
+ Mid-level breathing facilitates opening awareness to include others, as when working with a team, facilitating a group process, or when you want to connect with a community. You can stay active and focused, for example, on the purpose and agenda of a meeting, drop your breath and connect with the entire group of people you are facilitating by breathing in the middle of your torso. Breathe by expanding your ribs - extending your energy out through your sides (in the horizontal direction), and then connect to and hold the group with your awareness. This may seem complicated at first, but with practice breathing in this way will ease the extension of energy in the horizontal direction (opening your energetic </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1966,9 +1966,9 @@ For example, at times I will start to feel anxious while listening to a client t
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). Your breath can come up a little from your belly but notice when you breathe out from your sides how much easier it is for your energy to follow. You’ll find that developing your breathing in the horizontal direction can help you expand to connect and extend to a group easily.
+                                        <mutableString key="content">). Your breath can come up a little from your belly but notice when you breathe out from your sides how much easier it is for your energy to follow. You’ll find that developing your breathing in the horizontal direction can help you expand to connect and extend to a group easily.
  Practice mid-level breathing by moving your ribs out as you inhale. Extend your energy horizontally, lifting your arms as though opening to and holding a giant beach ball. Notice what happens. You may begin to feel larger, more expansive, and more relaxed with yourself and the people you are with. If you feel unsettled or “spacey”, extend your energy down into the earth through your legs and feet, planting yourself firmly on the ground.
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1983,7 +1983,7 @@ For example, at times I will start to feel anxious while listening to a client t
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Place your hands on your ribs on the sides of your torso, and let your ribs push your hands out as you inhale, feeling your ribs dropping in as you exhale. Continue practicing this mid-level breathing, taking several deep breaths using your ribs to control your breath.
 
 • Where does your awareness naturally open?
@@ -2000,7 +2000,7 @@ For example, at times I will start to feel anxious while listening to a client t
 
 • How do people appear when you breathe this way?
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2015,10 +2015,10 @@ For example, at times I will start to feel anxious while listening to a client t
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Isolating your breathing in the bottom of your torso can help open the lower portion of your structure. This allows for a greater flow of energy to your legs, feet, and ultimately to your connection with the earth. Energetically connecting to earth or ground is often called “being grounded.” This connection is important when you want to establish credibility as an authority or expert with content, or delivering a communication that means something to you, when you are facing conflict, or some potential danger. When you bring your breath down, your attention and energy can easily move down as well. You can move more easily from your center, extending as needed, open to meet whatever or whoever is coming toward you with confidence and stability - rather than contraction and fear. This is helpful, for example, when you are preparing for a difficult conversation, preparing to work with a client who has challenging issues to work with, or any situation that is new, unfamiliar, or threatening.
  Practicing to isolate your breathing by using your belly helps train your muscles. With recurrence, you’ll find that during times of stress or challenge, your breathing can easily shift to provide support for your intent in the situation.
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2033,7 +2033,7 @@ For example, at times I will start to feel anxious while listening to a client t
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Place one or both hands on your belly, just below your belly button. Take a few breaths to feel the expansion and contraction of your belly as you inhale and exhale. Make sure your hand(s) are being moved in and out with your belly – extending out as you inhale, and dropping as you exhale.
 
 • Where does your attention go as you practice?
@@ -2047,7 +2047,7 @@ For example, at times I will start to feel anxious while listening to a client t
 • What about your thoughts?
 
 You can practice isolating your breath even further with this “belly breathing” (for the sake of increasing your mastery) by keeping almost all of the movement in the lowest part of your torso – relaxing the mid- section, chest and shoulders fully. This helps your mid and upper body stay relaxed and ready to respond to whatever is coming your way – movement, conversations, circumstances – with full awareness, choosing the best action in the moment.
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2062,7 +2062,7 @@ You can practice isolating your breath even further with this “belly breathing
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  First exhale completely. Now, begin inhaling by expanding your belly, drawing your breath softly upward slightly, while keeping most of the movement around your pelvis and lower torso. As you continue breathing this way, allow your chest, shoulders and neck to relax each time you exhale, increasing the relaxation of those areas until any tension has dissipated completely.
 
 • What do you notice now?
@@ -2071,7 +2071,7 @@ You can practice isolating your breath even further with this “belly breathing
 
 • What do you notice as you connect into the earth, grounding yourself this way?
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2086,10 +2086,10 @@ You can practice isolating your breath even further with this “belly breathing
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 
 When all three of the above ways of breathing are integrated, you can breathe using your full torso. You are then maximizing oxygen intake and facilitating the exchange of gases through the tissues of the lungs and bloodstream, supporting and nourishing all physical processes and maximizing stamina. Full torso breathing also facilitates extending energy in all directions, optimizing length, width, and depth of the somatic and energetic structure
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2104,7 +2104,7 @@ When all three of the above ways of breathing are integrated, you can breathe us
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Begin your breath way down in your torso by expanding your belly to inhale. Continue inhaling, opening your ribs, feeling your breath move up into the middle of your torso. As you draw your breath on up into your chest, see if you can keep the muscles of your upper chest, shoulders and neck relaxed and open. It may help to release any tension you notice every time you exhale. Continue breathing this way for several rounds.
 
 • What are you noticing?
@@ -2113,7 +2113,7 @@ When all three of the above ways of breathing are integrated, you can breathe us
 
 • Horizontally, opening more width? Back to front, opening greater depth?
 
-When our somatic and energetic structures are open and extended, we are fully available, relaxed and ready to meet whatever comes our way with our full faculties prepared to respond. So not only is this the optimal way for us to breathe in preparation for working with our clients, but we can also help our clients by introducing this way of breathing into their program of practices.  </string>
+When our somatic and energetic structures are open and extended, we are fully available, relaxed and ready to meet whatever comes our way with our full faculties prepared to respond. So not only is this the optimal way for us to breathe in preparation for working with our clients, but we can also help our clients by introducing this way of breathing into their program of practices.  </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
