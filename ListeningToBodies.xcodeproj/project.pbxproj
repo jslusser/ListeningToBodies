@@ -12,6 +12,8 @@
 		940B82AF22DA4B0200323048 /* MediaMentionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B82AE22DA4B0200323048 /* MediaMentionsTableViewController.swift */; };
 		940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */; };
 		941773A222944CB60038C69E /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941773A122944CB60038C69E /* AudioPlayerViewController.swift */; };
+		9427A65422DD1FB60060CBAB /* Summary_of_Practices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9427A65322DD1FB60060CBAB /* Summary_of_Practices.mp3 */; };
+		9427A65622DD1FBF0060CBAB /* Final_Words.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9427A65522DD1FBF0060CBAB /* Final_Words.mp3 */; };
 		94336FDB22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94336FDA22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 */; };
 		94336FDD22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94336FDC22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 */; };
 		944B7C8A22D8D555008FA17F /* Basic_Practices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 944B7C8922D8D555008FA17F /* Basic_Practices.mp3 */; };
@@ -35,6 +37,8 @@
 		940B82AE22DA4B0200323048 /* MediaMentionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaMentionsTableViewController.swift; sourceTree = "<group>"; };
 		940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = body_scan_1.mp3; sourceTree = "<group>"; };
 		941773A122944CB60038C69E /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
+		9427A65322DD1FB60060CBAB /* Summary_of_Practices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Summary_of_Practices.mp3; sourceTree = "<group>"; };
+		9427A65522DD1FBF0060CBAB /* Final_Words.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Final_Words.mp3; sourceTree = "<group>"; };
 		94336FDA22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Levels_of_Breathing_and_How_They_Feel.mp3; sourceTree = "<group>"; };
 		94336FDC22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Breathing_to_Stimulate_the_Vagus_Nerve.mp3; sourceTree = "<group>"; };
 		944B7C8922D8D555008FA17F /* Basic_Practices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Basic_Practices.mp3; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				944B7C8B22D8D55D008FA17F /* Expansion_Practice.mp3 */,
 				940B82AA22DA481700323048 /* Listening_With_All_Our_Senses.pdf */,
 				940B82AC22DA481D00323048 /* Listening_to_Listening.pdf */,
+				9427A65322DD1FB60060CBAB /* Summary_of_Practices.mp3 */,
+				9427A65522DD1FBF0060CBAB /* Final_Words.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -178,8 +184,10 @@
 			files = (
 				94517671229FD7BE00B4EC30 /* Body_Scan_2.mp3 in Resources */,
 				94336FDD22A4FB8600CD62EB /* Breathing_to_Stimulate_the_Vagus_Nerve.mp3 in Resources */,
+				9427A65422DD1FB60060CBAB /* Summary_of_Practices.mp3 in Resources */,
 				940B82AB22DA481700323048 /* Listening_With_All_Our_Senses.pdf in Resources */,
 				940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */,
+				9427A65622DD1FBF0060CBAB /* Final_Words.mp3 in Resources */,
 				94336FDB22A4FB7E00CD62EB /* Levels_of_Breathing_and_How_They_Feel.mp3 in Resources */,
 				9469199722B8C18D00E0FAC7 /* Connection_between_breathing_and_voice.mp3 in Resources */,
 				944B7C8A22D8D555008FA17F /* Basic_Practices.mp3 in Resources */,
