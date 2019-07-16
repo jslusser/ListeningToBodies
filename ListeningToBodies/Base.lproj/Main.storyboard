@@ -338,7 +338,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Media Mentions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVX-u6-8zK">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVX-u6-8zK">
                                                     <rect key="frame" x="8" y="11.5" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
@@ -352,7 +352,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="QNQ-NT-ZO6" kind="show" id="HHH-Ey-Uwz"/>
+                                            <segue destination="ini-S5-awl" kind="show" id="9jz-e1-4ma"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ays-R9-zyE">
@@ -398,14 +398,14 @@
             <objects>
                 <viewController title="Why the Conch Shell?" id="a9M-66-mxY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fsH-6r-Saj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="baQ-Q8-2Xe">
-                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ijr-iZ-jCd">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="0.49521083047945208" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -449,14 +449,14 @@ Hold a conch shell to your ear: hear a different world. 
             <objects>
                 <viewController title="Introduction" id="0pk-Vh-7lT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sv3-aM-vJh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="cjL-hq-KvX">
-                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tgr-gH-Y4n">
-                                <rect key="frame" x="8" y="64" width="367" height="603"/>
+                                <rect key="frame" x="8" y="88" width="406" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="0.75393300513698636" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -626,14 +626,14 @@ Cg
             <objects>
                 <viewController title="Preface: About Somatic Business Coaching" id="Bo2-h4-mGM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQn-82-Plf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="lvF-Dk-nmP">
-                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DD8-Hk-Fu5">
-                                <rect key="frame" x="8" y="64" width="367" height="603"/>
+                                <rect key="frame" x="8" y="88" width="406" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="0.75" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -851,8 +851,9 @@ In our learning together, I will provide the basic principles that will help you
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OA2-UN-GBc">
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iy4-aF-irn">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -860,13 +861,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </wkWebViewConfiguration>
                             </wkWebView>
                         </subviews>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="OA2-UN-GBc" firstAttribute="top" secondItem="dfP-Wt-4fN" secondAttribute="top" id="PN6-rX-q4e"/>
-                            <constraint firstItem="OA2-UN-GBc" firstAttribute="trailing" secondItem="dfP-Wt-4fN" secondAttribute="trailing" id="fd4-ac-OfI"/>
-                            <constraint firstItem="OA2-UN-GBc" firstAttribute="leading" secondItem="dfP-Wt-4fN" secondAttribute="leading" id="kBr-WR-Y5K"/>
-                            <constraint firstAttribute="bottom" secondItem="OA2-UN-GBc" secondAttribute="bottom" id="me9-gt-FxB"/>
-                        </constraints>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dfP-Wt-4fN"/>
                     </view>
                 </viewController>
@@ -879,14 +874,14 @@ In our learning together, I will provide the basic principles that will help you
             <objects>
                 <viewController title="LISTENING: How do we do it?" id="AOq-D3-lBu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="siR-lk-PLu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="zdD-GY-eoH">
-                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rpL-LO-qcN">
-                                <rect key="frame" x="8" y="64" width="367" height="603"/>
+                                <rect key="frame" x="8" y="88" width="406" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="0.74852846746575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1173,14 +1168,14 @@ Take a few moments to write down what you experienced during this exercise. The 
             <objects>
                 <viewController title="Sensation and Body Scanning" id="t9g-Gq-GHp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2z6-zM-bCf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="8pv-T7-zQi">
-                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T0r-FT-Axb">
-                                <rect key="frame" x="8" y="64" width="367" height="603"/>
+                                <rect key="frame" x="8" y="88" width="406" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="0.75486943493150682" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment content="&quot;There is no way in which to understand the world without first detecting it through the radar-net of our senses.&quot;">
@@ -1230,12 +1225,12 @@ Cgo
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 The hope of our technological evolution has been to increase productivity, efficiency, and the probability of achieving more. But more of what? And to what end? Advancements in technology reduce the amount of time needed to assess, process, and deliver results at work. At the same time, workloads have increased as technological advances have helped organizations function with leaner staffing. Multi-tasking has become second nature. Global markets are easily accessible. Communicating with large audiences is not only possible; it is more affordable than ever before. This forward movement maximizes time and consequently produces higher professional expectations for future endeavors. Yet in the face of such achievements we have to ask ourselves: Are we getting the results we expected? And what is the personal cost for such progress?
  Today more than ever before, people are relying on external sources rather than on their own internal wisdom. While creating an enormous technological skill set, a social shift has also taken place as a result of humankind’s progression. The expression of political, economic, spiritual, religious, and sexual ideologies transcends geographic borders. The Internet, television, best sellers, and magazines provide guidelines on what to eat, how to dress, who to love, how to live, what to drive, where to work, when to procreate, who is right, and who is wrong. This shift has changed the way information about the outside world is gathered and evaluated - affecting the mental constructs, physiology, emotional reactions, and spiritual states of many individuals. In my work as a somatic coach, I find that many people have forgotten how to access their feelings, or how to interpret sensations and information received through the body. This lack of personal awareness is a high price to pay for technological evolution.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1250,13 +1245,13 @@ The hope of our technological evolution has been to increase productivity, effic
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Sensing and feeling are even more important when we are working with others. Most of us are working directly with people in our organizations, families, or through social interaction. In traditional organizations we relied heavily on visual interpretations to determine what was happening with our colleagues, managers, employees, or clients sitting face to face. However, when we're working over the telephone, the visual sense is eliminated, making it critical to develop other senses and awareness. With practice, we can increase our listening and feeling skills to notice sensations and changes in our physical, emotional, and energetic structures in response to what we hear and sense from others. Not only do we learn more about our own reactions, and ourselves, we also become more sensitive to what is happening with people and how we affect them as we work, play, love, and move around in daily life.
  If you're a coach, being aware of your client's limiting behaviors and helping them act differently can be transforming for them. A coach who listens well can help a client release constraints that prevent them from acting the way they want, rather than the way they automatically react. This can be done over the telephone. It requires an ability to distinguish where constraints are located, bringing a client's attention to the specific location of the constraint or contraction, and then guiding the client's awareness to shift and release the contraction. Your ability to work through the body during telephone conversations can greatly enhance your effectiveness to help your clients increase awareness, breakthrough constraints, and become self-generating themselves.
  For example, if you're leading a virtual team and speaking with a group that's located in different time zones, some may be just starting their workday while others may be ready to go home. The difference in timing alone could affect team members' ability to stay with the conversation and pay attention to important project planning. As the team leader, you'd want to be aware of people's moods, level of attention, ability to come up with solutions, recommended actions, or offers of help so you can maximize the effectiveness of your conference call.
  Whether over the phone or in person, our intent as coaches is to guide clients through deep releasing and healing of patterns that are no longer useful to them. They can then be free to act in ways that will create their desired results easily, without the effort and suffering of their old behaviors. Working through the body provides information that allows us to heal, regenerate, and move more effectively in the world, relaxed and ready to respond to opportunities.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1271,13 +1266,13 @@ The hope of our technological evolution has been to increase productivity, effic
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 Managers, executives, supervisors, team leaders, consultants and coaches work directly with teams, groups, staffs, and individuals. If you are in one of these roles, can you differentiate between what you're sensing from your own internal reactions to conversations and external stimuli versus what you may be picking up from other people? Have you ever noticed that when one person in a meeting gets excited, others follow? When one begins to laugh, the humor is "catching?” Or when someone gets angry, other parties also get angry and the emotion escalates?
  If you are a coach, as you begin working with a new client, it is important to determine how attuned they are to their own somatic structure and physiology. An assessment of their level of awareness will help you determine how to proceed in your work together. Additionally, it is also very important for you as a coach to be aware of your own somatic state. You need to be able to differentiate between what is happening with you and what you are picking up from your client’s somatic structure and responses so you can be an objective observer and witness of the client's process.
  So how do we go about learning to sense what is "ours" and what we may be picking up from someone else? Learning to increase awareness of what our senses tell us about our own personal reactions is the first step on this learning path. The Body Scan is a highly effective technique to enhance this personal awareness.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1292,12 +1287,12 @@ Managers, executives, supervisors, team leaders, consultants and coaches work di
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 Body scanning is an awareness technique, focusing and bringing your attention to places where you may notice sensations, tension, or contraction. Awareness alone may bring about some change or release, promoting more energy flow, greater peace, and relaxation. The phenomenon can be explained by one of the fundamental principles of somatics: energy follows attention, i.e. where we place our attention, energy will follow.⁹
  Before beginning to work with a client, listening to a colleague, or facilitating a team conversation, a body scan will tell you what your current baseline of sensation is.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1312,7 +1307,7 @@ Body scanning is an awareness technique, focusing and bringing your attention to
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  This practice may be done in a standing position, sitting, or lying down. The optimal position, especially when beginning, is standing. Here are some tips for maximizing an open posture:
 
 • Stand with your feet about as far apart as your shoulders or slightly wider
@@ -1328,7 +1323,7 @@ Body scanning is an awareness technique, focusing and bringing your attention to
 In this basic stance, your knees are unlocked, hip joints are open, spine
 is straight, and you are in a comfortable, balanced posture.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1343,7 +1338,7 @@ is straight, and you are in a comfortable, balanced posture.
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> 
+                                        <string key="content"> 
 Bring your awareness to the top of your head. Notice any sensations that are there. Do this slowly at first, giving yourself enough time to feel any sensations in your scalp and around the top of your head. Then move your awareness to your forehead and around to the back of your head. Notice any sensations that are there. Continue moving your awareness while noticing the sensations through your entire upper body, torso, legs and feet. If you find any places where you are contracted, or the muscles are tense, stay with the tension, breathe, and allow the contracted muscles to relax, even if the release is slight. Pay particular attention to the following areas:
 
 • The muscles around your eyes
@@ -1361,7 +1356,7 @@ Bring your awareness to the top of your head. Notice any sensations that are the
 • Lower back, belly, pelvic muscles, hips and hip joints
 
 • Buttocks, thighs, knees, calves, ankles, feet and toes
- </mutableString>
+ </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1385,8 +1380,8 @@ Bring your awareness to the top of your head. Notice any sensations that are the
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
-If you feel tension, but cannot bring about a release with just your breath, you might want to try exaggerating the tension and then releasing. For example, if your upper back and shoulders feel tight, pull your shoulders up to your ears as tightly as you can, hold, hold, hold, and then with a big exhale, release completely.   </mutableString>
+                                        <string key="content">
+If you feel tension, but cannot bring about a release with just your breath, you might want to try exaggerating the tension and then releasing. For example, if your upper back and shoulders feel tight, pull your shoulders up to your ears as tightly as you can, hold, hold, hold, and then with a big exhale, release completely.   </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1425,11 +1420,11 @@ If you feel tension, but cannot bring about a release with just your breath, you
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  Bringing regularity to the practice of Body Scanning will help you increase your skill level and sensitivity. Just like any new skill, it takes recurrence for the body to remember this practice. The more you practice, the easier it will be to notice sensory input, helping you interpret your environment and what's happening in your structure in response to or reaction to others. From the martial arts and adult learning studies, we know that it takes 300 repetitions for a new practice to become comfortable. It takes 3000 repetitions for a new practice to become embodied. Once a practice or skill is embodied, it can easily be called on as a chosen response in situations or circumstances that provoked an undesired reaction before the new skill was learned.
  Embodying the practice of Body Scanning can also increase your receptivity, especially if you do the practice with this intent. Over time and recurrence, you can become sensitive to energy shifts in others and can produce a resonance in your own somatic structure that matches the state of the person you are working with. For coaches, you can develop your skill level to the extent that you can observe in your own structure what you want to bring your client's awareness to. This phenomenon is similar to the phenomenon of resonance that occurs when a vibrating tuning fork comes close to another tuning fork with identical frequency. The second tuning fork will vibrate sympathetically when in the proximity of the first vibrating tuning fork. Similarly, you can sense in your structure what another person is experiencing with their energy flow, or contraction of that flow by "tuning" to that person's somatic state. Upon reaching this state of resonance, you will find that you can coach a client to relax contractions, open areas that are constrained, and release what is ready to move, allowing them to act in ways that were not available in the contracted state. As your clients become competent observers and "scanners,” they will expand their range of possibilities for generating the actions that will bring about their desired future.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1475,13 +1470,13 @@ If you feel tension, but cannot bring about a release with just your breath, you
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  A fundamental principle in the ability to listen to bodies long distance is that energy follows awareness. Listening to the senses and learning to differentiate the sensations experienced while working with a client enables you to focus your awareness and the client's awareness to a particular area. Energy will follow this awareness and allow appropriate shifts to take place within your client’s somatic structure. Let's consider why this is an important principle.
  There are genetic, environmental, and historical influences that affect our somatic state on a day-to-day basis. In somatic work we work with those influences, helping our clients make shifts on a very fundamental
 level. Many times this will mean helping them make physical shifts in places where the muscles have contracted repeatedly in response to situations that are similar to past triggering situations, where behavior may have been learned at an early age. For example, in the last century, one of the fundamentals of parenting in some cultures included a rule that "children should be seen and not heard." Children growing up in such an environment learned to avoid being punished by not speaking around adults, not expressing their opinions, and containing themselves to win the approval of their elders. After many years of this learned behavior, the shape of the child's musculature and emotions reduces the response to speak up, thus shaping the body to contain expression. Now the child is an adult, wanting to speak up, but when the moment comes to speak, the behavior of containment is still present. By bringing the client's awareness to places where that containment occurs, they can relax the constriction, bring vitality to the musculature and learn to speak freely. First, awareness, then energy, then freedom toward new action.
  The contraction or constriction of muscles in a particular part of the body will sometimes affect someone’s breathing, their voice and their overall mood. So we begin with sensation to build awareness. In the next chapters, we will explore what happens when we can listen for breath, voice, mood, and the implications for effective action. By simply learning to breath you can find increased energy and a more positive emotional state. Stress decreases and contractions release. New behaviors can be learned with practice - a result of listening and paying attention to sensation.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1496,10 +1491,10 @@ level. Many times this will mean helping them make physical shifts in places whe
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  One of the most powerful somatic coaching practices is simply to notice what is happening in the body at any given moment. “When I pay attention to body reactions,” says one executive, “it’s relatively easy to shift an automatic (often unconscious) reaction to an intended one. This has helped me be much more effective at work and in dialogue with my daughter – two areas I care about.”   Increased personal awareness leads to increased interpersonal awareness. “Because I am more aware of my own energy and mood,” says another executive, “I am also aware of the energy and mood in staff meetings and other business contexts. It’s so much easier to be connected and effective with other people at work, even people I used to consider difficult".
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1514,11 +1509,11 @@ level. Many times this will mean helping them make physical shifts in places whe
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 At times there are very basic shifts we can make to increase the flow of energy within the somatic structure. For example, when we are sitting down the hip joints are bent. Energy flow becomes constricted by the bend. When we stand up, those channels open. I ask my clients to stand with their shoes off, keeping the outsides of their feet parallel when performing the Body Scan. This positioning of the body opens the hips, helps unlock the knees, and allows for the free flow of energy throughout the vertical channel. One client of mine, skeptical of somatic work to say the least, came to the phone with a headache, pain in her neck, and pain in her upper back. When we started the call she wasn’t even aware of these pains. Within five minutes of guiding her through the Body Scan she was able to relax the muscles behind the eyes, relax her neck and eliminate all of the pain that she came to the call with. For her it was a miracle and she is no longer a skeptic. She is now practicing the Body Scan every day.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1533,10 +1528,10 @@ At times there are very basic shifts we can make to increase the flow of energy 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
  When we start developing awareness of our own sensations and discover what and to whom we react in our environment, we begin to get more control over our own reactions. We are then able to move differently. For example, two clients of mine shared a similar roadblock at work. Each client felt challenged by people in authority. Rather than speak up or voice their concerns, they got scared and didn't say anything. By practicing the Body Scan they were able to sense where their reactions began within their bodies when confronted by someone they gave authority to. Ultimately, each client was able to shift the interpretation that had them closing their mouth and not speaking their opinions or concerns. In both cases, after speaking up, they now have a much more effective working relationship with their boss. In one case, the boss thanked my client for voicing her concerns and instituted new departmental standards based on the issue she spoke up about. In the second case, my executive client felt very harshly judged, when in fact the person he reported to had a positive assessment of the executive’s performance. This was only discovered when my client was able to express his opinions, ask questions, and have a more comfortable conversational exchange, which wasn’t possible before increasing the executive's awareness of his constraints.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1551,7 +1546,7 @@ At times there are very basic shifts we can make to increase the flow of energy 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 Do the Body Scan again. When you have finished practicing the Body Scan a second time, take a few minutes to write your responses to the following questions:
 
@@ -1563,7 +1558,7 @@ Do the Body Scan again. When you have finished practicing the Body Scan a second
 
 • What did you learn?
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1578,10 +1573,10 @@ Do the Body Scan again. When you have finished practicing the Body Scan a second
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 
 Working with the body is where we as somatic coaches have the most leverage in helping our clients expand their repertoire of actions: actions that will help them achieve what they want more effectively and efficiently. Expanding this repertoire is contingent upon increasing somatic awareness. However, physiological, emotional, and spiritual awareness is only possible by connecting or in many cases reconnecting with our senses.
- The Body Scan is a practice that will increase your sensitivity and awareness of your own state and your sensitivity towards the people around you. For coaches, managers and executives, this awareness will enable you to address somatic obstacles that interfere with your ability, and your clients’ and employees’ ability to move in ways that will bring about the fulfillment of your goals.  </mutableString>
+ The Body Scan is a practice that will increase your sensitivity and awareness of your own state and your sensitivity towards the people around you. For coaches, managers and executives, this awareness will enable you to address somatic obstacles that interfere with your ability, and your clients’ and employees’ ability to move in ways that will bring about the fulfillment of your goals.  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -1669,14 +1664,14 @@ Working with the body is where we as somatic coaches have the most leverage in h
             <objects>
                 <viewController title="Breathing and Breathing Practices" id="1YR-GB-a7J" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H2P-xB-fGK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="ft3-YH-FDc">
-                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hM6-Jp-PA6">
-                                <rect key="frame" x="8" y="64" width="367" height="603"/>
+                                <rect key="frame" x="8" y="88" width="406" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="0.75056185787671237" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1834,7 +1829,7 @@ Just about everyone is conscious of, or easily recognizes the inhalation and exh
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Action: Play &quot;Breathing to Stimulate the Vagus Nerve&quot; in the Audio Recordings section now - see Table of Contents  ">
+                                    <fragment content="Action: Play &quot;Levels of Breathing and How They Feel&quot; in the Audio Recordings section now - see Table of Contents  ">
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2120,6 +2115,21 @@ When our somatic and energetic structures are open and extended, we are fully av
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
+                                    <fragment content="Action: Play &quot;Breathing to Stimulate the Vagus Nerve&quot; in the Audio Recordings section now - see Table of Contents  ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
                                     <fragment content="¹⁰">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -2203,14 +2213,14 @@ When our somatic and energetic structures are open and extended, we are fully av
             <objects>
                 <viewController title="Voice Notes" id="yTc-kM-uC9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XNa-ba-mZI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="czB-Yk-uLV">
-                                <rect key="frame" x="-118.5" y="-62.5" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45i-Sw-7qO">
-                                <rect key="frame" x="8" y="64" width="367" height="603"/>
+                                <rect key="frame" x="8" y="88" width="406" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="0.75093642979452058" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -2369,7 +2379,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                     <fragment content="¹⁴">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2578,13 +2588,13 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Moods are fundamental to human beings. We live in moods. Certain actions are available or not available to us when we're in particular moods. Our bodies both determine what moods we are in and what moods are available to us, and our moods can also determine how our bodies are shaped. In that way, moods are a physical presentation of our assessments and opinions. 
  When I say, “I feel great today!” I will most likely be standing tall, in an open posture, seeing a broad vista, and ready to act on opportunities that come my way. On the other hand, when I say to myself or to a colleague, "This company stinks, it's never going to change, and I'm not appreciated for all the hard work I've put in," my body will most likely be slumped over, collapsed, I’m looking down, and not much is possible. Imagine being slumped over, sitting at your desk and saying "I feel great today!!" The shape of a bent over, collapsed body doesn't match a mood of feeling great. Similarly, imagine standing tall with arms outstretched to the sky saying, "This company stinks, it's never going to change, and I'm not appreciated for all the hard work I've put in." The shape and the speaking are not coherent. So moods and the shapes of bodies in those moods predispose us to certain ways of thinking, speaking, and acting. 
  In addition, our opinions often become habitual thoughts that lead to automatic interpretations, coloring how we view the world. So our moods directly affect our capacity to take action and coordinate effectively with others. And our moods directly affect the quality of our relationships since people respond to our moods. This is an important principle in somatic work, because the mood we are in can determine how well or how poorly we connect with and listen to others, their concerns, their feedback, and their motivations. 
  As we become more competent in seeing and listening to somatic shapes with the distinctions of sensation, breathing, and voice, we can hear what mood people are in. We do this by listening to the stories and interpretations they express, sensing their somatic shape from the way our own body responds, whether in person or via telephone. A person’s somatic shape tells us where they are contracted or constricted, and how open and available they are. 
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2599,129 +2609,14 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">  
+                                        <mutableString key="content">  
 Why am I giving importance to the phenomenon of moods, and listening for a person’s mood? I’m interpreting mood as the background thinking and view of life that predisposes what actions are possible or not possible for someone. Another way to say this is that moods reflect a person’s orientation to the future. This is different from emotions, which are triggered by some event and are short-lived (such as sadness over a loss or happiness over some good fortune). Moods, on the other hand, last for long periods of time, even a lifetime, or over generations (as in families, societies, or cultures). 
  For example, if someone is deeply resigned, the conversation that they are living in that’s in the background, defining how they see the world, is something like, “Nothing I can do will change anything.” That conversation affects what they see possible, or not. If they are resigned, they see nothing possible, and any attempt to show something new will fall into the old interpretation. For coaches, if coaching is going to be successful, the person’s mood must be addressed. Working with the background conversations and interpretations can change moods; however, working through the body is often deeper and more effective. Moods are embodied, so even when working with the conversations the person is living in, the body will eventually shift as well. With effective practices, moods can be permanently altered. 
  Each mood has a body shaped to be an expression of that mood. Following our example, then, what is the body of someone who is resigned? Imagine yourself thinking, “Nothing I do will change anything around here. It’s all hopeless anyway. I don’t know why I even try.”  
 What happens to your body? Most people who live in the story of resignation have their head down, they sit and stand slumped over, and their walk is slow and shuffling. 
  What’s the body of someone who is resentful? Try saying over and over, “Those people (or that person) have determined my fate and are to blame for my miserable condition.” Or, “S(he) has done me wrong and it’s her/his fault that my life is the way it is.” With resentment, there is also a commitment not to talk to the person(s) that we are blaming, but to silently continue to blame them for whatever they did to make us miserable. There is an anger and hostility that is internalized – what is this shape? Imagine a body that has arms crossed, protecting and closing off any possibility of connection or intimacy, narrow or squinted eyes, slumped down with no commitment to take action to resolve their own misery.   On the positive side, there is a body of acceptance, which produces a mood of peace. The conversation may be, “Possibilities may or may not be closed to me here, and I am still grateful for what life brings.” Or, “I’m willing to accept the way things are at the moment and deal with what is.” This body is open, at peace, calm and centered. From here, new actions can be designed, or the person may settle into the current situation without complaint, open to what will unfold. 
- When we have an acceptance of current conditions, and motivation to change our circumstances, bring a new project or enterprise into existence, or invent a new strategy, we are in a mood of ambition. The background conversation may be, “Wow! There’s a future for me here, and I’m going to make it happen!” What’s the shape of the body that is coherent with this background? When we are in this mood, we are open, often even smiling, enjoying life and engaging with people, the voice has a lilt to it, we are breathing freely, energy is flowing and there’s an easy vitality that is attractive to people around us.  The following chart provides a quick overview of these 4 basic moods:
- </string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="We Cannot Change Circumstances ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="Arial-ItalicMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="     Moods of Denial of Accountability: ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="RESENTMENT">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="Arial-BoldMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="                                                  Moods of Acceptance: ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="PEACE  ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="Arial-BoldMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="We Can Change Circumstances">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="Arial-ItalicMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="  Moods of Denial of Accountability: ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="RESIGNATION  ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="Arial-BoldMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Moods of Acceptance: ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="AMBITION">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="Arial-BoldMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> 
-</string>
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Adapted from the writings and teachings of Dr. Fernando Flores and Dr. Rafael Echeverria.">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="menu" size="14"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> There are many variations of these moods, and each has a particular background conversation and body shape that produces the mood. 
- </string>
+ When we have an acceptance of current conditions, and motivation to change our circumstances, bring a new project or enterprise into existence, or invent a new strategy, we are in a mood of ambition. The background conversation may be, “Wow! There’s a future for me here, and I’m going to make it happen!” What’s the shape of the body that is coherent with this background? When we are in this mood, we are open, often even smiling, enjoying life and engaging with people, the voice has a lilt to it, we are breathing freely, energy is flowing and there’s an easy vitality that is attractive to people around us.  There are many variations of these basic moods, and each has a particular background conversation and body shape that produces the mood. 
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2736,9 +2631,24 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  The following expressions, whether spoken or not, can help you to recognize the background thinking of each mood. See what happens to your body as you “try on” each expression. Repeat the expression several times until your body takes on the mood. Then pay attention to the shape that you find yourself in. 
- &lt;&lt;insert audio recording&gt;&gt;  </string>
+ </mutableString>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Action: Play &quot;Moods and the Shape of Bodies&quot; in the Audio Recordings section now - see Table of Contents  ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -2993,32 +2903,9 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> -I claim that I already know and my assessments are true. There is nothing else you can add here, and you should listen to me. 
+                                        <mutableString key="content"> -I claim that I already know and my assessments are true. There is nothing else you can add here, and you should listen to me. 
  Enjoy practicing with these various moods and the conversations that provoke them. See what shape the bodies are that live in these moods. Not only does one’s mood predispose what actions may or may not be possible; a person’s mood greatly affects their identity and ability to provide leadership. Would you be more inclined to follow someone who is in a positive and accepting mood, or someone who is resigned or resentful? 
- </string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Action: Play &quot;Moods and the Shape of Bodies&quot; in the Audio Recordings section now - see Table of Contents">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="  ">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3033,13 +2920,13 @@ What happens to your body? Most people who live in the story of resignation have
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
  Most people look for coaches who can help them make some change or shift in their way of seeing the world, so they can achieve an outcome different from where they find themselves. From a coaching perspective, once you have recognized the mood someone is in, how can you help them change their mood? The key principles to work with are the shape of the body and the story the person is telling about their situation or their life. 
  When someone tells you their story, you can listen for not only the circumstances, but also the background that led to the conclusions and assessments a person is making, the history of actions that got them to where they are, and the melody of the telling. The melody comes from the body – so even if you are working over the phone, you’ll be able to listen for much of what determines a person’s mood. Once a mood is identified, what then? The more you can help a person become aware of the shape of their body in a particular mood, the easier it will be to provide practices to help them shift that shape. For example, you might ask, “Where are you breathing right now? How are you sitting, or standing? Describe your posture to me. What does that breathing or posture produce for you? What happens if you drop your breath (for example)? What do you notice? What happens if you stand taller and relax your shoulders (another example)? What do you notice then? 
  With this line of questioning, you are increasing the person’s ability to observe themselves. Once you’ve identified together the “old” body and the “new” body, you can design practices to help them remember the new body. With practice, the new body will become more authentic, and the story will also change. Shifting the story can also be accelerated with journaling, or ongoing practice of telling a new story about a situation in a way that’s authentic. 
  For example, I was in a mood of resentment for years about the work I was doing. No matter what I did, it was not enough for me to be satisfied. As a research chemist, I enjoyed working in the laboratory, but I wanted to be working with people. In business, I had other complaints, or dissatisfactions. After a string of starting different career paths, I started thinking about what happened at home while I was growing up. I remembered that we always waited for my Dad to come home, and then we sat down at the dinner table. Then Dad talked about his day. All we heard were complaints. My Dad supervised a warehouse crew, and we heard all the stories about how lazy this one was, how slow another one was, how the boss was pressuring him to get them to be more efficient, etc. etc. etc. He never spoke about himself, only about how wrong everyone else was, and how miserable it made him. It sounded like my liturgy when I came home! I began to see how the resentment about work became part of my heritage and embodiment. 
   To begin to change my view, I started journaling at the end of every workday, asking myself the questions, “What am I grateful for today? Who did something that I appreciated? Did I acknowledge the people working with me?” And similar questions to keep my thoughts focused in a positive direction. Prior to journaling, I did some deep breathing and centering practices. I did these practices for a year, focusing on my mood. At the end of that time, I was working joyfully, looking forward to my work every day. My stories at the end of the day were very different as well. And then I redesigned my work to be what I now see as the fulfillment of my purpose. It’s the work I’m still doing today, and loving every day of it. 
-  </string>
+  </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3645,7 +3532,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                 <viewLayoutGuide key="safeArea" id="Uwc-LF-Pgm"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">"Any time merging with another occurs, or it is impossible to resist being pulled into the story or scenario of another person, it is safe to say your awareness is not at the Edge. Losing the ability to see, to feel, or to know yourself as separate and distinct from another person, is off base. In these situations: stop, assess, and begin again to reach the Edge. "</string>
+                                        <mutableString key="content">"Any time merging with another occurs, or it is impossible to resist being pulled into the story or scenario of another person, it is safe to say your awareness is not at the Edge. Losing the ability to see, to feel, or to know yourself as separate and distinct from another person, is off base. In these situations: stop, assess, and begin again to reach the Edge. "</mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="Arial-ItalicMT"/>
@@ -3674,8 +3561,8 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> 
- Imagine a moment that happened recently, when you felt stressed, pressured, emotional, or otherwise impacted by circumstances outside your control. Remember how you felt? Wouldn’t it be great to have ways to help yourself in those moments? In my recent studies, I have found practices to accomplish just that. You can “get big”, expanding your energetic structure, so that you don’t feel pressured or stressed, can think clearly, and can take effective action by practicing the techniques I’ve described in the previous chapter, </string>
+                                        <mutableString key="content"> 
+ Imagine a moment that happened recently, when you felt stressed, pressured, emotional, or otherwise impacted by circumstances outside your control. Remember how you felt? Wouldn’t it be great to have ways to help yourself in those moments? In my recent studies, I have found practices to accomplish just that. You can “get big”, expanding your energetic structure, so that you don’t feel pressured or stressed, can think clearly, and can take effective action by practicing the techniques I’ve described in the previous chapter, </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3704,9 +3591,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). This chapter takes those practices a step further, explaining how you can work with your extended energetic structure, based on the teachings and work of Sacred Anatomy Healing™ created by Desda Zuckerman. With awareness and intention, you can expand to the edge of your energetic structure: your own Edge. And when you are in a fully expanded state, circumstances, pressures and stresses that seemed overwhelming when your structure was collapsed or contracted, no longer have the same impact. You can think and move freely and have more choices available to you as a result. 
+                                        <mutableString key="content">). This chapter takes those practices a step further, explaining how you can work with your extended energetic structure, based on the teachings and work of Sacred Anatomy Healing™ created by Desda Zuckerman. With awareness and intention, you can expand to the edge of your energetic structure: your own Edge. And when you are in a fully expanded state, circumstances, pressures and stresses that seemed overwhelming when your structure was collapsed or contracted, no longer have the same impact. You can think and move freely and have more choices available to you as a result. 
  The first step is to become aware of your breathing. Where is your breath located? Is it mostly high up in your chest? That’s pretty normal in our fast-paced world. Take a few minutes right now to work with your breathing. Bring it down to the level of your ribs. Then down to your belly. And now use your entire torso to breath, using the full capacity of your lungs. Once you can do that, we can start to work with expanding your energetic dimensions. 
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3737,8 +3624,8 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">. Let your breathing become narrow, moving along this vertical core. By opening to the flow of energy through your vertical core, you can touch the earth, connecting to a deep ground, while at the same time opening to spirit through the crown of your head. In many ancient teachings, we humans are seen as connectors, bringing spirit to earth and earth to spirit.  Practicing this dimension helps you stay connected to what you care about, moving in the world with inspiration while remaining “grounded” and stable. 
- Next, bring your breathing to your ribs. Feel your ribs moving out and expanding as you inhale, and dropping as you exhale. On the next breath, let your energy expand in the horizontal dimension, opening your </string>
+                                        <mutableString key="content">. Let your breathing become narrow, moving along this vertical core. By opening to the flow of energy through your vertical core, you can touch the earth, connecting to a deep ground, while at the same time opening to spirit through the crown of your head. In many ancient teachings, we humans are seen as connectors, bringing spirit to earth and earth to spirit.  Practicing this dimension helps you stay connected to what you care about, moving in the world with inspiration while remaining “grounded” and stable. 
+ Next, bring your breathing to your ribs. Feel your ribs moving out and expanding as you inhale, and dropping as you exhale. On the next breath, let your energy expand in the horizontal dimension, opening your </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3753,8 +3640,8 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">. This dimension is more social, and by opening yourself in the horizontal plane, you can be comfortable holding larger commitments, connect more easily with a community, feel your place in social environments, and facilitate group discussions while maintaining a connection with the individuals in the group. Let yourself open to this dimension when you feel overwhelmed, alone, despondent, or want to hold all the commitments you have made to the people you care about. 
- Accessing the third dimension is easier when you drop your breath to your belly. Keeping your breathing low in your torso, bring your awareness to your back, remembering all your learning, life experience, teachers, colleagues who support you, your family, friends, mentors, ancestors, and spiritual guides. Now, using focused intention, gather all that’s behind you and move the energy through your torso, out in front of you, moving into your future. This is the dimension of </string>
+                                        <mutableString key="content">. This dimension is more social, and by opening yourself in the horizontal plane, you can be comfortable holding larger commitments, connect more easily with a community, feel your place in social environments, and facilitate group discussions while maintaining a connection with the individuals in the group. Let yourself open to this dimension when you feel overwhelmed, alone, despondent, or want to hold all the commitments you have made to the people you care about. 
+ Accessing the third dimension is easier when you drop your breath to your belly. Keeping your breathing low in your torso, bring your awareness to your back, remembering all your learning, life experience, teachers, colleagues who support you, your family, friends, mentors, ancestors, and spiritual guides. Now, using focused intention, gather all that’s behind you and move the energy through your torso, out in front of you, moving into your future. This is the dimension of </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3769,9 +3656,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">. 
+                                        <mutableString key="content">. 
  When you expand your depth, you can go forward with confidence and competence, leading others toward the vision that you can hold by maintaining your vertical line and connection to what’s important to you, while moving your energy forward to the horizon in front of you. 
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3786,7 +3673,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">  Now for the full expansion: start by practicing full torso breathing. Begin your breath as low in your torso as you can and as you continue inhaling, feel your ribs and chest expanding as you use the full capacity of your lungs. Breathe slowly, without forcing – feel your breath filling your entire torso as you inhale, and emptying your torso as you exhale. After a few full torso breaths, expand your energy in all directions from your center, going all the way out until you sense your own outermost boundary – the </string>
+                                        <mutableString key="content">  Now for the full expansion: start by practicing full torso breathing. Begin your breath as low in your torso as you can and as you continue inhaling, feel your ribs and chest expanding as you use the full capacity of your lungs. Breathe slowly, without forcing – feel your breath filling your entire torso as you inhale, and emptying your torso as you exhale. After a few full torso breaths, expand your energy in all directions from your center, going all the way out until you sense your own outermost boundary – the </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3801,14 +3688,14 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> of your unique energetic structure. You might feel this Edge anywhere from five to thirty feet or more beyond your physical body. Bring your awareness out just beyond your Edge. Now settle your awareness on the outside of this Edge. Continue building your skill to maintain your awareness at your Edge. As you practice, write down your responses to the following: 
+                                        <mutableString key="content"> of your unique energetic structure. You might feel this Edge anywhere from five to thirty feet or more beyond your physical body. Bring your awareness out just beyond your Edge. Now settle your awareness on the outside of this Edge. Continue building your skill to maintain your awareness at your Edge. As you practice, write down your responses to the following: 
  • Notice how you feel in this expanded state. What can you observe now that was not available before you expanded your awareness to your Edge? 
  • What happens to your worries, concerns, and anxiety when you expand? 
  Now open your arms and send your energy out through your arms to your hands and out through your fingers. These energetic extensions from your fingers form “light fingers” that can extend all the way through your energetic structure to wrap around your Edge. 
  With your “light fingers” pull in a bit, bringing your Edge slightly closer to your physical body. Feel what happens as you do that. Then open your “light fingers” and let your Edge expand out further. Practice drawing your Edge in and let it out until you find a comfortable balance where you can feel your entire Structure around you, protecting you, with your awareness on your Edge. Here you are open and available, yet strong and protected. This is the optimal place for your awareness when you work. It is also optimal when you go into crowded places, or if you have a sense of being uncomfortable in any way. It really is the optimal place to be all the time. One of my clients used this practice to go through labor and delivery, saying it helped her have a focus bigger than the contractions and pain she felt when she focused only on her body. Her baby boy was able to come into the world naturally, with his mother using the practice of expanding her energetic structure with her awareness at her Edge. 
  • Continue practicing expanding your awareness and write down your observations and experiences as you practice. 
  • Note what emotional skills, communication skills, and sensory awareness become available as you continue to practice. 
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3838,9 +3725,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> 
+                                        <mutableString key="content"> 
  This is a more advanced practice, only for those students who have mastered the practices in the previous chapters. If you are confident with your own expansion, and are comfortable moving in the world while experiencing your own Edge, you may find this practice helpful for your more sensitive clients who have mastered the practices as described. As with any of the previous pieces, don’t hesitate to contact me if you have any questions! 
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -3855,8 +3742,39 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> 
- Thank you for working with me and experimenting with this series of distinctions and practices. I hope you are enjoying your learning, as you become more sensitive to your own body and the bodies of the people you work with, learn with, play with, dance with, and live with! If you have any questions or comments, or just want to share what you’re learning by “Listening to Bodies”, please let me know. You can email me at szeman@somaticbusinesscoach.com. And most importantly, have fun listening! 
+                                        <mutableString key="content"> 
+ Thank you for working with me and experimenting with this series of distinctions and practices. I hope you are enjoying your learning, as you become more sensitive to your own body and the bodies of the people you work with, learn with, play with, dance with, and live with! If you have any questions or comments, or just want to share what you’re learning by “Listening to Bodies”, please let me know. You can email me at szeman@somaticbusinesscoach.com. And most importantly, have fun listening!  </mutableString>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Action: Play &quot;Summary of Practices&quot; in the Audio Recordings section now - see Table of Contents  ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Action: Play &quot;Final Words&quot; in the Audio Recordings section now - see Table of Contents  ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.035979999999999998" blue="0.057079999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -4084,7 +4002,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdx-Xv-1q4">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Summary of Practices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdx-Xv-1q4">
                                                     <rect key="frame" x="16" y="11" width="343" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -4095,6 +4013,26 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="0dv-dB-g5g" kind="show" identifier="AR9" id="1UE-Jv-3fp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="g7A-6i-lxl">
+                                        <rect key="frame" x="0.0" y="424" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g7A-6i-lxl" id="IeW-cc-4dW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Final Words" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2v-iy-8RE">
+                                                    <rect key="frame" x="16" y="11" width="343" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0dv-dB-g5g" kind="show" identifier="AR10" id="hnn-Tv-meq"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -4192,76 +4130,65 @@ tree and feel the life force in the tree through your back. Extend into that lif
             </objects>
             <point key="canvasLocation" x="8372" y="1620.5397301349326"/>
         </scene>
-        <!--Media Mentions-->
-        <scene sceneID="BIl-OX-M8C">
+        <!--Articles-->
+        <scene sceneID="iqH-Yh-o5t">
             <objects>
-                <tableViewController title="Media Mentions" id="QNQ-NT-ZO6" customClass="MediaMentionsTableViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="80B-DZ-u5C">
+                <viewController title="Articles" id="ini-S5-awl" customClass="MediaViewerViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e1B-d0-Y23">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="UF1-gm-iy8">
+                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Click on the titles below to read the full articles." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JRa-F4-69W">
+                                <rect key="frame" x="11" y="131" width="392" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCs-qG-oqt">
+                                <rect key="frame" x="134" y="257.5" width="146" height="30"/>
+                                <state key="normal" title="Listening to Listening"/>
+                                <connections>
+                                    <action selector="openPDF2:" destination="ini-S5-awl" eventType="touchUpInside" id="T1e-ki-CBe"/>
+                                    <action selector="openPDF2:" destination="H5H-ie-roC" eventType="touchUpInside" id="h2f-KZ-7H7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8T6-OV-KGw">
+                                <rect key="frame" x="106" y="187.5" width="202" height="30"/>
+                                <state key="normal" title="Listening With All Our Senses"/>
+                                <connections>
+                                    <action selector="openPDF:" destination="H5H-ie-roC" eventType="touchUpInside" id="6My-1V-tkG"/>
+                                    <action selector="openPDF:" destination="ini-S5-awl" eventType="touchUpInside" id="Ah5-Mf-SxH"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <sections>
-                            <tableViewSection id="x7c-Iu-DsW">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fA4-yq-Bhi">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fA4-yq-Bhi" id="zdB-dk-cAP">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listening with All Our Senses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vo-Vx-R00">
-                                                    <rect key="frame" x="20" y="11" width="222" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="CeW-0p-ckB" kind="show" identifier="MM1" id="DWA-Tq-qA8"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MM2" id="0gk-iB-uyV">
-                                        <rect key="frame" x="0.0" y="72" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0gk-iB-uyV" id="flB-hd-dK0">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listening to Listening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1PV-Vx-J4f">
-                                                    <rect key="frame" x="20" y="11" width="163" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="CeW-0p-ckB" kind="show" identifier="MM2" id="HeG-1P-X1W"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
-                        <connections>
-                            <outlet property="dataSource" destination="QNQ-NT-ZO6" id="4Ph-vc-rNB"/>
-                            <outlet property="delegate" destination="QNQ-NT-ZO6" id="LhP-MO-7iV"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cFY-fZ-qjZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <constraints>
+                            <constraint firstItem="8T6-OV-KGw" firstAttribute="top" secondItem="JRa-F4-69W" secondAttribute="bottom" constant="37" id="1DD-pm-LPh"/>
+                            <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="UF1-gm-iy8" secondAttribute="centerX" id="3QL-Bd-4cx"/>
+                            <constraint firstItem="JRa-F4-69W" firstAttribute="leading" secondItem="WCa-fP-yNP" secondAttribute="leading" constant="11" id="ALE-Mk-DVi"/>
+                            <constraint firstItem="JRa-F4-69W" firstAttribute="top" secondItem="WCa-fP-yNP" secondAttribute="top" constant="43" id="LB4-6f-ECL"/>
+                            <constraint firstItem="UF1-gm-iy8" firstAttribute="centerY" secondItem="e1B-d0-Y23" secondAttribute="centerY" id="T1J-OD-vyt"/>
+                            <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="e1B-d0-Y23" secondAttribute="centerX" id="UI3-ou-qYV"/>
+                            <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="iCs-qG-oqt" secondAttribute="centerX" id="gfU-Le-PH3"/>
+                            <constraint firstItem="iCs-qG-oqt" firstAttribute="top" secondItem="8T6-OV-KGw" secondAttribute="bottom" constant="40" id="gwx-Mq-vT4"/>
+                            <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="8T6-OV-KGw" secondAttribute="centerX" id="jLL-Yi-zc4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WCa-fP-yNP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mt7-EO-e0P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="H5H-ie-roC" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="9113" y="1621"/>
+            <point key="canvasLocation" x="9111.5942028985519" y="1620.5357142857142"/>
         </scene>
         <!--Contact Information-->
         <scene sceneID="GQx-AV-f3I">
             <objects>
                 <viewController title="Contact Information" id="FiO-cU-WXI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UOG-RI-sLF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHy-LI-RRj">
@@ -4271,14 +4198,36 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                 <attributedString key="attributedText">
                                     <fragment content="Suzanne Zeman, MSC">
                                         <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="25"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content"> a coach for coaches, executives, and business teams  Somatic Business Coach www.somaticbusinesscoach.com  phone: (510) 524-7620 fax: (510) 524-6061 email: szeman@comcast.net</string>
+                                    <fragment content=" ">
                                         <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="a coach for coaches, executives, and business teams">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  Somatic Business Coach www.somaticbusinesscoach.com  phone: (510) 524-7620 skype: SuzanneZeman email: szeman@comcast.net ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="www.suzannezeman.com">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -4301,7 +4250,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DqA-OP-Sb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9836" y="1619"/>
+            <point key="canvasLocation" x="10790" y="1621"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kSh-Ns-3qE">
@@ -4335,7 +4284,6 @@ tree and feel the life force in the tree through your back. Extend into that lif
         <image name="szeman" width="423" height="535"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HeG-1P-X1W"/>
-        <segue reference="3G4-xb-asf"/>
+        <segue reference="hnn-Tv-meq"/>
     </inferredMetricsTieBreakers>
 </document>
