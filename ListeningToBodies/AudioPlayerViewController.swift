@@ -184,9 +184,7 @@ extension AudioPlayerViewController {
 // MARK: - Audio
 //
 extension AudioPlayerViewController {
-    func setupAudio() {
-//        audioFileURL = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")
-        
+    func setupAudio() {        
         engine.attach(player)
 //      engine.connect(player, to: rateEffect, format: audioFormat)
         engine.connect(player, to: engine.mainMixerNode, format: audioFormat)
