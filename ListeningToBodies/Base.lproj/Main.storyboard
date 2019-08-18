@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14835.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iUZ-vU-ouX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iUZ-vU-ouX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14790.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14806.4"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -460,13 +460,13 @@ Hold a conch shell to your ear: hear a different world. 
                                 <color key="backgroundColor" white="1" alpha="0.75393300513698636" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.
+                                        <mutableString key="content">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.
 
 Animals rely on their senses to get information about what is dangerous, nurturing, safe, and tasty. Born with this capacity, we have intellectualized and analyzed so many aspects of our lives that we are losing the skill of paying attention to our senses. In short, we as human beings have ignored much of our animal nature, often to the detriment of our effectiveness in the world.
 
 Learning to recover the skill of utilizing and trusting our senses provides direct access to the world around us. By increasing our awareness of sensory input, we become more effective, grounded, nurtured, and nurturing. By learning to become self-generating, we can learn to shift behaviors that we wish to change. We can improve our connection to people and find new opportunities. A rediscovery of life through our senses leads to greater satisfaction and a renewed joy in living.   Ultimately, regaining the skills of feeling and sensing brings us back into more coherence and unity with the flow of life that we have cut ourselves off from. When we begin feeling, we connect with what satisfies us, what we care about, and what we want to express. For many people this comes as an awakening. It becomes possible to live a full and satisfying life, paying closer attention to our loved ones and what they care about, and finding meaningful expression through work, art, and play. These are typical results for people who develop somatic awareness. It happened for me when I began to study somatic principles and practices.   My experience of living shifted so dramatically, I decided to  incorporate somatic work into the coaching I had been doing for several  years with executives and entrepreneurs. Although I began studying somatics for my own healing and development, I soon recognized the  power of including the body in my understanding of how people act.  Working through the body along with the emotional, spiritual, and psychological aspects of a person’s background provided a more complete profile for the client and for me to understand their current challenges and strengths. The results that people could achieve by increasing somatic awareness and somatic practices were dramatic. 
 
-Examples are provided in the preface: </string>
+Examples are provided in the preface: </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -481,8 +481,8 @@ Examples are provided in the preface: </string>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">.  Doing somatic work over the telephone began as an experiment. In my  first career I was a research chemist, and created experiments to test  theories and possibilities. I stayed in research, over the years switching the subject matter of my research from polymeric prototypes to studying people, how we learn, and how we can change our behaviors to be more in line with our ideal self. I was certified as an ontological¹ coach in 1992 while working in sales, marketing and business development. After several years of consulting in large-scale organizational change, design and implementation of communication strategies, the constant travel became too much, and I decided to redesign my work. After several years of study, I designed an experiment with five participants to determine whether I could help them by doing somatic work with them over the telephone. I was encouraged with the positive results, and recognized that what I was doing was innovative in the field of somatic practice. I was certified as a master somatic coach in 2001.   Other practitioners soon asked me to teach them some of the techniques and practices I use in my work, and I developed a six-session teleclass program called “Listening to Bodies Long Distance”. As I continued my studies of the extended human energetic structure, I added a basic practice developed from Sacred Anatomy Healing™, which helps practitioners strengthen their capacity to be open, available, and aware of their own boundary to eliminate merging with difficult challenges and issues imposed by others.   When I teach these principles in person to other coaches or to my clients, the teaching and learning are very participatory. I talk about the practices, I guide the learners in the practices, answer their questions, practice again, help them if they want to go deeper, etc. In order to get the most from this primer, read the material, do the practices, reflect, journal about your observations, and repeat the practices. Repeating each practice will not only give you more confidence with the distinctions, it will also help you embody the skills for listening to your own body. Whether you are a coach, learning to do somatic work over the telephone with your clients, someone wanting to listen to your own body with greater skill and mindfulness, or an executive who wants to get more skillful in working with and relating to others, this book will give you the practices to learn.   Mastery of the practices we’ll be working with requires years of repetition, so it’s also helpful to be at peace with being a beginner.  Recognize the competence you are developing, knowing that you have gained some skill with your own listening. With recurrence, you will be more and more competent to observe, listen, and work with others. Be patient with your learning, and have fun! Even beginners will be able to get results with the fundamental practices of body scanning, breathing and centering. You will continue to develop awareness and listening skills with every repetition – what’s important is to get started and stay with each practice. 
- Enjoy learning to listen to your body and the bodies of the people you work with, play with, and live with.  </string>
+                                        <mutableString key="content">.  Doing somatic work over the telephone began as an experiment. In my  first career I was a research chemist, and created experiments to test  theories and possibilities. I stayed in research, over the years switching the subject matter of my research from polymeric prototypes to studying people, how we learn, and how we can change our behaviors to be more in line with our ideal self. I was certified as an ontological¹ coach in 1992 while working in sales, marketing and business development. After several years of consulting in large-scale organizational change, design and implementation of communication strategies, the constant travel became too much, and I decided to redesign my work. After several years of study, I designed an experiment with five participants to determine whether I could help them by doing somatic work with them over the telephone. I was encouraged with the positive results, and recognized that what I was doing was innovative in the field of somatic practice. I was certified as a master somatic coach in 2001.   Other practitioners soon asked me to teach them some of the techniques and practices I use in my work, and I developed a six-session teleclass program called “Listening to Bodies Long Distance”. As I continued my studies of the extended human energetic structure, I added a basic practice developed from Sacred Anatomy Energy Medicine™, which helps practitioners strengthen their capacity to be open, available, and aware of their own boundary to eliminate merging with difficult challenges and issues imposed by others.   When I teach these principles in person to other coaches or to my clients, the teaching and learning are very participatory. I talk about the practices, I guide the learners in the practices, answer their questions, practice again, help them if they want to go deeper, etc. In order to get the most from this primer, read the material, do the practices, reflect, journal about your observations, and repeat the practices. Repeating each practice will not only give you more confidence with the distinctions, it will also help you embody the skills for listening to your own body. Whether you are a coach, learning to do somatic work over the telephone with your clients, someone wanting to listen to your own body with greater skill and mindfulness, or an executive who wants to get more skillful in working with and relating to others, this book will give you the practices to learn.   Mastery of the practices we’ll be working with requires years of repetition, so it’s also helpful to be at peace with being a beginner.  Recognize the competence you are developing, knowing that you have gained some skill with your own listening. With recurrence, you will be more and more competent to observe, listen, and work with others. Be patient with your learning, and have fun! Even beginners will be able to get results with the fundamental practices of body scanning, breathing and centering. You will continue to develop awareness and listening skills with every repetition – what’s important is to get started and stay with each practice. 
+ Enjoy learning to listen to your body and the bodies of the people you work with, play with, and live with.  </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -490,7 +490,7 @@ Examples are provided in the preface: </string>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">¹ Ontology is the study of being. Ontological philosophy is an inquiry into the nature of human existence. In the latter part of the twentieth century, the integration of developments in the fields of philosophy and biology produced a discipline called Ontological Design by Dr. Fernando Flores. Julio Olalla and Rafael Echeverria developed the resultant coaching methodology and coaching practice, called Ontological Coaching. This discipline works with existential issues of meaning, fulfillment, happiness and worthiness in client’s personal and professional lives.  For an in-depth discussion of Ontological Coaching, see </string>
+                                        <mutableString key="content">¹ Ontology is the study of being. Ontological philosophy is an inquiry into the nature of human existence. In the latter part of the twentieth century, the integration of developments in the fields of philosophy and biology produced a discipline called Ontological Design by Dr. Fernando Flores. Julio Olalla and Rafael Echeverria developed the resultant coaching methodology and coaching practice, called Ontological Coaching. This discipline works with existential issues of meaning, fulfillment, happiness and worthiness in client’s personal and professional lives.  For an in-depth discussion of Ontological Coaching, see </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="label" size="12"/>
@@ -740,6 +740,30 @@ In our learning together, I will provide the basic principles that will help you
                                 </constraints>
                                 <color key="progressTintColor" red="0.067173667249999999" green="0.19737473129999999" blue="0.1137064025" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P66-89-odA">
+                                <rect key="frame" x="16" y="488" width="28.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="cB8-xA-jkp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEX-pM-VuG">
+                                <rect key="frame" x="369.5" y="488" width="28.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="WXy-sr-qMw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio Track Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3E-fs-yxs">
+                                <rect key="frame" x="143" y="552" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOI-zO-I3C">
                                 <rect key="frame" x="185" y="500" width="44" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -777,30 +801,6 @@ In our learning together, I will provide the basic principles that will help you
                                     <action selector="minus10Tapped:" destination="0dv-dB-g5g" eventType="touchUpInside" id="LQK-xp-Xuu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P66-89-odA">
-                                <rect key="frame" x="16" y="488" width="28.5" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="cB8-xA-jkp"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEX-pM-VuG">
-                                <rect key="frame" x="369.5" y="488" width="28.5" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="WXy-sr-qMw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio Track Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3E-fs-yxs">
-                                <rect key="frame" x="143" y="552" width="128" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -814,6 +814,7 @@ In our learning together, I will provide the basic principles that will help you
                             <constraint firstItem="WZ7-pz-2RH" firstAttribute="height" secondItem="vOI-zO-I3C" secondAttribute="height" id="NsH-zb-NJA"/>
                             <constraint firstItem="8Jh-cc-tAI" firstAttribute="top" secondItem="opk-Cv-5lk" secondAttribute="bottom" constant="8" id="OZr-Ge-GpK"/>
                             <constraint firstItem="WZ7-pz-2RH" firstAttribute="centerY" secondItem="WNS-aY-ra8" secondAttribute="centerY" id="QPK-eo-h5k"/>
+                            <constraint firstItem="pEX-pM-VuG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WZ7-pz-2RH" secondAttribute="trailing" constant="8" symbolic="YES" id="UGy-Gx-wJn"/>
                             <constraint firstItem="vOI-zO-I3C" firstAttribute="top" secondItem="8Jh-cc-tAI" secondAttribute="bottom" constant="20" id="Xw4-Hh-Iz5"/>
                             <constraint firstItem="8Jh-cc-tAI" firstAttribute="leading" secondItem="L7m-Do-3V4" secondAttribute="leadingMargin" id="cRl-0t-3n8"/>
                             <constraint firstItem="vOI-zO-I3C" firstAttribute="centerY" secondItem="WNS-aY-ra8" secondAttribute="centerY" id="dr4-ya-6eh"/>
@@ -825,6 +826,7 @@ In our learning together, I will provide the basic principles that will help you
                             <constraint firstItem="opk-Cv-5lk" firstAttribute="top" secondItem="SAs-aQ-gUn" secondAttribute="top" id="w6S-N5-PGo"/>
                             <constraint firstItem="b3E-fs-yxs" firstAttribute="centerX" secondItem="L7m-Do-3V4" secondAttribute="centerX" id="wue-es-re2"/>
                             <constraint firstItem="WZ7-pz-2RH" firstAttribute="leading" secondItem="vOI-zO-I3C" secondAttribute="trailing" constant="36" id="xUS-ul-Ujx"/>
+                            <constraint firstItem="WNS-aY-ra8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="P66-89-odA" secondAttribute="trailing" constant="8" symbolic="YES" id="xfR-ig-oyG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SAs-aQ-gUn"/>
                     </view>
@@ -2379,7 +2381,7 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
                                     <fragment content="¹⁴">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -4065,7 +4067,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                 <viewLayoutGuide key="safeArea" id="MNG-7e-JJm"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Bringing this book to completion has been a journey with many travelers. The road began with my teachers: Fernando Flores, who taught me to pay attention to language, for in language we create reality; Bob Dunham, who taught me management and executive skills and gave me my first coaching clients; Julio Olalla and Rafael Echeverria, who taught me the essentials for ontological coaching, brought me to California, and gave me my first coaching certification; Richard Strozzi-Heckler, who taught me to observe and work with bodies, acknowledging my innovative way of doing somatic work over the phone, inviting me to write an essay that he included in a collection of his students’ work¹⁸, and certifying me as a Master Somatic Coach; and Desda Zuckerman, who taught me about the subtle energetic body and how to </string>
+                                        <mutableString key="content">Bringing this book to completion has been a journey with many travelers. The road began with my teachers: Fernando Flores, who taught me to pay attention to language, for in language we create reality; Bob Dunham, who taught me management and executive skills and gave me my first coaching clients; Julio Olalla and Rafael Echeverria, who taught me the essentials for ontological coaching, brought me to California, and gave me my first coaching certification; Richard Strozzi-Heckler, who taught me to observe and work with bodies, acknowledging my innovative way of doing somatic work over the phone, inviting me to write an essay that he included in a collection of his students’ work¹⁸, and certifying me as a Master Somatic Coach; and Desda Zuckerman, who taught me about the subtle energetic body and how to </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -4080,9 +4082,9 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">, and certified me as a practitioner of Sacred Anatomy Healing™.   All the students in my teleclasses called “Listening to Bodies Long Distance” have contributed to the content of this book, by engaging with me, asking clarifying questions, and applying what they learned to their work with clients and colleagues. I am so grateful to every one of you. 
+                                        <mutableString key="content">, and certified me as a practitioner of Sacred Anatomy Energy Medicine™.   All the students in my teleclasses called “Listening to Bodies Long Distance” have contributed to the content of this book, by engaging with me, asking clarifying questions, and applying what they learned to their work with clients and colleagues. I am so grateful to every one of you. 
  Without the help of my colleagues and friends who so patiently read the drafts and provided their feedback, questions and suggestions, this book would not have gotten done: Tina Maloney, Jane Perry, Will Smolak, Marcia Orlowski, Merle McKinley, Sari Broner, Leslie Warren, Tivo Rojas-Cheatham, Liz Cunningham, and Rita Dettore.   To Bob Dunham and the Company of Leaders, especially Dr. Peter Denning, Dan Waldman, Bill Maclay, Sam Ramji, and Janet Byrne- Smith, sincere gratitude for your support and care.   Thank you to Cat Weatherup for help with the cover.   And to my extraordinary friend, Andrei Marcon, who not only put up with my demands and Jersey-girl style, but willingly took on the design, production, and organization of this book – thank you from my heart. 
- </string>
+ </mutableString>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -4163,7 +4165,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="8T6-OV-KGw" firstAttribute="top" secondItem="JRa-F4-69W" secondAttribute="bottom" constant="37" id="1DD-pm-LPh"/>
                             <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="UF1-gm-iy8" secondAttribute="centerX" id="3QL-Bd-4cx"/>

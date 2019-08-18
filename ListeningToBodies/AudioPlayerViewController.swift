@@ -87,6 +87,10 @@ class AudioPlayerViewController: UIViewController {
         super.viewDidAppear(animated)
         
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        player.pause()
+    }
 }
 
 // MARK: - Actions
