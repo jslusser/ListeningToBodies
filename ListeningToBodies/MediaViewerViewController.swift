@@ -19,21 +19,24 @@ import WebKit
 //var addAnnotations = false
 //var delegate: DocumentViewControllerDelegate?
 
+
+
+
 class MediaViewerViewController: UIViewController {
     
-    @IBAction func openPDF(_ sender: UIButton) {
+    @IBAction func openPDF(_ sender: Any) {
         let url = Bundle.main.url(forResource: "Listening_With_All_Our_Senses", withExtension: "pdf")
-        print(url)
-        if let url = url {
-            
-            let webView = WKWebView(frame: view.frame)
-            let urlRequest = URLRequest(url: url)
-            webView.load(urlRequest)
-            view.addSubview(webView)
-        }
+               print(url)
+               if let url = url {
+                   
+                   let webView = WKWebView(frame: view.frame)
+                   let urlRequest = URLRequest(url: url)
+                   webView.load(urlRequest)
+                   view.addSubview(webView)
+               }
     }
     
-    @IBAction func openPDF2(_ sender: UIButton) {
+    @IBAction func openPDF2(_ sender: Any) {
         let url = Bundle.main.url(forResource: "Listening_to_Listening", withExtension: "pdf")
         
         if let url = url {
@@ -44,6 +47,7 @@ class MediaViewerViewController: UIViewController {
             view.addSubview(webView)
         }
     }
+
     
     
 //    @IBOutlet weak var pdfView: PDFView!
