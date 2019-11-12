@@ -418,9 +418,9 @@
                                 <color key="backgroundColor" white="1" alpha="0.49521083047945208" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">When we hold a conch shell up to our ear, we hear the ocean and a whole new world opens for us. I use the symbol of the shell to remind us that when we use all our senses for listening deeply to each other, new possibilities and new worlds may open for us as well. 
+                                        <string key="content">When we hold a conch shell up to our ear, we hear the ocean and a whole new world opens for us. I use the symbol of the shell to remind us that when we use all our senses for listening deeply to each other, new possibilities and new worlds may open for us as well. 
 Hold a conch shell to your ear: hear a different world. 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="17" name="Optima-Regular"/>
@@ -467,6 +467,10 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="enhanced_conch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="4Sl-c1-HHs">
+                                <rect key="frame" x="20" y="564" width="374" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -482,7 +486,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bny-YL-W9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-135.19999999999999" y="1620.5397301349326"/>
+            <point key="canvasLocation" x="-136.23188405797103" y="1620.5357142857142"/>
         </scene>
         <!--Introduction-->
         <scene sceneID="ra2-cR-b26">
@@ -500,7 +504,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.</mutableString>
+                                        <string key="content">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="17" name="Futura-Medium"/>
@@ -518,7 +522,7 @@ Cgo
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">Animals rely on their senses to get information about what is dangerous, nurturing, safe, and tasty. Born with this capacity, we have intellectualized and analyzed so many aspects of our lives that we are losing the skill of paying attention to our senses. In short, we as human beings have ignored much of our animal nature, often to the detriment of our effectiveness in the world.</mutableString>
+                                        <string key="content">Animals rely on their senses to get information about what is dangerous, nurturing, safe, and tasty. Born with this capacity, we have intellectualized and analyzed so many aspects of our lives that we are losing the skill of paying attention to our senses. In short, we as human beings have ignored much of our animal nature, often to the detriment of our effectiveness in the world.</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="17" name="GillSans"/>
@@ -537,7 +541,7 @@ Cgo
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">Learning to recover the skill of utilizing and trusting our senses provides direct access to the world around us. By increasing our awareness of sensory input, we become more effective, grounded, nurtured, and nurturing. By learning to become self-generating, we can learn to shift behaviors that we wish to change. We can improve our connection to people and find new opportunities. A rediscovery of life through our senses leads to greater satisfaction and a renewed joy in living.  </mutableString>
+                                        <string key="content">Learning to recover the skill of utilizing and trusting our senses provides direct access to the world around us. By increasing our awareness of sensory input, we become more effective, grounded, nurtured, and nurturing. By learning to become self-generating, we can learn to shift behaviors that we wish to change. We can improve our connection to people and find new opportunities. A rediscovery of life through our senses leads to greater satisfaction and a renewed joy in living.  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="17" name="HelveticaNeue"/>
@@ -546,9 +550,9 @@ Cgo
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> Ultimately, regaining the skills of feeling and sensing brings us back into more coherence and unity with the flow of life that we have cut ourselves off from. When we begin feeling, we connect with what satisfies us, what we care about, and what we want to express. For many people this comes as an awakening. It becomes possible to live a full and satisfying life, paying closer attention to our loved ones and what they care about, and finding meaningful expression through work, art, and play. These are typical results for people who develop somatic awareness. It happened for me when I began to study somatic principles and practices.   My experience of living shifted so dramatically, I decided to  incorporate somatic work into the coaching I had been doing for several  years with executives and entrepreneurs. Although I began studying somatics for my own healing and development, I soon recognized the  power of including the body in my understanding of how people act.  Working through the body along with the emotional, spiritual, and psychological aspects of a person’s background provided a more complete profile for the client and for me to understand their current challenges and strengths. The results that people could achieve by increasing somatic awareness and somatic practices were dramatic. 
+                                        <string key="content"> Ultimately, regaining the skills of feeling and sensing brings us back into more coherence and unity with the flow of life that we have cut ourselves off from. When we begin feeling, we connect with what satisfies us, what we care about, and what we want to express. For many people this comes as an awakening. It becomes possible to live a full and satisfying life, paying closer attention to our loved ones and what they care about, and finding meaningful expression through work, art, and play. These are typical results for people who develop somatic awareness. It happened for me when I began to study somatic principles and practices.   My experience of living shifted so dramatically, I decided to  incorporate somatic work into the coaching I had been doing for several  years with executives and entrepreneurs. Although I began studying somatics for my own healing and development, I soon recognized the  power of including the body in my understanding of how people act.  Working through the body along with the emotional, spiritual, and psychological aspects of a person’s background provided a more complete profile for the client and for me to understand their current challenges and strengths. The results that people could achieve by increasing somatic awareness and somatic practices were dramatic. 
 
-Examples are provided in the preface: </mutableString>
+Examples are provided in the preface: </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -563,8 +567,8 @@ Examples are provided in the preface: </mutableString>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">.  Doing somatic work over the telephone began as an experiment. In my  first career I was a research chemist, and created experiments to test  theories and possibilities. I stayed in research, over the years switching the subject matter of my research from polymeric prototypes to studying people, how we learn, and how we can change our behaviors to be more in line with our ideal self. I was certified as an ontological¹ coach in 1992 while working in sales, marketing and business development. After several years of consulting in large-scale organizational change, design and implementation of communication strategies, the constant travel became too much, and I decided to redesign my work. After several years of study, I designed an experiment with five participants to determine whether I could help them by doing somatic work with them over the telephone. I was encouraged with the positive results, and recognized that what I was doing was innovative in the field of somatic practice. I was certified as a master somatic coach in 2001.   Other practitioners soon asked me to teach them some of the techniques and practices I use in my work, and I developed a six-session teleclass program called “Listening to Bodies Long Distance”. As I continued my studies of the extended human energetic structure, I added a basic practice developed from Sacred Anatomy Energy Medicine™, which helps practitioners strengthen their capacity to be open, available, and aware of their own boundary to eliminate merging with difficult challenges and issues imposed by others.   When I teach these principles in person to other coaches or to my clients, the teaching and learning are very participatory. I talk about the practices, I guide the learners in the practices, answer their questions, practice again, help them if they want to go deeper, etc. In order to get the most from this primer, read the material, do the practices, reflect, journal about your observations, and repeat the practices. Repeating each practice will not only give you more confidence with the distinctions, it will also help you embody the skills for listening to your own body. Whether you are a coach, learning to do somatic work over the telephone with your clients, someone wanting to listen to your own body with greater skill and mindfulness, or an executive who wants to get more skillful in working with and relating to others, this book will give you the practices to learn.   Mastery of the practices we’ll be working with requires years of repetition, so it’s also helpful to be at peace with being a beginner.  Recognize the competence you are developing, knowing that you have gained some skill with your own listening. With recurrence, you will be more and more competent to observe, listen, and work with others. Be patient with your learning, and have fun! Even beginners will be able to get results with the fundamental practices of body scanning, breathing and centering. You will continue to develop awareness and listening skills with every repetition – what’s important is to get started and stay with each practice. 
- Enjoy learning to listen to your body and the bodies of the people you work with, play with, and live with.  </mutableString>
+                                        <string key="content">.  Doing somatic work over the telephone began as an experiment. In my  first career I was a research chemist, and created experiments to test  theories and possibilities. I stayed in research, over the years switching the subject matter of my research from polymeric prototypes to studying people, how we learn, and how we can change our behaviors to be more in line with our ideal self. I was certified as an ontological¹ coach in 1992 while working in sales, marketing and business development. After several years of consulting in large-scale organizational change, design and implementation of communication strategies, the constant travel became too much, and I decided to redesign my work. After several years of study, I designed an experiment with five participants to determine whether I could help them by doing somatic work with them over the telephone. I was encouraged with the positive results, and recognized that what I was doing was innovative in the field of somatic practice. I was certified as a master somatic coach in 2001.   Other practitioners soon asked me to teach them some of the techniques and practices I use in my work, and I developed a six-session teleclass program called “Listening to Bodies Long Distance”. As I continued my studies of the extended human energetic structure, I added a basic practice developed from Sacred Anatomy Energy Medicine™, which helps practitioners strengthen their capacity to be open, available, and aware of their own boundary to eliminate merging with difficult challenges and issues imposed by others.   When I teach these principles in person to other coaches or to my clients, the teaching and learning are very participatory. I talk about the practices, I guide the learners in the practices, answer their questions, practice again, help them if they want to go deeper, etc. In order to get the most from this primer, read the material, do the practices, reflect, journal about your observations, and repeat the practices. Repeating each practice will not only give you more confidence with the distinctions, it will also help you embody the skills for listening to your own body. Whether you are a coach, learning to do somatic work over the telephone with your clients, someone wanting to listen to your own body with greater skill and mindfulness, or an executive who wants to get more skillful in working with and relating to others, this book will give you the practices to learn.   Mastery of the practices we’ll be working with requires years of repetition, so it’s also helpful to be at peace with being a beginner.  Recognize the competence you are developing, knowing that you have gained some skill with your own listening. With recurrence, you will be more and more competent to observe, listen, and work with others. Be patient with your learning, and have fun! Even beginners will be able to get results with the fundamental practices of body scanning, breathing and centering. You will continue to develop awareness and listening skills with every repetition – what’s important is to get started and stay with each practice. 
+ Enjoy learning to listen to your body and the bodies of the people you work with, play with, and live with.  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
@@ -586,7 +590,7 @@ Examples are provided in the preface: </mutableString>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">¹ Ontology is the study of being. Ontological philosophy is an inquiry into the nature of human existence. In the latter part of the twentieth century, the integration of developments in the fields of philosophy and biology produced a discipline called Ontological Design by Dr. Fernando Flores. Julio Olalla and Rafael Echeverria developed the resultant coaching methodology and coaching practice, called Ontological Coaching. This discipline works with existential issues of meaning, fulfillment, happiness and worthiness in client’s personal and professional lives.  For an in-depth discussion of Ontological Coaching, see </mutableString>
+                                        <string key="content">¹ Ontology is the study of being. Ontological philosophy is an inquiry into the nature of human existence. In the latter part of the twentieth century, the integration of developments in the fields of philosophy and biology produced a discipline called Ontological Design by Dr. Fernando Flores. Julio Olalla and Rafael Echeverria developed the resultant coaching methodology and coaching practice, called Ontological Coaching. This discipline works with existential issues of meaning, fulfillment, happiness and worthiness in client’s personal and professional lives.  For an in-depth discussion of Ontological Coaching, see </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="label" size="12"/>
@@ -992,12 +996,12 @@ In our learning together, I will provide the basic principles that will help you
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="zdD-GY-eoH">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced_conch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="zdD-GY-eoH">
+                                <rect key="frame" x="-13" y="163.5" width="440" height="569.00000000000011"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rpL-LO-qcN">
                                 <rect key="frame" x="8" y="88" width="406" height="774"/>
-                                <color key="backgroundColor" white="1" alpha="0.74852846746575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">“...too many executives think they are wonderful with people because they talk well. They don’t realize that being wonderful with people means ‘listening’ well.” </string>
@@ -1300,8 +1304,8 @@ Take a few moments to write down what you experienced during this exercise. The 
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="8pv-T7-zQi">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced_conch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="8pv-T7-zQi">
+                                <rect key="frame" x="-13" y="163.5" width="440" height="569.00000000000011"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T0r-FT-Axb">
                                 <rect key="frame" x="8" y="88" width="406" height="774"/>
@@ -4364,6 +4368,10 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                     <action selector="openPDF2:" destination="ini-S5-awl" eventType="touchUpInside" id="HCD-SD-gMX"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="enhanced_conch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="wXe-Ac-swS">
+                                <rect key="frame" x="64" y="570" width="284" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -4476,6 +4484,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
         <image name="MTMandala5_outline" width="1153" height="1136"/>
         <image name="MTshell_outline" width="189" height="254"/>
         <image name="SZ Mandala5" width="1188" height="1188"/>
+        <image name="enhanced_conch_bg" width="440" height="569"/>
         <image name="minus-10" width="24" height="24"/>
         <image name="pause" width="24" height="24"/>
         <image name="play" width="24" height="24"/>
