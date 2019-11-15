@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iUZ-vU-ouX">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iUZ-vU-ouX">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15508"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
             <objects>
                 <tableViewController id="sAR-pj-5IH" customClass="MainTableViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7fs-f0-ayx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
@@ -27,7 +27,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Cover Title Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9m-0W-3NF">
-                                                    <rect key="frame" x="8" y="12" width="398" height="20.5"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -52,7 +52,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Why the Conch Shell?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4D-wv-PFk">
-                                                    <rect key="frame" x="8" y="12" width="398" height="20.5"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -77,7 +77,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYd-U0-4E7">
-                                                    <rect key="frame" x="8" y="12" width="398" height="20.5"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -102,7 +102,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Preface: About Somatic Business Coaching" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9j-IG-CeX">
-                                                    <rect key="frame" x="8" y="12" width="398" height="20.5"/>
+                                                    <rect key="frame" x="8" y="11.999999999999998" width="398" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -127,7 +127,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Listening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rQ-mc-gXV">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -152,7 +152,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Sensation and Body Scanning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etK-8n-dI9">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -177,7 +177,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Breathing and Breathing Practices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEJ-jL-K0n">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -202,7 +202,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Voice Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-Ff-dN9">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -227,7 +227,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Listening to Bodies in Four Basic Moods" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3K-aj-diR">
-                                                    <rect key="frame" x="8" y="12" width="398" height="20.5"/>
+                                                    <rect key="frame" x="8" y="11.999999999999998" width="398" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -252,7 +252,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Basic Practices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ry9-xN-Gmq">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -276,7 +276,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Getting Big: Practices to Expand to the Edge" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8h6-Zn-Jv6">
-                                                    <rect key="frame" x="8" y="12" width="398" height="20.5"/>
+                                                    <rect key="frame" x="8" y="11.999999999999998" width="398" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -300,7 +300,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Audio Recordings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ril-9X-inj">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -324,7 +324,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Acknowledgements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bW-W0-owl">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -348,7 +348,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Articles by Suzanne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVX-u6-8zK">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -372,7 +372,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Contact Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLe-pD-sdf">
-                                                    <rect key="frame" x="8" y="11.5" width="398" height="21"/>
+                                                    <rect key="frame" x="8" y="11.666666666666664" width="398" height="21"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -407,14 +407,14 @@
             <objects>
                 <viewController title="Why the Conch Shell?" id="a9M-66-mxY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fsH-6r-Saj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="baQ-Q8-2Xe">
-                                <rect key="frame" x="-405" y="-344" width="1224" height="1584"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ijr-iZ-jCd">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.49521083047945208" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -493,14 +493,14 @@ Cg
             <objects>
                 <viewController title="Introduction" id="0pk-Vh-7lT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sv3-aM-vJh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="cjL-hq-KvX">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tgr-gH-Y4n">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -646,29 +646,29 @@ Cg
             <objects>
                 <viewController title="Book Cover Title Page" id="Fns-9b-oEM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G5S-NK-dLW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red-velvet-fabric" translatesAutoresizingMaskIntoConstraints="NO" id="OiS-Pr-yl9">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dhs-c2-Wqh">
-                                <rect key="frame" x="23" y="116" width="368" height="117"/>
+                                <rect key="frame" x="23.333333333333343" y="72" width="367.66666666666663" height="116.66666666666669"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LISTENING TO BODIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fF9-Qx-sch">
-                                        <rect key="frame" x="12.5" y="0.0" width="343" height="41"/>
+                                        <rect key="frame" x="12.333333333333343" y="0.0" width="343" height="40.666666666666664"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                         <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Somatic Primer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBC-NO-Vzp">
-                                        <rect key="frame" x="80.5" y="49" width="207.5" height="33.5"/>
+                                        <rect key="frame" x="80.000000000000014" y="48.666666666666671" width="207.33333333333337" height="33.666666666666671"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for Coaches, Managers and Executives" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCz-hw-oR1">
-                                        <rect key="frame" x="0.0" y="90.5" width="368" height="26.5"/>
+                                        <rect key="frame" x="0.0" y="90.333333333333343" width="367.66666666666669" height="26.333333333333329"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -676,16 +676,16 @@ Cg
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FXA-F8-NqA">
-                                <rect key="frame" x="108.5" y="665" width="197.5" height="58.5"/>
+                                <rect key="frame" x="108.33333333333333" y="585" width="197.33333333333337" height="58.333333333333371"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suzanne Zeman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyB-bS-QLZ">
-                                        <rect key="frame" x="21.5" y="0.0" width="154.5" height="26.5"/>
+                                        <rect key="frame" x="21.666666666666671" y="0.0" width="154.33333333333331" height="26.333333333333332"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Somatic Coach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKo-LB-U1p">
-                                        <rect key="frame" x="0.0" y="34.5" width="197.5" height="24"/>
+                                        <rect key="frame" x="0.0" y="34.333333333333371" width="197.33333333333334" height="24"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                         <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -693,7 +693,7 @@ Cg
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MTshell_outline" translatesAutoresizingMaskIntoConstraints="NO" id="3fJ-jI-BfE">
-                                <rect key="frame" x="82" y="323" width="250" height="250"/>
+                                <rect key="frame" x="82" y="243" width="250" height="250"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="DH0-19-Qyd"/>
@@ -726,14 +726,14 @@ Cg
             <objects>
                 <viewController title="Preface: About Somatic Business Coaching" id="Bo2-h4-mGM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQn-82-Plf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="lvF-Dk-nmP">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DD8-Hk-Fu5">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -830,24 +830,24 @@ In our learning together, I will provide the basic principles that will help you
             <objects>
                 <viewController title="Media Player" id="0dv-dB-g5g" customClass="AudioPlayerViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L7m-Do-3V4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="opk-Cv-5lk">
-                                <rect key="frame" x="16" y="88" width="382" height="382"/>
+                                <rect key="frame" x="16" y="44" width="382" height="382"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="opk-Cv-5lk" secondAttribute="height" multiplier="1:1" id="QhB-YC-sAZ"/>
                                 </constraints>
                             </imageView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Jh-cc-tAI">
-                                <rect key="frame" x="20" y="478" width="374" height="2"/>
+                                <rect key="frame" x="20" y="434" width="374" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="pW9-c8-O8f"/>
                                 </constraints>
                                 <color key="progressTintColor" red="0.067173667249999999" green="0.19737473129999999" blue="0.1137064025" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOI-zO-I3C">
-                                <rect key="frame" x="185" y="500" width="44" height="44"/>
+                                <rect key="frame" x="185" y="456" width="44" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="mqd-fH-NjW"/>
@@ -864,7 +864,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZ7-pz-2RH">
-                                <rect key="frame" x="265" y="500" width="44" height="44"/>
+                                <rect key="frame" x="265" y="456" width="44" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WZ7-pz-2RH" secondAttribute="height" multiplier="1:1" id="z1H-t6-J3Q"/>
@@ -878,7 +878,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNS-aY-ra8">
-                                <rect key="frame" x="105" y="500" width="44" height="44"/>
+                                <rect key="frame" x="105" y="456" width="44" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WNS-aY-ra8" secondAttribute="height" multiplier="1:1" id="QdA-5X-EJK"/>
@@ -892,7 +892,7 @@ In our learning together, I will provide the basic principles that will help you
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P66-89-odA">
-                                <rect key="frame" x="16" y="488" width="28.5" height="21"/>
+                                <rect key="frame" x="16" y="444" width="28.666666666666671" height="21"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="cB8-xA-jkp"/>
@@ -902,7 +902,7 @@ In our learning together, I will provide the basic principles that will help you
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEX-pM-VuG">
-                                <rect key="frame" x="369.5" y="488" width="28.5" height="21"/>
+                                <rect key="frame" x="369.66666666666669" y="444" width="28.333333333333314" height="21"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="WXy-sr-qMw"/>
@@ -912,7 +912,7 @@ In our learning together, I will provide the basic principles that will help you
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio Track Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3E-fs-yxs">
-                                <rect key="frame" x="143" y="552" width="128" height="21"/>
+                                <rect key="frame" x="143" y="508" width="128" height="21"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -967,7 +967,7 @@ In our learning together, I will provide the basic principles that will help you
             <objects>
                 <viewController title="Media Viewer" id="CeW-0p-ckB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ryR-wt-5bf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iy4-aF-irn">
@@ -993,14 +993,14 @@ In our learning together, I will provide the basic principles that will help you
             <objects>
                 <viewController title="LISTENING: How do we do it?" id="AOq-D3-lBu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="siR-lk-PLu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced_conch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="zdD-GY-eoH">
-                                <rect key="frame" x="-233" y="-121" width="880" height="1138"/>
+                                <rect key="frame" x="-13" y="83.666666666666686" width="440" height="569.00000000000011"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rpL-LO-qcN">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1301,14 +1301,14 @@ Take a few moments to write down what you experienced during this exercise. The 
             <objects>
                 <viewController title="Sensation and Body Scanning" id="t9g-Gq-GHp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2z6-zM-bCf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced_conch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="8pv-T7-zQi">
-                                <rect key="frame" x="-233" y="-121" width="880" height="1138"/>
+                                <rect key="frame" x="-13" y="83.666666666666686" width="440" height="569.00000000000011"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T0r-FT-Axb">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.75486943493150682" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment content="&quot;There is no way in which to understand the world without first detecting it through the radar-net of our senses.&quot;">
@@ -1811,14 +1811,14 @@ Working with the body is where we as somatic coaches have the most leverage in h
             <objects>
                 <viewController title="Breathing and Breathing Practices" id="1YR-GB-a7J" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H2P-xB-fGK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="ft3-YH-FDc">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hM6-Jp-PA6">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.75056185787671237" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -2374,14 +2374,14 @@ When our somatic and energetic structures are open and extended, we are fully av
             <objects>
                 <viewController title="Voice Notes" id="yTc-kM-uC9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XNa-ba-mZI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="czB-Yk-uLV">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45i-Sw-7qO">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.75093642979452058" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -2723,14 +2723,14 @@ Identity can mean how we see ourselves as individuals and how we  define ourselv
             <objects>
                 <viewController title="Listening to Bodies in Four Basic Moods" id="Jal-2j-3qC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fgw-S2-vfO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="ptO-sj-69J">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" maximumZoomScale="0.0" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZG-xO-5yX">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.7461472602739726" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="2jW-SA-uds"/>
                                 <attributedString key="attributedText">
@@ -3355,14 +3355,14 @@ observations and what you’re learning about voice to understand how
 they can impact your work and expand your repertoire of tools and
 practices.</string>
                     <view key="view" contentMode="scaleToFill" id="ngB-D2-duU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="DsY-Eo-56y">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D2v-8L-XQp">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.75256849315068497" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="wtm-Qn-qla"/>
                                 <attributedString key="attributedText">
@@ -3724,14 +3724,14 @@ tree and feel the life force in the tree through your back. Extend into that lif
             <objects>
                 <viewController title="Getting Big: Practices to Expand to the Edge" id="7K5-MK-1Wb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fhv-28-Rhn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="Bg9-Io-E4w">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FjR-bR-VZ2">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.74874250856164382" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="Uwc-LF-Pgm"/>
                                 <attributedString key="attributedText">
@@ -4031,7 +4031,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
             <objects>
                 <tableViewController title="Audio Recordings" id="BZ3-z6-H3Y" customClass="AudioRecordingsTableViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gYo-Xe-DAl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
@@ -4255,14 +4255,14 @@ tree and feel the life force in the tree through your back. Extend into that lif
             <objects>
                 <viewController title="Acknowledgements" id="JxA-fA-OM1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aTC-d3-qlC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="9Vg-3Z-WaD">
-                                <rect key="frame" x="-99" y="52" width="612" height="792"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xg7-G6-UDD">
-                                <rect key="frame" x="8" y="88" width="406" height="774"/>
+                                <rect key="frame" x="8" y="44" width="406" height="692"/>
                                 <color key="backgroundColor" white="1" alpha="0.75441459760273977" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="MNG-7e-JJm"/>
                                 <attributedString key="attributedText">
@@ -4337,53 +4337,67 @@ tree and feel the life force in the tree through your back. Extend into that lif
             <objects>
                 <viewController title="Articles by Suzanne" id="ini-S5-awl" customClass="MediaViewerViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e1B-d0-Y23">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shell" translatesAutoresizingMaskIntoConstraints="NO" id="UF1-gm-iy8">
-                                <rect key="frame" x="-405" y="-344" width="1224" height="1584"/>
+                                <rect key="frame" x="-99" y="-28" width="612" height="792"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Click on the titles below to read the full articles." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JRa-F4-69W">
-                                <rect key="frame" x="11" y="131" width="392" height="19.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on the titles below to read the full articles:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wI8-G6-Rhg">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XVV-WY-xBT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8T6-OV-KGw" userLabel="Listening With All Our Senses">
-                                <rect key="frame" x="99.5" y="187.5" width="215" height="30"/>
+                                <rect key="frame" x="20" y="102" width="374" height="33"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title=" Listening With All Our Senses "/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openPDF:" destination="ini-S5-awl" eventType="touchUpInside" id="2Bv-by-WpG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCs-qG-oqt">
-                                <rect key="frame" x="99" y="225" width="215" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCs-qG-oqt">
+                                <rect key="frame" x="20" y="143" width="374" height="33"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title=" Listening to Listening "/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openPDF2:" destination="ini-S5-awl" eventType="touchUpInside" id="HCD-SD-gMX"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="enhanced_conch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="wXe-Ac-swS">
-                                <rect key="frame" x="64" y="570" width="284" height="204"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="8T6-OV-KGw" firstAttribute="top" secondItem="JRa-F4-69W" secondAttribute="bottom" constant="37" id="1DD-pm-LPh"/>
-                            <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="UF1-gm-iy8" secondAttribute="centerX" id="3QL-Bd-4cx"/>
-                            <constraint firstItem="JRa-F4-69W" firstAttribute="leading" secondItem="WCa-fP-yNP" secondAttribute="leading" constant="11" id="ALE-Mk-DVi"/>
-                            <constraint firstItem="JRa-F4-69W" firstAttribute="top" secondItem="WCa-fP-yNP" secondAttribute="top" constant="43" id="LB4-6f-ECL"/>
-                            <constraint firstItem="UF1-gm-iy8" firstAttribute="centerY" secondItem="e1B-d0-Y23" secondAttribute="centerY" id="T1J-OD-vyt"/>
-                            <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="e1B-d0-Y23" secondAttribute="centerX" id="UI3-ou-qYV"/>
-                            <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="iCs-qG-oqt" secondAttribute="centerX" id="gfU-Le-PH3"/>
-                            <constraint firstItem="iCs-qG-oqt" firstAttribute="top" secondItem="8T6-OV-KGw" secondAttribute="bottom" constant="10" id="gwx-Mq-vT4"/>
-                            <constraint firstItem="JRa-F4-69W" firstAttribute="centerX" secondItem="8T6-OV-KGw" secondAttribute="centerX" id="jLL-Yi-zc4"/>
+                            <constraint firstItem="8T6-OV-KGw" firstAttribute="top" secondItem="wI8-G6-Rhg" secondAttribute="bottom" constant="8" id="EQ6-x3-qDV"/>
+                            <constraint firstItem="UF1-gm-iy8" firstAttribute="centerX" secondItem="e1B-d0-Y23" secondAttribute="centerX" id="Hpu-6X-Ooj"/>
+                            <constraint firstItem="8T6-OV-KGw" firstAttribute="trailing" secondItem="WCa-fP-yNP" secondAttribute="trailing" constant="-20" id="QAL-M7-NDs"/>
+                            <constraint firstItem="wI8-G6-Rhg" firstAttribute="trailing" secondItem="WCa-fP-yNP" secondAttribute="trailing" id="Ry0-1V-7sC"/>
+                            <constraint firstItem="wI8-G6-Rhg" firstAttribute="top" secondItem="WCa-fP-yNP" secondAttribute="top" id="Ry4-gz-eyv"/>
+                            <constraint firstItem="8T6-OV-KGw" firstAttribute="top" secondItem="wI8-G6-Rhg" secondAttribute="bottom" constant="8" id="WtC-Ie-E7N"/>
+                            <constraint firstItem="iCs-qG-oqt" firstAttribute="trailing" secondItem="WCa-fP-yNP" secondAttribute="trailing" constant="-20" id="mUq-3v-PzZ"/>
+                            <constraint firstItem="iCs-qG-oqt" firstAttribute="leading" secondItem="WCa-fP-yNP" secondAttribute="leading" constant="20" id="mfU-BY-49G"/>
+                            <constraint firstItem="UF1-gm-iy8" firstAttribute="centerY" secondItem="e1B-d0-Y23" secondAttribute="centerY" id="tgK-Hz-mzy"/>
+                            <constraint firstItem="iCs-qG-oqt" firstAttribute="top" secondItem="8T6-OV-KGw" secondAttribute="bottom" constant="8" id="uDw-Dp-0Sy"/>
+                            <constraint firstItem="wI8-G6-Rhg" firstAttribute="leading" secondItem="WCa-fP-yNP" secondAttribute="leading" id="vjD-bQ-keM"/>
+                            <constraint firstItem="iCs-qG-oqt" firstAttribute="top" secondItem="8T6-OV-KGw" secondAttribute="bottom" constant="8" id="yfK-OY-seh"/>
+                            <constraint firstItem="8T6-OV-KGw" firstAttribute="leading" secondItem="WCa-fP-yNP" secondAttribute="leading" constant="20" id="z8u-gR-Rog"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WCa-fP-yNP"/>
                     </view>
@@ -4397,7 +4411,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
             <objects>
                 <viewController title="Contact Information" id="FiO-cU-WXI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UOG-RI-sLF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHy-LI-RRj">
@@ -4467,7 +4481,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iUZ-vU-ouX" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dZU-vT-WdD">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
